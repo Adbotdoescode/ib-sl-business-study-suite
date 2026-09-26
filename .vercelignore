@@ -1,0 +1,7 @@
+*.pdf
+.agents
+.implement-loop
+tsconfig.tsbuildinfo
+node_modules
+.next
+out
