@@ -19,18 +19,52 @@ export const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({
   inline = false,
   components: customComponents = {},
 }) => {
-  // Preprocess display formula blocks ($$...$$) into clean editorial callouts
+  // Preprocess formula blocks and math/LaTeX syntax into clean editorial callouts and unicode symbols
   const processedContent = React.useMemo(() => {
     if (!content) return '';
-    return content.replace(/\$\$([\s\S]*?)\$\$/g, (_, formula) => {
+    let result = content;
+
+    // 1. Convert display formula blocks ($$...$$) into clean editorial callouts
+    result = result.replace(/\$\$([\s\S]*?)\$\$/g, (_, formula) => {
       const cleaned = formula
         .replace(/\\text\{([^}]+)\}/g, '$1')
-        .replace(/\\longrightarrow/g, ' ──> ')
-        .replace(/\\rightarrow/g, ' ──> ')
-        .replace(/\\uparrow/g, ' ▲ ')
+        .replace(/\\longrightarrow/g, ' → ')
+        .replace(/\\rightarrow/g, ' → ')
+        .replace(/\\leftarrow/g, ' ← ')
+        .replace(/\\longleftarrow/g, ' ← ')
+        .replace(/\\uparrow/g, ' ↑ ')
+        .replace(/\\downarrow/g, ' ↓ ')
+        .replace(/\\times/g, ' × ')
+        .replace(/\\&/g, '&')
         .trim();
       return `\n\n> **Formula / Sequence:** \`${cleaned}\`\n\n`;
     });
+
+    // 2. Convert inline LaTeX math symbols ($...$) into clean unicode/plain text
+    result = result
+      .replace(/\$\s*\\rightarrow\s*\$/gi, '→')
+      .replace(/\$\s*\\longrightarrow\s*\$/gi, '→')
+      .replace(/\$\s*\\leftarrow\s*\$/gi, '←')
+      .replace(/\$\s*\\longleftarrow\s*\$/gi, '←')
+      .replace(/\$\s*\\leftrightarrow\s*\$/gi, '↔')
+      .replace(/\$\s*\\times\s*\$/gi, '×')
+      .replace(/\$\s*\\le\s*\$/gi, '≤')
+      .replace(/\$\s*\\ge\s*\$/gi, '≥')
+      .replace(/\$\s*\\neq\s*\$/gi, '≠')
+      .replace(/\$\s*\\approx\s*\$/gi, '≈');
+
+    // 3. Catch raw LaTeX commands even if written without dollar signs or escaped in text
+    result = result
+      .replace(/\\rightarrow/gi, '→')
+      .replace(/\\longrightarrow/gi, '→')
+      .replace(/\\leftarrow/gi, '←')
+      .replace(/\\longleftarrow/gi, '←')
+      .replace(/\\leftrightarrow/gi, '↔')
+      .replace(/\\times/gi, '×')
+      .replace(/\\text\{([^}]+)\}/gi, '$1')
+      .replace(/\\&/g, '&');
+
+    return result;
   }, [content]);
 
   if (!content) return null;
