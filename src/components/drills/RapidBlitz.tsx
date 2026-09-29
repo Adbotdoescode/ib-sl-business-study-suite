@@ -119,6 +119,14 @@ export function RapidBlitz() {
     questionStartTimeRef.current = Date.now();
   };
 
+  // Close mode selection modal cleanly and resume timer if actively in a run
+  const handleCloseModal = () => {
+    if (isPlaying && (mode === '120' || mode === '60')) {
+      endTimeRef.current = Date.now() + timeLeft * 1000;
+    }
+    setShowModeModal(false);
+  };
+
   // Timer loop decoupled from score/streak to prevent timer reset dilation
   useEffect(() => {
     if (!isPlaying || isGameOver || mode === 'endless' || showModeModal) return;
@@ -283,6 +291,119 @@ export function RapidBlitz() {
           </Button>
         </div>
       </div>
+
+      {/* Standby / Mode Selection Screen when not playing and not game over */}
+      {!isPlaying && !isGameOver && (
+        <Card className="p-6 sm:p-8">
+          <div className="text-center max-w-xl mx-auto mb-8">
+            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-amber-50 text-amber-700 border border-amber-200 mb-3">
+              <Zap className="w-3.5 h-3.5 fill-amber-500" />
+              Syllabus Speed Drill
+            </span>
+            <h2 className="text-xl sm:text-2xl font-bold text-text-primary tracking-tight">
+              Select Rapid Blitz Mode
+            </h2>
+            <p className="text-xs sm:text-sm text-text-secondary mt-1.5">
+              Choose your drilling challenge below or configure your topic filter above to begin.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {/* 120s Sprint Card */}
+            <div
+              onClick={() => startGame('120')}
+              className="p-5 rounded-xl border border-border hover:border-blue-500 hover:bg-blue-50/20 transition-all flex flex-col justify-between cursor-pointer group bg-white shadow-subtle hover:shadow-md"
+            >
+              <div>
+                <div className="flex items-center justify-between mb-3">
+                  <div className="w-10 h-10 rounded-xl bg-blue-100 text-blue-700 flex items-center justify-center group-hover:bg-blue-600 group-hover:text-white transition">
+                    <Timer className="w-5 h-5" />
+                  </div>
+                  <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-blue-50 text-blue-700 border border-blue-200">
+                    Best: {state.blitzStats.highScore120} pts
+                  </span>
+                </div>
+                <h3 className="text-base font-bold text-text-primary group-hover:text-blue-700 transition">
+                  120-Second Sprint
+                </h3>
+                <p className="text-xs text-text-secondary mt-1.5 leading-relaxed">
+                  Answer as many as possible in 2 minutes. Earn <strong className="text-text-primary">+1 rapid bonus</strong> for answers under 3 seconds!
+                </p>
+              </div>
+              <Button
+                variant="outline"
+                size="sm"
+                className="mt-4 w-full group-hover:border-blue-500 group-hover:text-blue-700 pointer-events-none"
+                icon={<Play className="w-3.5 h-3.5" />}
+              >
+                Start Sprint
+              </Button>
+            </div>
+
+            {/* 60s Sudden Death Card */}
+            <div
+              onClick={() => startGame('60')}
+              className="p-5 rounded-xl border border-border hover:border-red-500 hover:bg-red-50/20 transition-all flex flex-col justify-between cursor-pointer group bg-white shadow-subtle hover:shadow-md"
+            >
+              <div>
+                <div className="flex items-center justify-between mb-3">
+                  <div className="w-10 h-10 rounded-xl bg-red-100 text-red-700 flex items-center justify-center group-hover:bg-red-600 group-hover:text-white transition">
+                    <Zap className="w-5 h-5" />
+                  </div>
+                  <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-red-50 text-red-700 border border-red-200">
+                    Best: {state.blitzStats.highScore60} pts
+                  </span>
+                </div>
+                <h3 className="text-base font-bold text-text-primary group-hover:text-red-700 transition">
+                  60-Second Sudden Death
+                </h3>
+                <p className="text-xs text-text-secondary mt-1.5 leading-relaxed">
+                  High-stakes 1-minute drill. A single incorrect answer ends your run immediately.
+                </p>
+              </div>
+              <Button
+                variant="outline"
+                size="sm"
+                className="mt-4 w-full group-hover:border-red-500 group-hover:text-red-700 pointer-events-none"
+                icon={<Play className="w-3.5 h-3.5" />}
+              >
+                Start Sudden Death
+              </Button>
+            </div>
+
+            {/* Endless Mastery Card */}
+            <div
+              onClick={() => startGame('endless')}
+              className="p-5 rounded-xl border border-border hover:border-emerald-500 hover:bg-emerald-50/20 transition-all flex flex-col justify-between cursor-pointer group bg-white shadow-subtle hover:shadow-md"
+            >
+              <div>
+                <div className="flex items-center justify-between mb-3">
+                  <div className="w-10 h-10 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center group-hover:bg-emerald-600 group-hover:text-white transition">
+                    <Heart className="w-5 h-5" />
+                  </div>
+                  <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200">
+                    Untimed (3 Lives)
+                  </span>
+                </div>
+                <h3 className="text-base font-bold text-text-primary group-hover:text-emerald-700 transition">
+                  Endless Mastery Mode
+                </h3>
+                <p className="text-xs text-text-secondary mt-1.5 leading-relaxed">
+                  No countdown pressure. Thoroughly study all 30 syllabus questions with 3 heart lives.
+                </p>
+              </div>
+              <Button
+                variant="outline"
+                size="sm"
+                className="mt-4 w-full group-hover:border-emerald-500 group-hover:text-emerald-700 pointer-events-none"
+                icon={<Play className="w-3.5 h-3.5" />}
+              >
+                Start Endless
+              </Button>
+            </div>
+          </div>
+        </Card>
+      )}
 
       {/* Active Game HUD */}
       {isPlaying && (
@@ -484,9 +605,7 @@ export function RapidBlitz() {
       {/* Mode Picker Modal */}
       <Modal
         isOpen={showModeModal}
-        onClose={() => {
-          if (isPlaying) setShowModeModal(false);
-        }}
+        onClose={handleCloseModal}
         title="Select Rapid Blitz Mode"
         description="Choose your drilling challenge to test your IB syllabus recall."
       >
