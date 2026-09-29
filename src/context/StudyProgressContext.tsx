@@ -28,6 +28,8 @@ export interface StudyProgressState {
   matrixMasterCompleted: {
     swot: boolean;
     ansoff: boolean;
+    steeple?: boolean;
+    bcg?: boolean;
   };
   cramHiddenDefs: string[];
   cramHiddenDistinctions: string[];
@@ -70,7 +72,7 @@ interface StudyProgressContextType {
   isRubricChecked: (questionId: string, criterionId: string) => boolean;
   saveQuestionScore: (questionId: string, score: number) => void;
   updateBlitzStats: (mode: '120' | '60' | 'endless', score: number, streak: number, questionsAnsweredCount?: number) => void;
-  setMatrixMasterCompleted: (matrixType: 'swot' | 'ansoff', completed: boolean) => void;
+  setMatrixMasterCompleted: (matrixType: 'swot' | 'ansoff' | 'steeple' | 'bcg', completed: boolean) => void;
   toggleCramHidden: (category: 'def' | 'dist' | 'rule', id: string) => void;
   resetCramFilters: () => void;
   toggleMnemonicMastered: (letter: string) => void;
@@ -225,7 +227,7 @@ export function StudyProgressProvider({ children }: { children: React.ReactNode 
     });
   }, []);
 
-  const setMatrixMasterCompleted = useCallback((matrixType: 'swot' | 'ansoff', completed: boolean) => {
+  const setMatrixMasterCompleted = useCallback((matrixType: 'swot' | 'ansoff' | 'steeple' | 'bcg', completed: boolean) => {
     setState((prev) => ({
       ...prev,
       matrixMasterCompleted: {

@@ -602,7 +602,203 @@ export const FOUR_MARK_QUESTIONS: FourMarkQuestion[] = [
         mark: 1
       }
     ]
-  }
+  },
+{
+  "id": "q4m-13",
+  "subunit": "bmt-steeple-analysis",
+  "questionNumber": "Question 46.3",
+  "question": "Explain how demographic and technological shifts in the external macro-environment contributed to the commercial success of the Nintendo Wii.",
+  "caseStimulus": "The Nintendo Wii was a massive commercial hit. Launched in 2006, Nintendo's games console appealed to entirely new customer segments, including women and elderly demographics who had never previously played video games. Demand was exceptionally high in Asia, Europe, and North America, helping Nintendo sell over 100 million consoles. Its flagship bundled title, Wii Sports, sold over 83 million copies worldwide.",
+  "contextTitle": "Nintendo Wii: Demographic & Technological Exploitation",
+  "marks": 4,
+  "commandTerm": "Explain",
+  "assessmentObjective": "AO2",
+  "peelModelAnswer": {
+    "point1": {
+      "title": "Social Demographic Broadening",
+      "point": "Nintendo successfully identified and exploited an external Social demographic opportunity by expanding its target audience beyond traditional hardcore teenage male gamers.",
+      "evidence": "In the case stimulus, the Wii explicitly attracted elderly users in care homes, women, and non-traditional gaming families, driving total sales beyond 100 million consoles globally.",
+      "explanation": "By addressing sedentary lifestyles and social isolation with interactive, family-friendly social entertainment, Nintendo avoided direct price competition with rival consoles and unlocked massive unserved market demand.",
+      "link": "Capitalizing on social demographic shifts enabled Nintendo to achieve unprecedented market penetration without engaging in destructive price discounting."
+    },
+    "point2": {
+      "title": "Technological Motion-Sensing Innovation",
+      "point": "Technologically, Nintendo innovated by introducing intuitive, low-barrier motion-sensing controllers (the Wii Remote) rather than competing on ultra-high graphics processing power.",
+      "evidence": "This accessible technological interface allowed games like Wii Sports (over 83 million copies sold) to be played instantly by grandparents and children without complex button memorization.",
+      "explanation": "This differentiated technological approach lowered manufacturing hardware costs while maximizing user accessibility, generating superior unit profit margins compared to rival hardware.",
+      "link": "Aligning technological interface design with user ergonomics transformed the console into a universal household staple."
+    }
+  },
+  "rubricChecklist": [
+    {
+      "id": "q4m-13-c1",
+      "criterion": "Explains external Social demographic factor (broadening customer segments to elderly, women, families)",
+      "mark": 1
+    },
+    {
+      "id": "q4m-13-c2",
+      "criterion": "Social factor directly applied to Nintendo Wii case evidence (100M consoles, multi-generational appeal)",
+      "mark": 1
+    },
+    {
+      "id": "q4m-13-c3",
+      "criterion": "Explains external Technological innovation factor (motion-sensing remote, accessible interface)",
+      "mark": 1
+    },
+    {
+      "id": "q4m-13-c4",
+      "criterion": "Technological factor applied to Nintendo Wii context (Wii Sports 83M copies, low barrier to play)",
+      "mark": 1
+    }
+  ]
+},
+{
+  "id": "q4m-14",
+  "subunit": "bmt-steeple-analysis",
+  "questionNumber": "Question 46.5",
+  "question": "Explain how exchange rate fluctuations impact the purchase costs and profitability of an importing retail business.",
+  "caseStimulus": "Gijs Van Oosten Jeans operates retail outlets in the Netherlands. The company imports an average of 15,000 pairs of jeans per month from its specialized manufacturing supplier in the United States at a fixed contracted cost of $25 per pair. Gijs Van Oosten Jeans then retails these jeans to European consumers at a retail price of \u20ac35 each.",
+  "contextTitle": "Gijs Van Oosten Jeans: Currency Volatility & Retail Profit Margins",
+  "marks": 4,
+  "commandTerm": "Explain",
+  "assessmentObjective": "AO2",
+  "peelModelAnswer": {
+    "point1": {
+      "title": "Impact of a Stronger Domestic Currency (Euro Appreciation)",
+      "point": "When the domestic currency (the Euro) strengthens against the foreign currency (the US Dollar), the purchasing cost of imported stock declines significantly under the SPICED economic rule.",
+      "evidence": "For Gijs Van Oosten Jeans, if \u20ac1 rises from $1.10 to $1.35, the Euro cost to purchase $25 jeans drops from approximately \u20ac22.73 to \u20ac18.52 per pair, saving \u20ac4.21 per unit across 15,000 monthly units.",
+      "explanation": "Because the retail selling price remains constant at \u20ac35, the lower procurement cost widens the firm's gross profit margin and expands monthly operating liquidity.",
+      "link": "A stronger domestic exchange rate directly enhances retail operating profitability for merchandise importers."
+    },
+    "point2": {
+      "title": "Impact of a Weaker Domestic Currency (Euro Depreciation)",
+      "point": "Conversely, a depreciation of the Euro against the US Dollar severely inflates import costs, squeezing operating profit margins unless prices are raised.",
+      "evidence": "If the Euro drops to parity (\u20ac1 = $1.00), the import cost jumps to \u20ac25.00 per unit, reducing gross profit from \u20ac12.27 to just \u20ac10.00 per pair.",
+      "explanation": "If Gijs attempts to pass these cost increases onto consumers by raising prices above \u20ac35, price-sensitive consumers may switch to domestic apparel competitors, causing sales volume to contract.",
+      "link": "Unhedged currency depreciation exposes retailers to serious cost inflation and margin compression."
+    }
+  },
+  "rubricChecklist": [
+    {
+      "id": "q4m-14-c1",
+      "criterion": "Explains economic impact of currency appreciation on import purchasing costs (SPICED rule: imports cheaper)",
+      "mark": 1
+    },
+    {
+      "id": "q4m-14-c2",
+      "criterion": "Currency appreciation applied to Gijs Van Oosten Jeans (\u20ac35 retail price, $25 cost, margin expansion)",
+      "mark": 1
+    },
+    {
+      "id": "q4m-14-c3",
+      "criterion": "Explains economic impact of currency depreciation on import cost inflation and margin compression",
+      "mark": 1
+    },
+    {
+      "id": "q4m-14-c4",
+      "criterion": "Currency depreciation applied to retail context (risk of consumer backlash if retail prices are raised)",
+      "mark": 1
+    }
+  ]
+},
+{
+  "id": "q4m-15",
+  "subunit": "bmt-toolkit",
+  "questionNumber": "Question 47.1",
+  "question": "Explain how a diversified multinational business uses the Boston Consulting Group (BCG) matrix to balance its corporate cash flows.",
+  "caseStimulus": "Unilever is an Anglo-Dutch multinational consumer goods giant owning over 400 commercial brands across food, beverages, and personal care. Its diverse portfolio includes mature global staples such as Dove soap, Hellmann's mayonnaise, and Knorr bouillon, alongside rapidly growing premium plant-based food ventures and boutique organic skincare lines.",
+  "contextTitle": "Unilever: Cross-Portfolio Cash Flow Circulation",
+  "marks": 4,
+  "commandTerm": "Explain",
+  "assessmentObjective": "AO2",
+  "peelModelAnswer": {
+    "point1": {
+      "title": "Cash Cow Harvesting for Capital Generation",
+      "point": "Unilever utilizes mature Cash Cow brands in low-growth markets to harvest reliable, high-volume operational liquidity.",
+      "evidence": "In the case stimulus, well-established household brands like Dove soap and Knorr hold high market share in stable, saturated consumer packaged goods markets with minimal need for additional factory capacity investment.",
+      "explanation": "Because these established product lines require minimal capital expenditure, they generate massive cash surpluses that exceed their operational running costs.",
+      "link": "These harvested cash cow surpluses provide the self-funded corporate liquidity required to finance high-risk ventures without accumulating excessive bank debt."
+    },
+    "point2": {
+      "title": "Reinvesting Cash into Question Marks and Stars",
+      "point": "Management redeploys this surplus liquidity to pursue a 'Build' strategy across high-potential Question Marks and market-leading Stars in high-growth industries.",
+      "evidence": "Unilever channels capital into premium plant-based food lines and organic skincare brands that compete in rapidly expanding, high-growth consumer wellness sectors.",
+      "explanation": "Without continuous cash injections for R&D, product placement, and advertising, these Question Marks would fail to gain sufficient scale and risk degenerating into unprofitable Dogs.",
+      "link": "Circulating cash flow from mature Cash Cows into emerging Stars ensures long-term corporate survival as older brands eventually face decline."
+    }
+  },
+  "rubricChecklist": [
+    {
+      "id": "q4m-15-c1",
+      "criterion": "Explains role of Cash Cows in generating surplus net cash flow in low-growth markets",
+      "mark": 1
+    },
+    {
+      "id": "q4m-15-c2",
+      "criterion": "Cash Cow concept applied to Unilever portfolio (Dove, Knorr, mature household staples)",
+      "mark": 1
+    },
+    {
+      "id": "q4m-15-c3",
+      "criterion": "Explains redeployment of surplus cash to 'Build' Question Marks and Stars in high-growth sectors",
+      "mark": 1
+    },
+    {
+      "id": "q4m-15-c4",
+      "criterion": "Reinvestment strategy applied to Unilever context (plant-based foods, organic skincare, brand portfolio renewal)",
+      "mark": 1
+    }
+  ]
+},
+{
+  "id": "q4m-16",
+  "subunit": "bmt-toolkit",
+  "questionNumber": "Question 51.1",
+  "question": "Explain one advantage and one disadvantage for a manufacturing enterprise transitioning from a linear business model to a circular supply model.",
+  "caseStimulus": "A multinational athletic footwear and apparel brand currently manufactures sneakers using virgin synthetic plastics, petroleum-based foams, and chemically treated dyes. Facing tightening European landfill regulations, escalating raw material volatility, and consumer boycotts, the board is evaluating a strategic transition toward a circular supply and resource recovery model using recycled ocean plastics and biodegradable algae.",
+  "contextTitle": "Footwear Manufacturer: Transitioning to Circular Business Models",
+  "marks": 4,
+  "commandTerm": "Explain",
+  "assessmentObjective": "AO2",
+  "peelModelAnswer": {
+    "point1": {
+      "title": "Advantage: Shielding Against Volatility & Enhancing Brand Equity",
+      "point": "A circular supply model significantly shields the manufacturer from raw material price volatility while creating a compelling, premium brand positioning.",
+      "evidence": "By replacing petroleum-based foams and virgin plastics with recovered ocean plastics and renewable algae, the firm reduces its exposure to fluctuating crude oil commodity prices.",
+      "explanation": "Furthermore, aligning manufacturing with ethical and environmental values appeals directly to environmentally conscious consumers willing to pay premium prices, attracting institutional ESG investors.",
+      "link": "This circular transition protects gross profit margins from commodity shocks while driving consumer brand loyalty."
+    },
+    "point2": {
+      "title": "Disadvantage: Heavy Upfront Capital Costs & Reverse Logistics Complexity",
+      "point": "However, transitioning requires massive initial capital expenditures for material engineering and establishes complex, expensive reverse logistics networks.",
+      "evidence": "The firm must redesign shoe assembly lines, invest in testing biodegradable adhesives, and create collection infrastructures to reclaim worn footwear from customers.",
+      "explanation": "These elevated operational expenditures increase average unit production costs in the short run, potentially dampening net profit margins if consumer sales volume does not expand quickly.",
+      "link": "Significant capital outlays create short-term cash flow strain before circular efficiencies are realized."
+    }
+  },
+  "rubricChecklist": [
+    {
+      "id": "q4m-16-c1",
+      "criterion": "Explains advantage of circular supply model (resource security, brand equity, price volatility hedge)",
+      "mark": 1
+    },
+    {
+      "id": "q4m-16-c2",
+      "criterion": "Advantage applied to footwear manufacturing context (recycled ocean plastics, bio-algae, crude oil hedge)",
+      "mark": 1
+    },
+    {
+      "id": "q4m-16-c3",
+      "criterion": "Explains disadvantage of circular supply model (high R&D outlays, reverse logistics, unit cost increases)",
+      "mark": 1
+    },
+    {
+      "id": "q4m-16-c4",
+      "criterion": "Disadvantage applied to footwear context (re-engineering adhesives, collection networks, short-term margin pressure)",
+      "mark": 1
+    }
+  ]
+}
 ];
 
 // ============================================================================
@@ -1211,5 +1407,173 @@ export const SIX_MARK_QUESTIONS: SixMarkQuestion[] = [
         marks: 1
       }
     ]
-  }
+  },
+{
+  "id": "q6m-08",
+  "subunit": "bmt-steeple-analysis",
+  "questionNumber": "Question 46.8",
+  "question": "Examine the usefulness and limitations of STEEPLE analysis as a strategic planning tool for a multinational business expanding into a foreign market.",
+  "caseStimulus": "A European electric vehicle (EV) manufacturer is evaluating plans to establish manufacturing facilities and retail networks in an emerging Southeast Asian market. The target nation offers high GDP growth and low labor costs, but exhibits political regime volatility, frequent revisions to foreign direct investment (FDI) tax codes, and an underdeveloped national electrical charging grid.",
+  "contextTitle": "EV Manufacturer: Foreign Expansion & STEEPLE Evaluation",
+  "marks": 6,
+  "commandTerm": "Examine",
+  "assessmentObjective": "AO2/AO3",
+  "levelBreakdown": [
+    {
+      "range": "1-2",
+      "descriptor": "Defines STEEPLE dimensions with generic, theoretical comments on foreign market entry."
+    },
+    {
+      "range": "3-4",
+      "descriptor": "Explains practical usefulness and drawbacks of STEEPLE analysis applied to the foreign expansion context, but lacks balanced evaluative synthesis."
+    },
+    {
+      "range": "5-6",
+      "descriptor": "Rigorous, balanced examination evaluating both the proactive environmental auditing benefits and structural limitations of STEEPLE analysis, concluding with strategic synthesis."
+    }
+  ],
+  "perspective1": {
+    "title": "Diagnostic Utility & Proactive Risk Auditing",
+    "points": [
+      {
+        "subPoint": "Technological & Infrastructure Vulnerability Identification",
+        "elaboration": "STEEPLE analysis provides exceptional strategic utility by systematically uncovering multidimensional macro risks before capital is irreversibly committed. In the EV context, examining Technological factors exposes that the host country's electrical grid cannot support rapid consumer adoption, alerting executives to adapt product engineering (e.g., hybrid battery options) or invest in decentralized solar charging infrastructure."
+      },
+      {
+        "subPoint": "Political & Legal Compliance Pre-emption",
+        "elaboration": "Simultaneously, auditing Political and Legal dimensions reveals volatile foreign direct investment (FDI) tax codes and potential ownership restrictions. Identifying these legal constraints early allows the European manufacturer to structure a joint venture with a domestic partner, securing local political goodwill and safeguarding against unexpected statutory asset seizures."
+      }
+    ]
+  },
+  "perspective2": {
+    "title": "Methodological Deficiencies & Dynamic Environmental Limitations",
+    "points": [
+      {
+        "subPoint": "Static Obsolescence & Qualitative Bias",
+        "elaboration": "Conversely, STEEPLE analysis represents a static snapshot that quickly becomes obsolete in volatile emerging markets where geopolitical alignments and tax laws change overnight. Furthermore, compiling information across seven broad domains produces enormous qualitative data overload, creating confirmation bias where managers selectively emphasize favorable economic growth while downplaying political instability."
+      },
+      {
+        "subPoint": "Absence of Quantitative Financial Payoffs",
+        "elaboration": "Crucially, STEEPLE provides zero quantitative risk modeling\u2014it cannot calculate net present value (NPV), payback periods, or the exact probability of political expropriation. It tells executives what environmental factors exist, but cannot prescribe whether the multi-million-dollar investment will yield an acceptable return on capital."
+      }
+    ]
+  },
+  "synthesisAndEvaluation": "In conclusion, STEEPLE analysis is an indispensable diagnostic framework for initial environmental scanning, but it is fundamentally insufficient if relied upon in isolation. To make a prudent capital commitment, executive management must synthesize qualitative STEEPLE findings with quantitative tools like Decision Trees (to calculate probability-weighted financial payoffs under political risk) and the Ansoff Matrix (to balance market development vs diversification). Ultimately, the usefulness of STEEPLE depends on whether the company updates its environmental scanning continuously and pairs it with dynamic contingency planning rather than treating it as a static one-off report.",
+  "rubricChecklist": [
+    {
+      "id": "q6m-08-c1",
+      "criterion": "Demonstrates accurate knowledge of STEEPLE dimensions and external macro scanning",
+      "marks": 1
+    },
+    {
+      "id": "q6m-08-c2",
+      "criterion": "Analyzes practical usefulness of STEEPLE in mitigating foreign expansion risks (grid infrastructure, legal compliance)",
+      "marks": 1
+    },
+    {
+      "id": "q6m-08-c3",
+      "criterion": "Analyzes methodological limitations of STEEPLE (static obsolescence, qualitative bias, lack of quantitative payoffs)",
+      "marks": 1
+    },
+    {
+      "id": "q6m-08-c4",
+      "criterion": "Evaluates the balance between qualitative environmental scanning and financial quantitative decision modeling",
+      "marks": 1
+    },
+    {
+      "id": "q6m-08-c5",
+      "criterion": "Deeply applied throughout to foreign EV manufacturing expansion context",
+      "marks": 1
+    },
+    {
+      "id": "q6m-08-c6",
+      "criterion": "Coherent evaluative synthesis concluding that STEEPLE must be paired with quantitative tools (Decision Trees) and dynamic updates",
+      "marks": 1
+    }
+  ]
+},
+{
+  "id": "q6m-09",
+  "subunit": "bmt-toolkit",
+  "questionNumber": "Question 49.2",
+  "question": "Evaluate whether a commercial business should rely primarily on quantitative decision trees when choosing between major capital investment projects.",
+  "caseStimulus": "A commercial logistics and freight corporation is deciding between two mutually exclusive capital investments: Option 1 involves investing $40 million to automate its primary fulfillment center with robotics, yielding an estimated 70% probability of high demand ($70M payoff) and 30% probability of low demand ($20M payoff). Option 2 involves acquiring a regional courier fleet for $25 million with uncertain regulatory approval. The CFO advocates choosing solely based on the highest Net Expected Monetary Value (EMV).",
+  "contextTitle": "Logistics Corporation: Decision Tree Appraisal vs Qualitative Reality",
+  "marks": 6,
+  "commandTerm": "Evaluate",
+  "assessmentObjective": "AO2/AO3",
+  "levelBreakdown": [
+    {
+      "range": "1-2",
+      "descriptor": "Defines decision trees and EMV with basic calculation comments."
+    },
+    {
+      "range": "3-4",
+      "descriptor": "Analyzes the mathematical advantages and limitations of decision trees, but lacks balanced strategic evaluation of qualitative factors."
+    },
+    {
+      "range": "5-6",
+      "descriptor": "Balanced, sophisticated evaluation weighing quantitative EMV precision against qualitative human, ethical, and competitive variables, culminating in a nuanced decision verdict."
+    }
+  ],
+  "perspective1": {
+    "title": "Objective Scientific Modeling & Probability Discipline",
+    "points": [
+      {
+        "subPoint": "Rigorous Risk-Adjusted Payoff Calculation",
+        "elaboration": "Decision trees provide an objective, scientifically disciplined decision framework that forces executives to quantify probability and risk rather than relying on gut instinct. Calculating Net Expected Monetary Value for Option 1 ([0.70 x $70M + 0.30 x $20M] - $40M = $55M - $40M = $15M Net EMV) establishes an unambiguous financial benchmark that accounts for uncertain future states of nature."
+      },
+      {
+        "subPoint": "Executive Transparency & Pet-Project De-biasing",
+        "elaboration": "Diagrammatic visual mapping prevents board members from pursuing irrational, emotionally charged pet projects. By forcing planners to explicitly assign monetary values and probability estimates to every chance outcome, decision trees provide clear governance transparency for corporate shareholders."
+      }
+    ]
+  },
+  "perspective2": {
+    "title": "False Mathematical Precision & Qualitative Blindness",
+    "points": [
+      {
+        "subPoint": "GIGO Vulnerability (Garbage In, Garbage Out)",
+        "elaboration": "However, relying solely on decision trees creates dangerous 'false precision' because the mathematical model is completely dependent on subjective probability estimates. If management over-optimistically estimates the probability of high demand as 70% instead of a realistic 40%, the resulting EMV is deeply distorted, leading to catastrophic capital misallocation."
+      },
+      {
+        "subPoint": "Complete Omission of Qualitative Human & Regulatory Dynamics",
+        "elaboration": "Furthermore, decision trees completely ignore critical qualitative variables. Automating fulfillment centers with robotics could trigger severe labor union strikes, employee demoralization, and costly severance disputes. Meanwhile, acquiring courier fleets involves complex antitrust regulatory hurdles and cultural friction that no probability node can accurately calculate."
+      }
+    ]
+  },
+  "synthesisAndEvaluation": "In conclusion, a commercial business must never rely *primarily* or exclusively on quantitative decision trees when selecting capital investments. While decision trees are exceptionally valuable for establishing a rational financial baseline and calculating expected payoffs, they must be treated as an analytical starting point rather than the final verdict. Executive leadership must synthesize quantitative Net EMV calculations with qualitative strategic tools\u2014specifically STEEPLE analysis (to audit regulatory approval risks for the courier acquisition) and stakeholder impact analyses (to mitigate workforce backlash against automation). The final capital commitment must balance mathematical returns against organizational risk tolerance, corporate liquidity reserves, and stakeholder ethics.",
+  "rubricChecklist": [
+    {
+      "id": "q6m-09-c1",
+      "criterion": "Demonstrates accurate knowledge of decision tree mechanics, chance nodes, and Net EMV calculation",
+      "marks": 1
+    },
+    {
+      "id": "q6m-09-c2",
+      "criterion": "Analyzes the advantages of objective probability-weighted decision modeling (Option 1 EMV calculation)",
+      "marks": 1
+    },
+    {
+      "id": "q6m-09-c3",
+      "criterion": "Analyzes the limitations of decision trees (false precision, GIGO, subjective probabilities, qualitative omission)",
+      "marks": 1
+    },
+    {
+      "id": "q6m-09-c4",
+      "criterion": "Evaluates qualitative factors (labor strikes, redundancy morale, cultural integration, regulatory approval)",
+      "marks": 1
+    },
+    {
+      "id": "q6m-09-c5",
+      "criterion": "Deeply applied throughout to logistics automation vs courier fleet acquisition case context",
+      "marks": 1
+    },
+    {
+      "id": "q6m-09-c6",
+      "criterion": "Coherent evaluative synthesis concluding that quantitative EMV must be balanced with STEEPLE and stakeholder analysis",
+      "marks": 1
+    }
+  ]
+}
 ];

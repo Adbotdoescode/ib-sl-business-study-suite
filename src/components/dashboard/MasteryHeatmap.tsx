@@ -38,6 +38,8 @@ export function MasteryHeatmap() {
     { id: '1.3-business-objectives', code: 'Unit 1.3', title: 'Business Objectives' },
     { id: 'bmt-swot-analysis', code: 'BMT SWOT', title: 'SWOT Analysis' },
     { id: 'bmt-ansoff-matrix', code: 'BMT Ansoff', title: 'Ansoff Growth Matrix' },
+    { id: 'bmt-steeple-analysis', code: 'BMT STEEPLE', title: 'STEEPLE Analysis' },
+    { id: 'bmt-toolkit', code: 'BMT Master', title: 'BM Toolkit' },
   ];
 
   // Calculate stats for each subunit

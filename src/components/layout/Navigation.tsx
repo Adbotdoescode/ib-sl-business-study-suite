@@ -17,12 +17,14 @@ import {
   RotateCcw,
   Menu,
   X,
-  HelpCircle
+  HelpCircle,
+  Compass
 } from 'lucide-react';
 
 const NAV_LINKS = [
   { href: '/', label: 'Overview', icon: GraduationCap },
   { href: '/blitz', label: 'MCQ Blitz', icon: Zap },
+  { href: '/toolkit', label: 'BM Toolkit', icon: Compass },
   { href: '/matrix-master', label: 'Matrix Master', icon: Grid },
   { href: '/entities', label: 'Entity Showdown', icon: Scale },
   { href: '/practice', label: 'Exam Practice', icon: PenTool },
@@ -51,7 +53,7 @@ export function Navigation() {
                   IB SL Business
                 </span>
                 <span className="text-[10px] uppercase font-bold text-text-muted tracking-wider block -mt-1">
-                  1.1 • 1.2 • 1.3 • SWOT • Ansoff
+                  1.1 • 1.2 • 1.3 • SWOT • Ansoff • STEEPLE • BMT
                 </span>
               </div>
             </Link>

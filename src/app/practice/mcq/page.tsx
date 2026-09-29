@@ -88,12 +88,14 @@ export default function UntimedMcqPage() {
             }}
             className="text-xs bg-white border border-border rounded-lg px-2.5 py-1 text-text-primary focus:ring-2 focus:ring-blue-500"
           >
-            <option value="all">All 30 MCQs</option>
+            <option value="all">All 42 MCQs</option>
             <option value="1.1-what-is-a-business">1.1 What is a Business? (6 Qs)</option>
             <option value="1.2-types-of-business-entities">1.2 Types of Entities (7 Qs)</option>
             <option value="1.3-business-objectives">1.3 Business Objectives (7 Qs)</option>
             <option value="bmt-swot-analysis">SWOT Analysis (5 Qs)</option>
             <option value="bmt-ansoff-matrix">Ansoff Matrix (5 Qs)</option>
+            <option value="bmt-steeple-analysis">STEEPLE Analysis (6 Qs)</option>
+            <option value="bmt-toolkit">BMT Toolkit Core (6 Qs)</option>
           </select>
         </div>
 

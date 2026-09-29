@@ -3,7 +3,9 @@ export type SyllabusSubunit =
   | '1.2-types-of-business-entities'
   | '1.3-business-objectives'
   | 'bmt-swot-analysis'
-  | 'bmt-ansoff-matrix';
+  | 'bmt-ansoff-matrix'
+  | 'bmt-steeple-analysis'
+  | 'bmt-toolkit';
 
 export type CommandTerm = 
   | 'Define'
@@ -199,6 +201,74 @@ export interface SWOTStrategyPair {
 }
 
 // ----------------------------------------------------
+// 5b. STEEPLE Analysis & Environmental Sorter
+// ----------------------------------------------------
+export type STEEPLECategory = 
+  | 'social' 
+  | 'technological' 
+  | 'economic' 
+  | 'environmental' 
+  | 'political' 
+  | 'legal' 
+  | 'ethical';
+
+export interface STEEPLECard {
+  id: string;
+  scenario: string;
+  businessName: string;
+  category: STEEPLECategory;
+  impactType: 'opportunity' | 'threat';
+  rationale: string;
+  strategicResponse: string;
+}
+
+// ----------------------------------------------------
+// 5c. Boston Consulting Group (BCG) Matrix
+// ----------------------------------------------------
+export type BCGQuadrant = 'stars' | 'cash-cows' | 'question-marks' | 'dogs';
+export type BCGStrategy = 'build' | 'harvest' | 'hold' | 'divest';
+
+export interface BCGCard {
+  id: string;
+  productName: string;
+  company: string;
+  marketGrowth: 'high' | 'low';
+  marketShare: 'high' | 'low';
+  quadrant: BCGQuadrant;
+  recommendedStrategy: BCGStrategy;
+  rationale: string;
+  cashFlowDynamics: string;
+}
+
+// ----------------------------------------------------
+// 5d. Business Management Toolkit (BMT) Core Types
+// ----------------------------------------------------
+export type BMTToolType = 
+  | 'swot'
+  | 'ansoff'
+  | 'steeple'
+  | 'bcg'
+  | 'circular-models'
+  | 'decision-trees'
+  | 'business-plan'
+  | 'descriptive-stats';
+
+export interface BMTToolMeta {
+  id: BMTToolType;
+  name: string;
+  toolNumber: number;
+  classification: 'Situational' | 'Decision-Making' | 'Planning';
+  syllabusLevel: 'SL & HL' | 'HL Only';
+  chapter: string;
+  purpose: string;
+  coreInputs: string[];
+  keyOutputs: string[];
+  advantages: string[];
+  limitations: string[];
+  integratedWith: string[];
+}
+
+// ----------------------------------------------------
 // 6. Entity Showdown & Entity Matchmaker
 // ----------------------------------------------------
 export type BusinessEntityType = 
@@ -259,7 +329,7 @@ export interface DistinctionItem {
 export interface GoldenMatrixRule {
   id: string;
   ruleTitle: string;
-  category: 'SWOT' | 'Ansoff';
+  category: 'SWOT' | 'Ansoff' | 'STEEPLE' | 'BCG' | 'BMT';
   corePrinciple: string;
   actionProtocol: string;
   examApplicationTip: string;

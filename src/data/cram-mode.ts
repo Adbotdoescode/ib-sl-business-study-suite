@@ -141,7 +141,79 @@ export const CRAM_DEFINITIONS: DefinitionItem[] = [
     subunit: 'bmt-ansoff-matrix',
     definition: 'A strategic analytical 2x2 framework categorizing corporate growth pathways across Products (Existing vs New) and Markets (Existing vs New) into Market Penetration, Product Development, Market Development, and Diversification.',
     keyExamTokens: ['2x2 growth matrix', 'Products vs Markets', '4 growth strategies', 'risk escalation continuum']
-  }
+  },
+{
+  "id": "def-21",
+  "term": "STEEPLE Analysis",
+  "subunit": "bmt-steeple-analysis",
+  "definition": "An analytical situational management framework auditing external macro-environmental opportunities and threats across Social, Technological, Economic, Environmental, Political, Legal, and Ethical dimensions beyond direct corporate control.",
+  "keyExamTokens": [
+    "external macro-environment",
+    "opportunities and threats",
+    "7 dimensions",
+    "beyond direct control"
+  ]
+},
+{
+  "id": "def-22",
+  "term": "SPICED Rule",
+  "subunit": "bmt-steeple-analysis",
+  "definition": "An economic mnemonic stating that a Strong Pound (or domestic currency) makes Imports Cheaper and Exports Dearer, lowering costs for raw material importers while reducing price-competitiveness for domestic exporters.",
+  "keyExamTokens": [
+    "Strong Pound",
+    "Imports Cheaper",
+    "Exports Dearer",
+    "currency appreciation"
+  ]
+},
+{
+  "id": "def-23",
+  "term": "BCG Matrix",
+  "subunit": "bmt-toolkit",
+  "definition": "A 2x2 portfolio planning framework categorizing corporate products by Market Growth Rate and Relative Market Share into Stars, Cash Cows, Question Marks, and Dogs to optimize corporate cash flow allocation.",
+  "keyExamTokens": [
+    "portfolio planning",
+    "Market Growth Rate",
+    "Relative Market Share",
+    "Stars, Cash Cows, Question Marks, Dogs"
+  ]
+},
+{
+  "id": "def-24",
+  "term": "Cash Cow",
+  "subunit": "bmt-toolkit",
+  "definition": "A mature, highly profitable product holding high relative market share in a slow-growing market, requiring minimal reinvestment and generating substantial surplus cash to fund growth products elsewhere.",
+  "keyExamTokens": [
+    "high market share",
+    "low market growth",
+    "surplus cash generator",
+    "minimal reinvestment"
+  ]
+},
+{
+  "id": "def-25",
+  "term": "Expected Monetary Value (EMV)",
+  "subunit": "bmt-toolkit",
+  "definition": "The probability-weighted average financial outcome of an uncertain decision option, calculated as the sum of each outcome's financial payoff multiplied by its probability of occurrence.",
+  "keyExamTokens": [
+    "probability-weighted average",
+    "Sum(Probability x Payoff)",
+    "decision trees",
+    "net expected payoff"
+  ]
+},
+{
+  "id": "def-26",
+  "term": "Circular Business Model (PSS)",
+  "subunit": "bmt-toolkit",
+  "definition": "A regenerative commercial model where businesses retain ownership of hardware and sell the service or functional utility (Product-Service System) on a leasing basis, decoupling profit from resource waste.",
+  "keyExamTokens": [
+    "Product-Service System",
+    "retain asset ownership",
+    "sell functional utility",
+    "closed resource loops"
+  ]
+}
 ];
 
 export const CRAM_DISTINCTIONS: DistinctionItem[] = [
@@ -184,7 +256,31 @@ export const CRAM_DISTINCTIONS: DistinctionItem[] = [
     comparisonCriteria: 'Product Novelty vs Market Novelty in Ansoff Matrix',
     contrastStatement: 'Market Development takes an existing, proven product into entirely new markets (such as international geographical expansion or new demographic segments); Product Development innovates completely new products to sell to the firm’s existing, established customer base.',
     examTrapWarning: 'If a brand sells its existing footwear through an overseas e-commerce store, that is Market Development (new channel/geography), NOT Product Development!'
-  }
+  },
+{
+  "id": "dist-06",
+  "conceptA": "Political Factors",
+  "conceptB": "Legal Factors",
+  "comparisonCriteria": "Enforceability, Legislative State, and Sanction Nature",
+  "contrastStatement": "Political factors encompass government political stability, foreign trade agreements, and ideological policy debates; Legal factors are formally enacted, binding statutes (such as statutory minimum wage laws and consumer protection acts) that carry enforceable civil or criminal penalties.",
+  "examTrapWarning": "Never argue that a passed minimum wage statute is 'Political' because politicians debated it; once enacted into law, it is strictly a LEGAL compliance factor!"
+},
+{
+  "id": "dist-07",
+  "conceptA": "Social Factors",
+  "conceptB": "Ethical Factors",
+  "comparisonCriteria": "Demographic & Cultural Trends vs Moral Corporate Values",
+  "contrastStatement": "Social factors are external population demographics, aging trends, and shifting consumer lifestyle habits; Ethical factors reflect moral judgments, fair-trade standards, and voluntary corporate social responsibility (CSR) initiatives that exceed statutory minimums.",
+  "examTrapWarning": "Consumer demand for healthy food is a SOCIAL trend; the company's decision to voluntarily eliminate artificial chemicals and audit supplier welfare is an ETHICAL strategy."
+},
+{
+  "id": "dist-08",
+  "conceptA": "BCG Stars",
+  "conceptB": "BCG Cash Cows",
+  "comparisonCriteria": "Industry Growth Rate & Capital Reinvestment Dynamics",
+  "contrastStatement": "Both Stars and Cash Cows hold high market share; however, Stars operate in high-growth industries requiring heavy continuous capital investment to defend dominance, whereas Cash Cows operate in mature, low-growth markets and generate net surplus liquidity.",
+  "examTrapWarning": "Do not confuse Cash Cows with Stars; Cash Cows fund the rest of the company, while Stars absorb significant portions of their own revenue to fight off rivals."
+}
 ];
 
 export const CRAM_GOLDEN_RULES: GoldenMatrixRule[] = [
@@ -227,5 +323,29 @@ export const CRAM_GOLDEN_RULES: GoldenMatrixRule[] = [
     corePrinciple: 'Strategic risk in Ansoff correlates directly with the degree of operational unfamiliarity in products and markets.',
     actionProtocol: 'Market Penetration (lowest risk: existing product + existing market) -> Product/Market Dev (moderate risk: 1 unknown variable) -> Diversification (highest risk: dual unfamiliarity).',
     examApplicationTip: 'Always justify Diversification as highest risk because the firm lacks both engineering expertise and customer distribution familiarity.'
-  }
+  },
+{
+  "id": "rule-06",
+  "ruleTitle": "STEEPLE Rule 1: The SPICED Currency Axiom",
+  "category": "STEEPLE",
+  "corePrinciple": "Exchange rate fluctuations reverse commercial advantages between importers and exporters.",
+  "actionProtocol": "Strong domestic currency -> Imports Cheaper (raw material importers win) / Exports Dearer (foreign export sales contract). Weak domestic currency -> Imports Dearer / Exports Cheaper.",
+  "examApplicationTip": "Always evaluate whether the case study business is an importer of foreign components or an exporter of finished goods before assessing currency fluctuations."
+},
+{
+  "id": "rule-07",
+  "ruleTitle": "BCG Rule: Cash Cow Reinvestment Cycle",
+  "category": "BCG",
+  "corePrinciple": "A healthy multi-product enterprise must systematically circulate liquidity across product lifecycles.",
+  "actionProtocol": "Harvest Cash Cows -> Reinvest surplus profits to 'Build' Question Marks into Stars -> Transition mature Stars into future Cash Cows -> Divest unviable Dogs.",
+  "examApplicationTip": "In portfolio evaluation essays, criticize firms that have zero Cash Cows (severe liquidity strain) or zero Question Marks/Stars (future commercial obsolescence)."
+},
+{
+  "id": "rule-08",
+  "ruleTitle": "Decision Tree Rule: Net EMV Deduction",
+  "category": "BMT",
+  "corePrinciple": "Gross Expected Value is not profit; initial capital expenditure must always be deducted.",
+  "actionProtocol": "Calculate Gross EV at chance node = Sum(Probability x Payoff). Calculate Net EMV = Gross EV - Initial Project Cost. Choose option with highest positive Net EMV.",
+  "examApplicationTip": "Examiners deduct marks if you stop at gross expected value. Always show the subtraction of initial capital expenditure."
+}
 ];

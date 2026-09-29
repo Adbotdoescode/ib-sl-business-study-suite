@@ -58,6 +58,22 @@ const SYLLABUS_MODULES = [
     mcqs: 5,
     shortAnswer: 4,
   },
+  {
+    id: 'bmt-steeple-analysis',
+    code: 'BMT: STEEPLE',
+    title: 'STEEPLE Analysis',
+    summary: 'External macro-environmental audit across Social, Technological, Economic, Environmental, Political, Legal, and Ethical dimensions.',
+    mcqs: 6,
+    shortAnswer: 6,
+  },
+  {
+    id: 'bmt-toolkit',
+    code: 'BMT: Master',
+    title: 'BM Toolkit Master Guide',
+    summary: 'Master the 8 SL tools: BCG Matrix portfolio cash balancing, Circular Business Models, and quantitative Decision Trees.',
+    mcqs: 6,
+    shortAnswer: 4,
+  },
 ];
 
 export default function DashboardPage() {
@@ -72,22 +88,22 @@ export default function DashboardPage() {
           </div>
 
           <h1 className="text-2xl sm:text-4xl font-extrabold text-text-primary tracking-tight leading-tight">
-            Master Units 1.1–1.3, SWOT & Ansoff for 100% Exam Readiness.
+            Master Units 1.1–1.3, SWOT, Ansoff & the Full BM Toolkit for 100% Exam Readiness.
           </h1>
 
           <p className="text-sm sm:text-base text-text-secondary mt-3 leading-relaxed">
-            Engineered around the Paul Hoang 5th Edition curriculum and visual student notes. Features rapid timed drills, drag-and-drop quadrant sorters, split-screen PEEL writing rubrics, and a 10-minute high-yield cram vault.
+            Engineered around the Paul Hoang 5th Edition curriculum and visual student notes. Features rapid timed drills, 4-way matrix sorters, split-screen PEEL writing rubrics, and the 8-tool Business Management Toolkit hub.
           </p>
 
           <div className="flex flex-wrap items-center gap-4 mt-6 pt-6 border-t border-border/80 text-xs text-text-muted">
             <span className="flex items-center gap-1.5 font-medium text-text-primary">
-              <CheckCircle className="w-4 h-4 text-emerald-600" /> 30 Multiple Choice Questions
+              <CheckCircle className="w-4 h-4 text-emerald-600" /> 42 Multiple Choice Questions
             </span>
             <span className="flex items-center gap-1.5 font-medium text-text-primary">
-              <FileCheck className="w-4 h-4 text-blue-600" /> 32 2-Mark Knowledge Questions
+              <FileCheck className="w-4 h-4 text-blue-600" /> 42 2-Mark Knowledge Questions
             </span>
             <span className="flex items-center gap-1.5 font-medium text-text-primary">
-              <Target className="w-4 h-4 text-amber-600" /> 19 Applied 4- & 6-Mark PEEL Rubrics
+              <Target className="w-4 h-4 text-amber-600" /> 25 Applied 4- & 6-Mark PEEL Rubrics
             </span>
           </div>
         </div>

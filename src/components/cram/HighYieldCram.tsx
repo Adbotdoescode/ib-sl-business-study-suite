@@ -83,7 +83,7 @@ export function HighYieldCram() {
                 : 'text-text-muted hover:text-text-primary'
             }`}
           >
-            Top 5 Distinctions ({state.cramHiddenDistinctions.length}/{CRAM_DISTINCTIONS.length} Mastered)
+            Distinctions ({state.cramHiddenDistinctions.length}/{CRAM_DISTINCTIONS.length} Mastered)
           </button>
           <button
             onClick={() => setActiveCategory('rules')}
@@ -93,7 +93,7 @@ export function HighYieldCram() {
                 : 'text-text-muted hover:text-text-primary'
             }`}
           >
-            5 Matrix Rules ({state.cramHiddenRules.length}/{CRAM_GOLDEN_RULES.length} Mastered)
+            Golden Rules ({state.cramHiddenRules.length}/{CRAM_GOLDEN_RULES.length} Mastered)
           </button>
         </div>
       </div>
@@ -250,25 +250,36 @@ export function HighYieldCram() {
         </div>
       )}
 
-      {/* 5 Golden Matrix Rules */}
+      {/* Golden Matrix & Toolkit Rules */}
       {activeCategory === 'rules' && (
         <div className="space-y-4">
           {visibleRules.length === 0 ? (
             <div className="p-12 text-center bg-white rounded-xl border border-border">
               <Sparkles className="w-8 h-8 text-amber-500 mx-auto mb-2" />
-              <p className="text-sm font-semibold text-text-primary">All 5 matrix decision rules mastered!</p>
+              <p className="text-sm font-semibold text-text-primary">All matrix and toolkit decision rules mastered!</p>
               <p className="text-xs text-text-muted mt-1">
-                Click &ldquo;Show All&rdquo; or &ldquo;Reset Mastery Filters&rdquo; to test your SWOT and Ansoff decision protocols.
+                Click &ldquo;Show All&rdquo; or &ldquo;Reset Mastery Filters&rdquo; to test your SWOT, Ansoff, STEEPLE, and BCG decision protocols.
               </p>
             </div>
           ) : (
             visibleRules.map((rule) => {
               const isMastered = state.cramHiddenRules.includes(rule.id);
+              const badgeVariant =
+                rule.category === 'SWOT'
+                  ? 'ao3'
+                  : rule.category === 'Ansoff'
+                  ? 'ao1'
+                  : rule.category === 'STEEPLE'
+                  ? 'warning'
+                  : rule.category === 'BCG'
+                  ? 'success'
+                  : 'neutral';
+
               return (
                 <Card key={rule.id} className="p-5">
                   <div className="flex items-center justify-between pb-3 mb-3 border-b border-border">
                     <div className="flex items-center gap-2">
-                      <Badge variant={rule.category === 'SWOT' ? 'ao3' : 'ao1'} size="sm">
+                      <Badge variant={badgeVariant} size="sm">
                         {rule.category}
                       </Badge>
                       <h3 className="text-base font-bold text-text-primary">{rule.ruleTitle}</h3>

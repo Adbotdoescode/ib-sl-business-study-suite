@@ -178,6 +178,8 @@ export function ExamPractice() {
               <option value="1.3-business-objectives">1.3 Business Objectives</option>
               <option value="bmt-swot-analysis">BMT: SWOT Analysis</option>
               <option value="bmt-ansoff-matrix">BMT: Ansoff Matrix</option>
+              <option value="bmt-steeple-analysis">BMT: STEEPLE Analysis</option>
+              <option value="bmt-toolkit">BMT: Toolkit Master</option>
             </select>
           </div>
 

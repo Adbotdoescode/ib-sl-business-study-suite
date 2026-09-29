@@ -563,7 +563,367 @@ export const MCQ_QUESTIONS: MCQQuestion[] = [
       correctRationale: 'Selling existing athletic footwear and apparel into new customer segments via digital channels and direct-to-consumer e-commerce defines Market Development.',
       distractorAnalysis: 'Product Development requires a new physical product line (B); retrenchment entails downsizing (C); backward integration involves acquiring suppliers (D).'
     }
+  },
+{
+  "id": "mcq-steeple-01",
+  "subunit": "bmt-steeple-analysis",
+  "topicTag": "STEEPLE Core Purpose",
+  "questionNumber": 31,
+  "question": "What is the primary analytical objective of conducting a STEEPLE analysis?",
+  "options": [
+    {
+      "key": "A",
+      "text": "To audit the internal operational efficiencies and departmental cash flow balances of a business."
+    },
+    {
+      "key": "B",
+      "text": "To systematically scan and examine the external macro-environment to identify opportunities and threats beyond the firm's direct control."
+    },
+    {
+      "key": "C",
+      "text": "To categorize a firm's multi-product portfolio into cash-generating versus cash-draining business units."
+    },
+    {
+      "key": "D",
+      "text": "To calculate the probability-weighted expected monetary returns of mutually exclusive capital investments."
+    }
+  ],
+  "correctAnswer": "B",
+  "explanation": {
+    "correctRationale": "STEEPLE analysis audits the seven broad external macro-environmental dimensions (Social, Tech, Economic, Environmental, Political, Legal, Ethical) to identify opportunities and threats that the firm cannot directly govern.",
+    "distractorAnalysis": "Internal operational efficiency (A) belongs to SWOT internal analysis; product portfolio classification (C) describes the BCG Matrix; expected monetary return calculations (D) describes Decision Trees."
   }
+},
+{
+  "id": "mcq-steeple-02",
+  "subunit": "bmt-steeple-analysis",
+  "topicTag": "Social Demographics",
+  "questionNumber": 32,
+  "question": "In many developed nations, an aging population combined with declining birth rates is creating a demographic shift. For a private residential care provider, this macro-environmental trend represents:",
+  "options": [
+    {
+      "key": "A",
+      "text": "An internal operational strength resulting from proprietary nursing competencies."
+    },
+    {
+      "key": "B",
+      "text": "An external Social opportunity that expands aggregate market demand for eldercare services."
+    },
+    {
+      "key": "C",
+      "text": "An external Political threat stemming from state healthcare legislative mandates."
+    },
+    {
+      "key": "D",
+      "text": "An internal organizational weakness due to higher employee turnover."
+    }
+  ],
+  "correctAnswer": "B",
+  "explanation": {
+    "correctRationale": "Demographic aging is an external Social trend in the macro-environment that increases aggregate customer demand and commercial viability for private care providers.",
+    "distractorAnalysis": "An aging population is an external macro phenomenon, not an internal strength (A) or weakness (D); demographic population changes fall under Social rather than Political factors (C)."
+  }
+},
+{
+  "id": "mcq-steeple-03",
+  "subunit": "bmt-steeple-analysis",
+  "topicTag": "Economic & Exchange Rates",
+  "questionNumber": 33,
+  "question": "According to the SPICED economic rule, what is the anticipated commercial impact when a country's domestic currency experiences a substantial appreciation (strengthening)?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Imported raw materials become cheaper, but domestically manufactured exports become dearer and less price-competitive abroad."
+    },
+    {
+      "key": "B",
+      "text": "Imported raw materials become more expensive, but export profit margins in overseas markets expand automatically."
+    },
+    {
+      "key": "C",
+      "text": "Both imports and exports become cheaper simultaneously, stimulating national trade surpluses."
+    },
+    {
+      "key": "D",
+      "text": "Domestic consumer inflation increases dramatically due to elevated import purchase tariffs."
+    }
+  ],
+  "correctAnswer": "A",
+  "explanation": {
+    "correctRationale": "The SPICED rule states: Strong Pound (or domestic currency) makes Imports Cheaper and Exports Dearer, benefiting component importers while penalizing export sales volume.",
+    "distractorAnalysis": "B reverses the currency effect; a stronger currency does not make exports cheaper (C); cheaper imports generally suppress rather than accelerate domestic inflation (D)."
+  }
+},
+{
+  "id": "mcq-steeple-04",
+  "subunit": "bmt-steeple-analysis",
+  "topicTag": "Legal vs Political",
+  "questionNumber": 34,
+  "question": "A national parliament passes statutory legislation mandating a 15% increase in the national minimum wage, accompanied by severe financial penalties for non-compliant employers. In a STEEPLE analysis, this development is classified as:",
+  "options": [
+    {
+      "key": "A",
+      "text": "A Political factor because politicians debated the bill in parliament."
+    },
+    {
+      "key": "B",
+      "text": "A Legal factor because it is an enacted, legally enforceable statute carrying criminal or civil penalties."
+    },
+    {
+      "key": "C",
+      "text": "An Ethical factor because paying higher wages reflects altruistic corporate generosity."
+    },
+    {
+      "key": "D",
+      "text": "An Environmental factor because workers operate in a physical factory environment."
+    }
+  ],
+  "correctAnswer": "B",
+  "explanation": {
+    "correctRationale": "Once legislation is formally enacted into enforceable law carrying statutory penalties, it operates as a Legal factor. Political factors encompass government policy direction, taxation debates, and political stability.",
+    "distractorAnalysis": "Even though politicians vote on legislation, enacted laws are Legal (A); compliance with statutory mandates is legally required, not voluntary CSR/Ethical altruism (C); worker environments do not constitute ecological Environmental factors (D)."
+  }
+},
+{
+  "id": "mcq-steeple-05",
+  "subunit": "bmt-steeple-analysis",
+  "topicTag": "Technological Obsolescence",
+  "questionNumber": 35,
+  "question": "Rapid cycles of technological innovation and automated product obsolescence in consumer electronics (e.g. video game consoles and smartphones) primarily present which external threat to incumbent manufacturers?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Rising trade tariffs imposed by foreign customs authorities."
+    },
+    {
+      "key": "B",
+      "text": "Shortened product life cycles requiring continuous, expensive R&D expenditures to avoid commercial irrelevance."
+    },
+    {
+      "key": "C",
+      "text": "Strict statutory employment laws prohibiting automated factory robotics."
+    },
+    {
+      "key": "D",
+      "text": "A mandatory transition to unlimited shareholder liability under commercial law."
+    }
+  ],
+  "correctAnswer": "B",
+  "explanation": {
+    "correctRationale": "Technological disruption compresses product life cycles, forcing hardware companies into continuous, capital-intensive R&D cycles to prevent legacy products from becoming obsolete.",
+    "distractorAnalysis": "Tariffs (A) are Political/Legal trade barriers; labor laws (C) are Legal; shareholder liability (D) is a corporate governance rule unaffected by technological innovation."
+  }
+},
+{
+  "id": "mcq-steeple-06",
+  "subunit": "bmt-steeple-analysis",
+  "topicTag": "Ethical Sourcing & CSR",
+  "questionNumber": 36,
+  "question": "How does an Ethical factor in STEEPLE differ fundamentally from a Legal factor?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Ethical factors represent mandatory statutory requirements, whereas Legal factors are voluntary guidelines."
+    },
+    {
+      "key": "B",
+      "text": "Ethical factors reflect voluntary moral standards and social responsibilities that exceed legal minimums, whereas Legal factors are enforceable statutory requirements."
+    },
+    {
+      "key": "C",
+      "text": "Ethical factors only apply to charitable non-governmental organizations, whereas Legal factors apply to public limited companies."
+    },
+    {
+      "key": "D",
+      "text": "Ethical factors are exclusively concerned with monetary profit maximization for equity shareholders."
+    }
+  ],
+  "correctAnswer": "B",
+  "explanation": {
+    "correctRationale": "Ethics concerns moral judgment and voluntary corporate social responsibility (CSR) beyond statutory minimums (e.g. fair trade pricing, carbon neutrality), whereas laws are state-enforced mandates.",
+    "distractorAnalysis": "A reverses the definitions; ethical standards apply to all commercial firms, not just NGOs (C); profit maximization without regard to morals violates ethical principles (D)."
+  }
+},
+{
+  "id": "mcq-bmt-01",
+  "subunit": "bmt-toolkit",
+  "topicTag": "BCG Matrix Stars",
+  "questionNumber": 37,
+  "question": "In the Boston Consulting Group (BCG) Matrix, which quadrant characterizes a product holding a dominant market share in a rapidly growing industry?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Cash Cow"
+    },
+    {
+      "key": "B",
+      "text": "Star"
+    },
+    {
+      "key": "C",
+      "text": "Question Mark (Problem Child)"
+    },
+    {
+      "key": "D",
+      "text": "Dog"
+    }
+  ],
+  "correctAnswer": "B",
+  "explanation": {
+    "correctRationale": "Stars possess high relative market share in high-growth markets, generating high sales revenues but requiring heavy continuous investment to sustain dominance.",
+    "distractorAnalysis": "Cash Cows (A) have high market share in low-growth markets; Question Marks (C) have low market share in high-growth markets; Dogs (D) have low share in low-growth markets."
+  }
+},
+{
+  "id": "mcq-bmt-02",
+  "subunit": "bmt-toolkit",
+  "topicTag": "BCG Cash Flow Dynamics",
+  "questionNumber": 38,
+  "question": "What is the primary cash flow role of a 'Cash Cow' product within a diversified corporate portfolio?",
+  "options": [
+    {
+      "key": "A",
+      "text": "To absorb massive capital reinvestment to aggressively expand existing manufacturing capacity."
+    },
+    {
+      "key": "B",
+      "text": "To generate substantial surplus cash flow that can be harvested to fund promising Question Marks and support Stars."
+    },
+    {
+      "key": "C",
+      "text": "To undergo immediate liquidation through a divestment strategy to cut ongoing operational losses."
+    },
+    {
+      "key": "D",
+      "text": "To operate at a continuous financial deficit in order to depress competitors' share prices."
+    }
+  ],
+  "correctAnswer": "B",
+  "explanation": {
+    "correctRationale": "Cash Cows are mature, highly profitable products with established infrastructure in stable markets, generating surplus liquidity used to finance growth products elsewhere in the portfolio.",
+    "distractorAnalysis": "Cash Cows require low, not massive, capital reinvestment (A); liquidation/divestment (C) applies to Dogs; operating at a deliberate loss (D) describes predatory pricing, not cash cow strategy."
+  }
+},
+{
+  "id": "mcq-bmt-03",
+  "subunit": "bmt-toolkit",
+  "topicTag": "BCG Strategic Prescriptions",
+  "questionNumber": 39,
+  "question": "A multinational technology conglomerate owns an experimental smart-home division that holds a 4% market share in an industry expanding by 28% annually. Under the BCG Matrix, which strategic choice faces executive management?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Harvest the division immediately to maximize short-term cash extraction."
+    },
+    {
+      "key": "B",
+      "text": "Pursue a Build strategy by investing cash-cow reserves to capture market share, or Divest if long-term leadership is unachievable."
+    },
+    {
+      "key": "C",
+      "text": "Hold current operations with zero marketing expenditure because the market is already mature."
+    },
+    {
+      "key": "D",
+      "text": "Convert the product into a sole proprietorship to shield corporate shareholders from liability."
+    }
+  ],
+  "correctAnswer": "B",
+  "explanation": {
+    "correctRationale": "The product is a Question Mark (low share in high-growth market). Executives must either commit heavy capital to 'Build' it into a Star or 'Divest' before it drains corporate cash reserves.",
+    "distractorAnalysis": "Harvesting (A) is the strategy for Cash Cows; Holding with zero investment (C) fails in high-growth competitive markets; converting to a sole proprietorship (D) is legally nonsensical for a conglomerate division."
+  }
+},
+{
+  "id": "mcq-bmt-04",
+  "subunit": "bmt-toolkit",
+  "topicTag": "Circular Business Models",
+  "questionNumber": 40,
+  "question": "Lighting manufacturer Philips provides illumination systems to Schiphol Airport under a model where Philips retains ownership of all lighting fixtures, handles all maintenance, and charges the airport based on light usage. This exemplifies which Circular Business Model?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Linear Take-Make-Waste Extraction Model"
+    },
+    {
+      "key": "B",
+      "text": "Product-Service System (PSS) Model"
+    },
+    {
+      "key": "C",
+      "text": "Predatory Pricing Model"
+    },
+    {
+      "key": "D",
+      "text": "Unrelated Conglomerate Diversification Model"
+    }
+  ],
+  "correctAnswer": "B",
+  "explanation": {
+    "correctRationale": "In a Product-Service System (PSS) model, the business retains asset ownership and sells the functional service or utility of the product, incentivizing durable, energy-efficient engineering.",
+    "distractorAnalysis": "Linear models (A) sell disposable hardware to customers who discard them; predatory pricing (C) is an illegal pricing strategy; diversification (D) is an Ansoff growth strategy."
+  }
+},
+{
+  "id": "mcq-bmt-05",
+  "subunit": "bmt-toolkit",
+  "topicTag": "Decision Tree Symbology",
+  "questionNumber": 41,
+  "question": "In a formal quantitative Decision Tree diagram, what do square nodes and circular nodes represent respectively?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Squares represent Chance Nodes (external probabilities); Circles represent Decision Nodes (managerial choices)."
+    },
+    {
+      "key": "B",
+      "text": "Squares represent Decision Nodes (points of managerial control); Circles represent Chance Nodes (points of uncertainty with assigned probabilities)."
+    },
+    {
+      "key": "C",
+      "text": "Squares represent Gross Revenues; Circles represent Net Operating Losses."
+    },
+    {
+      "key": "D",
+      "text": "Squares represent Internal Strengths; Circles represent External Threats."
+    }
+  ],
+  "correctAnswer": "B",
+  "explanation": {
+    "correctRationale": "Decision Trees use standardized symbology: Squares designate Decision Nodes where management decides between options; Circles designate Chance Nodes where external outcomes occur with probabilistic distributions.",
+    "distractorAnalysis": "A reverses the shapes; revenues and losses (C) are numerical payoffs on branch tips; strengths and threats (D) belong to SWOT matrices."
+  }
+},
+{
+  "id": "mcq-bmt-06",
+  "subunit": "bmt-toolkit",
+  "topicTag": "Decision Tree Net EMV",
+  "questionNumber": 42,
+  "question": "A retail firm is appraising an expansion project costing $200,000. Market research indicates a 60% probability of high demand yielding $500,000 payoff, and a 40% probability of low demand yielding $100,000 payoff. What is the Net Expected Monetary Value (Net EMV) of this decision?",
+  "options": [
+    {
+      "key": "A",
+      "text": "$340,000"
+    },
+    {
+      "key": "B",
+      "text": "$140,000"
+    },
+    {
+      "key": "C",
+      "text": "$300,000"
+    },
+    {
+      "key": "D",
+      "text": "$60,000"
+    }
+  ],
+  "correctAnswer": "B",
+  "explanation": {
+    "correctRationale": "Gross EV = (0.60 * $500,000) + (0.40 * $100,000) = $300,000 + $40,000 = $340,000. Net EMV = Gross EV - Initial Capital Cost = $340,000 - $200,000 = $140,000.",
+    "distractorAnalysis": "$340,000 (A) is the gross EV before deducting initial expenditure; $300,000 (C) is only the high demand expected value; $60,000 (D) results from calculation errors."
+  }
+}
 ];
 
 // ============================================================================
@@ -1069,5 +1429,215 @@ export const TWO_MARK_QUESTIONS: TwoMarkQuestion[] = [
       { mark: 1, criterion: 'Emphasizes highest risk profile arising from dual unfamiliarity with product engineering and customer segment' }
     ],
     examinerTips: 'Product = New, Market = New. Highlighting the double-unfamiliarity risk profile guarantees top marks.'
-  }
+  },
+{
+  "id": "q2m-steeple-01",
+  "subunit": "bmt-steeple-analysis",
+  "questionNumber": "46.1",
+  "question": "Define the term STEEPLE analysis.",
+  "marks": 2,
+  "commandTerm": "Define",
+  "assessmentObjective": "AO1",
+  "modelAnswer": "STEEPLE analysis is an analytical situational management framework used by organizations to examine and evaluate opportunities and threats in the external macro-environment across social, technological, economic, environmental, political, legal, and ethical dimensions.",
+  "markBreakdown": [
+    {
+      "mark": 1,
+      "criterion": "Identifies STEEPLE as an external macro-environmental scanning or situational tool"
+    },
+    {
+      "mark": 1,
+      "criterion": "Identifies examining opportunities and threats across the seven dimensions (or lists key STEEPLE dimensions)"
+    }
+  ],
+  "examinerTips": "Mentioning that STEEPLE focuses on external forces outside the direct control of the business guarantees the second mark."
+},
+{
+  "id": "q2m-steeple-02",
+  "subunit": "bmt-steeple-analysis",
+  "questionNumber": "46.2",
+  "question": "Define the term exchange rate.",
+  "marks": 2,
+  "commandTerm": "Define",
+  "assessmentObjective": "AO1",
+  "modelAnswer": "An exchange rate is the price or financial value of one national currency measured in terms of another currency in the foreign exchange market.",
+  "markBreakdown": [
+    {
+      "mark": 1,
+      "criterion": "Defines exchange rate as the price, value, or purchasing power of one currency"
+    },
+    {
+      "mark": 1,
+      "criterion": "States comparison in terms of another foreign currency"
+    }
+  ],
+  "examinerTips": "Keep it direct: 'The value of one currency expressed in terms of another currency.'"
+},
+{
+  "id": "q2m-steeple-03",
+  "subunit": "bmt-steeple-analysis",
+  "questionNumber": "46.3",
+  "question": "Distinguish between external opportunities and external threats.",
+  "marks": 2,
+  "commandTerm": "Distinguish",
+  "assessmentObjective": "AO1",
+  "modelAnswer": "External opportunities are favourable macro-environmental conditions or trends that an enterprise can exploit to increase sales, market share, or profit margins, whereas external threats are unfavourable external shifts or constraints that pose risks of financial loss, cost increases, or competitive decline.",
+  "markBreakdown": [
+    {
+      "mark": 1,
+      "criterion": "Defines opportunities as favourable external developments providing commercial or profit advantages"
+    },
+    {
+      "mark": 1,
+      "criterion": "Defines threats as unfavourable external developments creating risks, costs, or commercial obstacles"
+    }
+  ],
+  "examinerTips": "Use contrasting language: 'Opportunities provide potential commercial gains, whereas threats impose potential commercial harm or losses.'"
+},
+{
+  "id": "q2m-steeple-04",
+  "subunit": "bmt-steeple-analysis",
+  "questionNumber": "46.4",
+  "question": "Outline one way an aging population presents a commercial opportunity for businesses.",
+  "marks": 2,
+  "commandTerm": "Outline",
+  "assessmentObjective": "AO1",
+  "modelAnswer": "An aging population expands consumer demand for specialized goods and services tailored to senior demographics, creating commercial growth opportunities for healthcare providers, pharmaceutical firms, retirement housing developers, and asset wealth management services.",
+  "markBreakdown": [
+    {
+      "mark": 1,
+      "criterion": "Identifies increasing demand for senior-focused goods or services"
+    },
+    {
+      "mark": 1,
+      "criterion": "Provides relevant commercial examples (healthcare, pharmaceuticals, assisted living, retirement finance)"
+    }
+  ],
+  "examinerTips": "Support the mechanism with a concrete commercial sector like healthcare, pharmaceuticals, or retirement housing."
+},
+{
+  "id": "q2m-steeple-05",
+  "subunit": "bmt-steeple-analysis",
+  "questionNumber": "46.5",
+  "question": "Define the term inflation.",
+  "marks": 2,
+  "commandTerm": "Define",
+  "assessmentObjective": "AO1",
+  "modelAnswer": "Inflation is a sustained, general increase in the average price level of goods and services throughout an entire economy over a period of time, resulting in a fall in the purchasing power of money.",
+  "markBreakdown": [
+    {
+      "mark": 1,
+      "criterion": "Identifies a sustained or general increase in the average price level"
+    },
+    {
+      "mark": 1,
+      "criterion": "Notes the consequence of declining purchasing power or value of money"
+    }
+  ],
+  "examinerTips": "Do not just say 'prices go up'. Must state 'sustained increase in the general/average price level' to earn both marks."
+},
+{
+  "id": "q2m-steeple-06",
+  "subunit": "bmt-steeple-analysis",
+  "questionNumber": "46.6",
+  "question": "State two examples of consumer protection legislation that impact commercial businesses.",
+  "marks": 2,
+  "commandTerm": "State",
+  "assessmentObjective": "AO1",
+  "modelAnswer": "Examples of consumer protection legislation include laws governing product safety and quality standards (preventing hazardous or defective merchandise) and statutory fair advertising regulations (prohibiting misleading product claims or false promotional descriptions).",
+  "markBreakdown": [
+    {
+      "mark": 1,
+      "criterion": "States product safety/standards laws or refund rights"
+    },
+    {
+      "mark": 1,
+      "criterion": "States truthful advertising/trade descriptions or anti-fraud laws"
+    }
+  ],
+  "examinerTips": "Stating 'product safety laws' and 'truthful advertising regulations' directly secures full marks."
+},
+{
+  "id": "q2m-bmt-01",
+  "subunit": "bmt-toolkit",
+  "questionNumber": "47.1",
+  "question": "Define the Boston Consulting Group (BCG) matrix.",
+  "marks": 2,
+  "commandTerm": "Define",
+  "assessmentObjective": "AO1",
+  "modelAnswer": "The Boston Consulting Group (BCG) matrix is a situational and decision-making product portfolio management framework that assesses and categorizes a business's products into stars, cash cows, question marks, and dogs based on market growth rate and relative market share.",
+  "markBreakdown": [
+    {
+      "mark": 1,
+      "criterion": "Identifies the BCG Matrix as a portfolio management or situational tool"
+    },
+    {
+      "mark": 1,
+      "criterion": "Identifies the two evaluation axes: market growth rate and relative market share (or the four quadrants)"
+    }
+  ],
+  "examinerTips": "Mentioning 'market growth' and 'market share' as the two core axes ensures full marks."
+},
+{
+  "id": "q2m-bmt-02",
+  "subunit": "bmt-toolkit",
+  "questionNumber": "47.2",
+  "question": "Distinguish between stars and cash cows in the BCG matrix.",
+  "marks": 2,
+  "commandTerm": "Distinguish",
+  "assessmentObjective": "AO1",
+  "modelAnswer": "In the BCG matrix, both stars and cash cows hold high relative market share; however, stars operate in high-growth markets requiring heavy continuous capital investment to defend leadership, whereas cash cows operate in mature, low-growth markets requiring minimal reinvestment and generating substantial surplus cash.",
+  "markBreakdown": [
+    {
+      "mark": 1,
+      "criterion": "Distinguishes market growth rate (stars = high-growth, cash cows = low-growth/mature)"
+    },
+    {
+      "mark": 1,
+      "criterion": "Contrasts cash flow dynamics (stars absorb heavy investment, cash cows generate surplus net cash)"
+    }
+  ],
+  "examinerTips": "Contrast both the market growth environment and the net cash flow generated."
+},
+{
+  "id": "q2m-bmt-03",
+  "subunit": "bmt-toolkit",
+  "questionNumber": "49.1",
+  "question": "Define the term expected monetary value (EMV) in a decision tree.",
+  "marks": 2,
+  "commandTerm": "Define",
+  "assessmentObjective": "AO1",
+  "modelAnswer": "Expected monetary value (EMV) is the probability-weighted average financial outcome of an uncertain decision option, calculated by multiplying the financial payoff of each probable outcome by its respective probability and summing the results.",
+  "markBreakdown": [
+    {
+      "mark": 1,
+      "criterion": "Identifies EMV as a probability-weighted average financial outcome"
+    },
+    {
+      "mark": 1,
+      "criterion": "Explains calculation as the sum of each outcome's payoff multiplied by its probability"
+    }
+  ],
+  "examinerTips": "Writing the formula EV = Sum(Probability x Payoff) or stating 'probability-weighted average financial return' awards full marks."
+},
+{
+  "id": "q2m-bmt-04",
+  "subunit": "bmt-toolkit",
+  "questionNumber": "51.1",
+  "question": "Outline what is meant by a circular business model.",
+  "marks": 2,
+  "commandTerm": "Outline",
+  "assessmentObjective": "AO1",
+  "modelAnswer": "A circular business model is a sustainable commercial operating model designed to eliminate waste and resource depletion by closing resource loops, focusing on the reuse, repair, recycling, and prolonged operational lifecycle of materials and products rather than traditional linear disposal.",
+  "markBreakdown": [
+    {
+      "mark": 1,
+      "criterion": "Explains closing loops or eliminating waste/pollution through reuse, recycling, or sharing"
+    },
+    {
+      "mark": 1,
+      "criterion": "Contrasts with traditional linear 'take-make-waste' consumption"
+    }
+  ],
+  "examinerTips": "Mentioning 'closing loops' or 'decoupling economic activity from finite resource consumption' shows deep conceptual understanding."
+}
 ];

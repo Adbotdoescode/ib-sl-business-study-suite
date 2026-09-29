@@ -279,6 +279,8 @@ export function RapidBlitz() {
             <option value="1.3-business-objectives">1.3 Objectives</option>
             <option value="bmt-swot-analysis">SWOT Analysis</option>
             <option value="bmt-ansoff-matrix">Ansoff Matrix</option>
+            <option value="bmt-steeple-analysis">STEEPLE Analysis</option>
+            <option value="bmt-toolkit">BMT Toolkit Core</option>
           </select>
 
           <Button

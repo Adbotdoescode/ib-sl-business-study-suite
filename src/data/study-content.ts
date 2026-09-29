@@ -969,7 +969,244 @@ export const STUDY_UNITS: StudyUnit[] =
         "definition": "A fierce commercial conflict where competing firms repeatedly undercut each other's retail prices, damaging industry profit margins."
       }
     ]
-  }
+  },
+{
+  "id": "bmt-steeple-analysis",
+  "title": "BMT 3: STEEPLE Analysis",
+  "unitCode": "BMT STEEPLE",
+  "subtitle": "Macro-Environmental Scanning, 7 External Dimensions, and Strategic Opportunity-Threat Audits",
+  "estimatedReadTime": "14 min read",
+  "description": "A comprehensive, syllabus-aligned guide to STEEPLE Analysis as a situational management tool. Master external macro-environmental auditing across Social, Technological, Economic, Environmental, Political, Legal, and Ethical dimensions, how STEEPLE populates SWOT, and critical evaluation for IB examinations.",
+  "sections": [
+    {
+      "id": "steeple-01-foundations",
+      "title": "1. Foundations of External Environmental Auditing",
+      "content": "### The Macro-Environment: Beyond Direct Control\n\nIn strategic management, organizations do not exist in an isolated vacuum. They operate inside a dynamic, turbulent, and ever-shifting external environment. \n\nA **STEEPLE Analysis** is an analytical situational management framework used by business planners to audit, examine, and anticipate opportunities and threats emerging from the broad external macro-environment.\n\n```\n       +-------------------------------------------------------------+\n       |                  EXTERNAL MACRO-ENVIRONMENT                 |\n       |  [S]ocial \u2022 [T]echnological \u2022 [E]conomic \u2022 [E]nvironmental  |\n       |             [P]olitical \u2022 [L]egal \u2022 [E]thical               |\n       +-------------------------------------------------------------+\n                                     |\n                         External Scanning & Audit\n                                     v\n       +-------------------------------------------------------------+\n       |                        SWOT MATRIX                          |\n       |        [O]pportunities              [T]hreats               |\n       |  External trends creating       External shifts creating    |\n       |   commercial profit potential      risk of loss or failure  |\n       +-------------------------------------------------------------+\n```\n\n### The Boundary Between Internal and External\n\nA frequent point of confusion on IB examinations is conflating internal factors (which belong exclusively to Strengths and Weaknesses in a SWOT analysis) with external macro-environmental factors (which belong exclusively to Opportunities and Threats in STEEPLE and SWOT).\n\n| Analytical Dimension | Internal Environment (SWOT Strengths & Weaknesses) | External Macro-Environment (STEEPLE Opportunities & Threats) |\n| :--- | :--- | :--- |\n| **Locus of Control** | Under direct organizational control and executive governance. | Largely beyond the direct control of any individual firm. |\n| **Typical Factors** | Liquidity reserves, brand reputation, patents, workforce morale, production capacity, organizational culture. | Inflation rates, demographic aging, statutory minimum wage legislation, artificial intelligence breakthroughs, tax reforms. |\n| **Managerial Action** | Managed, restructured, improved, or eliminated through operational directives. | Monitored, forecasted, and adapted to through strategic positioning and contingency planning. |\n| **Impact Scope** | Firm-specific; unique to the individual corporate entity. | Industry-wide or economy-wide; impacts all competing and substitute enterprises. |\n\n### Opportunities vs. Threats in the Macro-Environment\n\n* **External Opportunities:** Favourable macro-environmental conditions, trends, or regulatory developments that an enterprise can proactively exploit to accelerate sales volume, capture market share, or enhance operating profit margins (e.g., consumer demographic expansion, falling interest rates, trade tariff eliminations).\n* **External Threats:** Unfavourable macro-environmental shifts, geopolitical turbulence, or statutory constraints that pose systemic risks to the firm's market position, liquidity, or ongoing commercial viability (e.g., hyperinflation eroding consumer disposable income, tightening carbon emission mandates, aggressive legal compliance costs).",
+      "keyTakeaways": [
+        "STEEPLE audits the macro-environment over which an individual business has no direct control.",
+        "STEEPLE factors populate the external Opportunities and Threats quadrants of a SWOT Analysis.",
+        "Macro-environmental trends affect all firms in an industry, but businesses adapt with differing degrees of agility."
+      ],
+      "examTips": [
+        "Never classify internal factors like cash flow or employee strikes as STEEPLE factors; STEEPLE is strictly external.",
+        "Remember that an external factor can present an opportunity for one firm while posing an existential threat to another (e.g., inflation boosts discount supermarkets like Aldi while harming premium retailers)."
+      ]
+    },
+    {
+      "id": "steeple-02-dimensions",
+      "title": "2. The Seven STEEPLE Dimensions Detailed",
+      "content": "### Complete Breakdown of the 7 External Dimensions\n\nTo conduct a rigorous macro-environmental audit, IB students must examine each dimension using precise business terminology and real-world analytical application.\n\n#### 1. Social (S)\n* **Definition:** Examines societal demographics, cultural values, lifestyle patterns, educational attainment, and population shifts.\n* **Core Drivers:**\n  * **Demographic Aging:** In developed economies (e.g., Japan, Western Europe), an aging populace increases demand for healthcare, retirement planning, and assisted living, but creates severe labor shortages and shifts tax burdens.\n  * **Changing Household Structures:** Smaller family sizes, rising single-person households, and delayed marriage drive demand for convenience foods, compact apartments, and e-commerce meal kits.\n  * **Health & Wellness Consciousness:** Surging consumer demand for organic foods, plant-based diets, fitness technology, and mental wellness programs, threatening traditional fast-food and sugary beverage manufacturers.\n  * **Multicultural Diversity:** Migration and multicultural demographics require consumer brands to adapt product portfolios, multilingual marketing, and culturally sensitive service practices (e.g., Marks & Spencer adapting checkout policies for religious employees).\n\n#### 2. Technological (T)\n* **Definition:** Technological innovations, scientific breakthroughs, automated manufacturing, and digital infrastructure affecting production and distribution.\n* **Core Drivers:**\n  * **Automation & Robotics:** Replacement of manual labor on factory floors (e.g., automotive assembly) increases capital intensity, reduces unit labor costs, and improves precision, but demands high initial capital investment.\n  * **Artificial Intelligence & Machine Learning:** Algorithmic customer service, predictive logistics, and automated data analytics reshape knowledge industries.\n  * **E-Commerce & Mobile Payment Infrastructure:** Frictionless digital transactions dismantle traditional brick-and-mortar retail advantages and lower barriers to entry for direct-to-consumer digital startups.\n  * **Shortened Product Life Cycles & Obsolescence:** Rapid technological turnover (e.g., gaming consoles like Nintendo Wii to Wii U; annual smartphone updates) forces businesses into continuous, high-risk R&D expenditures to avoid commercial irrelevance.\n\n#### 3. Economic (E)\n* **Definition:** Macroeconomic conditions governing national output, currency valuations, monetary policy, and aggregate consumer demand.\n* **Core Drivers:**\n  * **The Business Cycle:** Economies oscillate through four recurring phases:\n    1. **Boom:** High national output, robust employment, surging consumer confidence, rising corporate investment.\n    2. **Recession:** Two consecutive quarters of negative GDP growth; declining sales, rising unemployment, cutbacks in discretionary expenditure.\n    3. **Trough / Slump:** Severe economic contraction, widespread insolvencies, depressed consumer spending.\n    4. **Recovery:** Rebounding economic activity, monetary stimulus, gradual restoration of business confidence.\n  * **Inflation & Purchasing Power:** Uncontrolled general price increases (e.g., Zimbabwe's historical hyperinflation) erode consumer disposable income, heighten wage demands, and render domestic exporters less price-competitive.\n  * **Interest Rates:** Monetary policy set by central banks; high interest rates increase borrowing costs on commercial loans and reduce mortgage-holders' discretionary spending, while low rates encourage debt-financed corporate capital expansion.\n  * **Exchange Rate Fluctuations (SPICED Rule):**\n    * **S**trong **P**ound (Currency) **I**mports **C**heaper, **E**xports **D**earer.\n    * A strong domestic currency lowers costs for raw material importers (e.g., Gijs Van Oosten Jeans importing denim from the USA), but harms price competitiveness when selling finished goods in foreign export markets.\n    * A weak domestic currency makes exports attractive overseas but inflates foreign procurement costs.\n\n#### 4. Environmental / Ecological (E)\n* **Definition:** Ecological, climatic, and natural resource variables directly impacting corporate sourcing, manufacturing, and operational footprints.\n* **Core Drivers:**\n  * **Climate Change & Extreme Weather Volatility:** Unpredictable meteorological events disrupt global agricultural supply chains, inflate logistics shipping insurance, and harm seasonal industries such as ski resorts and beach tourism.\n  * **Depletion of Finite Natural Resources:** Diminishing supplies of rare earth metals, fossil fuels, and fresh water compel businesses to transition toward circular resource models and renewable alternatives.\n  * **Carbon Footprint & Sustainable Packaging:** Mounting public scrutiny over single-use plastics, corporate carbon emissions, and landfill waste obliges enterprises to adopt eco-friendly packaging and closed-loop manufacturing.\n\n#### 5. Political (P)\n* **Definition:** Government stability, geopolitical relations, fiscal policy, and state intervention in commercial markets.\n* **Core Drivers:**\n  * **Political Stability & Regime Continuity:** Predictable political regimes attract foreign direct investment (FDI); regime instability, civil unrest, or geopolitical warfare threatens asset security and leads to capital flight.\n  * **Fiscal Policy & Taxation:** Corporate tax rates, capital gains taxes, and government infrastructure spending influence corporate retained profits and capital investment feasibility.\n  * **International Trade Policy:** Protectionist tariffs, import quotas, trade embargoes, and free-trade agreements (e.g., USMCA, CPTPP) dictate market access and cross-border profit margins.\n\n#### 6. Legal (L)\n* **Definition:** The national and international statutory legislative framework establishing mandatory behavioral rules and enforceable penalties.\n* **Core Drivers:**\n  * **Employment & Labor Legislation:** Statutory minimum wages, maximum working hour directives, anti-discrimination laws, and mandatory rest breaks (e.g., Walmart fined $78M for labor law rest break violations).\n  * **Consumer Protection Laws:** Legislation regulating product safety standards, truthful advertising, and consumer refund rights (e.g., Findus horsemeat scandal resulting in prosecution and product recalls).\n  * **Competition & Antitrust Legislation:** Regulatory bodies (e.g., FTC, CMA) prohibiting anti-competitive cartels, predatory pricing, and monopolistic mergers that distort fair market competition.\n  * **Intellectual Property Protection:** Patent, copyright, and trademark statutes protecting enterprise innovations from unauthorized corporate theft.\n\n#### 7. Ethical (E)\n* **Definition:** Moral principles, societal values, and behavioral norms governing fair, responsible, and transparent commercial conduct.\n* **Core Drivers:**\n  * **Corporate Social Responsibility (CSR):** Voluntary corporate actions that exceed statutory minimums to benefit employees, local communities, and ecological sustainability.\n  * **Ethical Sourcing & Fair Trade:** Auditing multi-tier supply chains to guarantee fair producer compensation, safe factory working conditions, and the complete elimination of child or forced labor.\n  * **Executive Remuneration & Pay Equity:** Societal scrutiny regarding excessive executive bonuses relative to median worker wages, alongside gender and ethnic pay parity.\n  * **Truthful Marketing & Transparency:** Avoiding misleading greenwashing claims, predatory targeting of vulnerable demographics (e.g., children), or manipulative digital dark patterns.",
+      "keyTakeaways": [
+        "STEEPLE encompasses Social, Technological, Economic, Environmental, Political, Legal, and Ethical external forces.",
+        "The SPICED mnemonic (Strong Pound Imports Cheaper Exports Dearer) governs currency exchange analysis.",
+        "Political factors represent government ideology and trade policy; Legal factors represent enforceable statutory acts and penalties.",
+        "Ethical practices are voluntary moral standards; Legal requirements are legally mandated."
+      ],
+      "examTips": [
+        "Distinguish Political from Legal: Political = government decisions and tax policy; Legal = passed statutes, court rulings, and regulatory compliance.",
+        "Distinguish Social from Ethical: Social = consumer demographic trends and cultural habits; Ethical = moral judgements on corporate fairness, supply-chain welfare, and CSR."
+      ]
+    },
+    {
+      "id": "steeple-03-swot-integration",
+      "title": "3. STEEPLE Integration with SWOT & Strategic Decision-Making",
+      "content": "### How STEEPLE Powers the SWOT Matrix\n\nIn professional management consulting and IB Paper 2 case studies, STEEPLE should never be conducted in isolation. It serves as the primary external scanning engine that systematically populates the **Opportunities** and **Threats** of a **SWOT Analysis**.\n\n```\n    STEEPLE MACRO AUDIT                          SWOT STRATEGIC MATRIX\n+--------------------------+              +-----------------------------------+\n| Social Demographic Trend | -----------> | EXTERNAL OPPORTUNITY:             |\n| Aging population in      |              | Launch specialized senior care or |\n| Western Europe           |              | premium retirement services       |\n+--------------------------+              +-----------------------------------+\n                                                            |\n+--------------------------+              +-----------------------------------+\n| Economic Macro Shift     | -----------> | EXTERNAL THREAT:                  |\n| Central bank interest    |              | Commercial debt financing becomes |\n| rate hikes to 6%         |              | prohibitive; consumer loans stall |\n+--------------------------+              +-----------------------------------+\n```\n\n### The Weighted STEEPLE Matrix\n\nIn advanced strategic evaluations, senior management cannot treat every external trend with equal urgency. A **Weighted STEEPLE Matrix** quantifies external variables by assigning two numerical ratings:\n\n1. **Probability / Likelihood of Occurrence (Score 1 to 5):** How probable is it that this external development will materialize?\n2. **Magnitude of Organizational Impact (Score 1 to 5):** If it occurs, how severely will it impact corporate cash flow, brand equity, or operations?\n\n$$\\text{Strategic Impact Score} = \\text{Probability} \\times \\text{Magnitude}$$\n\n| External Factor | STEEPLE Category | Probability (1\u20135) | Impact (1\u20135) | Strategic Score (1\u201325) | Strategic Priority |\n| :--- | :--- | :---: | :---: | :---: | :--- |\n| **New Minimum Wage Statute (+15%)** | Legal | 5 | 4 | **20** | Immediate budget reallocation |\n| **Generative AI Disruption** | Technological | 4 | 5 | **20** | High-priority capital investment |\n| **Severe Drought Affecting Raw Cotton** | Environmental | 3 | 4 | **12** | Secondary supply-chain diversification |\n| **Change in National School Holiday Dates** | Social | 2 | 2 | **4** | Low priority / routine monitoring |\n\nBy ranking factors by their strategic impact score, executive leadership avoids analytical paralysis and directs capital toward the most critical macro-environmental opportunities and existential threats.",
+      "keyTakeaways": [
+        "STEEPLE provides the external data that populates SWOT Opportunities and Threats.",
+        "A Weighted STEEPLE matrix multiplies Probability by Impact to rank strategic priorities.",
+        "Quantifying external factors prevents executive teams from over-focusing on minor developments while ignoring critical threats."
+      ],
+      "examTips": [
+        "In IB Section B/C essays, recommend pairing STEEPLE with SWOT and Decision Trees to transform qualitative external observations into prioritized strategic plans."
+      ]
+    },
+    {
+      "id": "steeple-04-evaluation",
+      "title": "4. Academic Evaluation: Strengths vs. Structural Limitations",
+      "content": "### Evaluative Synthesis for Top-Band IB Marks (AO3)\n\nTo attain maximum marks in IB evaluation questions, students must demonstrate balance: recognizing both the diagnostic power and the structural drawbacks of STEEPLE Analysis.\n\n### Strategic Strengths & Advantages\n1. **Holistic Environmental Awareness:** Prevents corporate myopia by compelling executives to look beyond day-to-day operations and examine the comprehensive macro-landscape.\n2. **Early-Mover Advantage:** Identifies emerging consumer trends and technological breakthroughs early, enabling the firm to formulate proactive growth strategies before rivals react.\n3. **Structured Risk Mitigation:** Highlights emerging legal statutes and geopolitical risks before they trigger punitive regulatory fines or supply-chain collapses.\n4. **Facilitates Cross-Functional Alignment:** Unifies diverse executive departments (finance, legal, marketing, operations) around a shared understanding of external realities.\n\n### Inherent Limitations & Deficiencies\n1. **Static Snapshot in a Volatile World:** A STEEPLE report reflects conditions at a single point in time. In volatile, hyper-competitive markets, macroeconomic shocks (e.g., sudden pandemics, currency devaluations) render static analyses obsolete rapidly.\n2. **Information Overload & Executive Bias:** Compiling data across seven broad fields produces enormous volumes of qualitative information. Executives prone to confirmation bias often emphasize data that confirms their pet projects while ignoring inconvenient threats.\n3. **Absence of Prescriptive Guidance:** STEEPLE identifies *what* is happening externally, but cannot prescribe *how* the business should respond. It provides diagnostic intelligence, not an execution strategy.\n4. **Significant Research & Intelligence Costs:** Conducting rigorous multi-country STEEPLE research requires substantial financial budgets and executive time, placing smaller enterprises (sole traders, partnerships) at a distinct disadvantage compared to well-funded multinationals.",
+      "keyTakeaways": [
+        "STEEPLE provides comprehensive macro awareness and early-mover advantages.",
+        "Limitations include static obsolescence, qualitative bias, absence of prescriptive solutions, and high research costs.",
+        "STEEPLE must be updated continuously rather than treated as a one-time exercise."
+      ],
+      "examTips": [
+        "In 6-mark or 10-mark evaluation questions, conclude with the 'It Depends' rule: The usefulness of STEEPLE depends on the pace of industry change, managerial analytical capability, and whether leadership backs insights with decisive resource allocation."
+      ]
+    },
+    {
+      "id": "steeple-05-exam-protocols",
+      "title": "5. IB Examination Protocols & Pitfalls",
+      "content": "### Golden Rules for IB Assessment Success\n\nWhen analyzing STEEPLE case studies in Paper 1 or Paper 2, adhere strictly to these examiner protocols:\n\n```\n                          IB EXAM TECHNIQUE PROTOCOL\n+-------------------------------------------------------------------------+\n| STEP 1: Root Every Factor in the Case Study Stimulus                    |\n| Never cite generic textbook factors; quote specific stimulus evidence.  |\n|                                                                         |\n| STEP 2: Explicitly Classify into ONE Primary Dimension                  |\n| Clearly identify whether the factor is Social, Tech, Econ, etc.         |\n|                                                                         |\n| STEP 3: State the Dual Commercial Implication                           |\n| Detail EXACTLY how cash flow, unit costs, or market share are affected. |\n|                                                                         |\n| STEP 4: Balance Opportunity vs. Threat                                  |\n| Show how the trend harms one operational area while helping another.    |\n+-------------------------------------------------------------------------+\n```\n\n### Frequent Examination Pitfalls to Avoid\n\n* **Pitfall 1: Confusing Political and Legal Dimensions**\n  * *Wrong:* 'A new minimum wage law is a political factor because politicians debated it.'\n  * *Right:* The minimum wage statute is a **Legal** factor because it is an enacted, enforceable law carrying criminal or financial penalties. Political factors involve government policy debates, foreign trade pacts, and political stability.\n* **Pitfall 2: Confusing Social and Ethical Dimensions**\n  * *Wrong:* 'Customers wanting sustainably caught fish is an ethical factor for society.'\n  * *Right:* The shift in consumer purchasing habits toward sustainability is a **Social** demographic trend. The firm's voluntary decision to audit its fishing suppliers and guarantee fair wages is an **Ethical** corporate response.\n* **Pitfall 3: Treating STEEPLE Factors as Universal**\n  * *Wrong:* 'Higher inflation is bad for all businesses.'\n  * *Right:* While inflation compresses household discretionary income (threatening premium brands), it creates an external **Opportunity** for low-cost discount retailers (e.g., Aldi, Dollar General) as consumers down-trade to budget alternatives.",
+      "keyTakeaways": [
+        "Always root STEEPLE factors directly in the provided case study context.",
+        "Distinguish Legal (enforceable laws) from Political (government policy/stability).",
+        "Recognize that macro shifts create opportunities for some firms and threats for others."
+      ],
+      "examTips": [
+        "Examiners award highest AO2 marks when you demonstrate how an external factor directly alters the firm's financial liquidity, production costs, or target market demand."
+      ]
+    }
+  ],
+  "highYieldTerms": [
+    {
+      "term": "STEEPLE Analysis",
+      "definition": "An analytical framework auditing external macro-environmental opportunities and threats across Social, Technological, Economic, Environmental, Political, Legal, and Ethical dimensions."
+    },
+    {
+      "term": "Macro-Environment",
+      "definition": "The broad external operating context encompassing demographic, economic, and regulatory forces that are largely beyond the direct control of any individual firm."
+    },
+    {
+      "term": "SPICED Rule",
+      "definition": "An economic mnemonic stating that a Strong Pound makes Imports Cheaper and Exports Dearer, impacting cross-border trade competitiveness."
+    },
+    {
+      "term": "Business Cycle",
+      "definition": "The recurring cyclical fluctuations in national economic activity over time, moving through boom, recession, slump (trough), and recovery."
+    },
+    {
+      "term": "Inflation",
+      "definition": "A sustained, general increase in the price level of goods and services across an economy, eroding consumer purchasing power."
+    },
+    {
+      "term": "Fiscal Policy",
+      "definition": "Government policies regarding public taxation and expenditure designed to influence aggregate demand and economic growth."
+    },
+    {
+      "term": "Consumer Protection Legislation",
+      "definition": "Statutory laws regulating product safety, fair advertising, and consumer refund rights to prevent commercial exploitation."
+    },
+    {
+      "term": "Corporate Social Responsibility (CSR)",
+      "definition": "Voluntary corporate obligations that exceed legal minimums to conduct business responsibly toward workers, communities, and the environment."
+    },
+    {
+      "term": "Weighted STEEPLE Analysis",
+      "definition": "A quantitative scoring technique that prioritizes external factors by multiplying their probability of occurrence by their anticipated magnitude of impact."
+    },
+    {
+      "term": "External Shock (Black Swan)",
+      "definition": "An unexpected, highly disruptive macro-environmental event (e.g., pandemic, war, sudden embargo) that destabilizes commercial markets."
+    }
+  ]
+},
+{
+  "id": "bmt-toolkit",
+  "title": "Business Management Toolkit (BMT) Master Guide",
+  "unitCode": "BMT ALL",
+  "subtitle": "Overview of the 8 SL Tools, BCG Matrix, Circular Business Models, and Quantitative Decision Trees",
+  "estimatedReadTime": "15 min read",
+  "description": "A comprehensive master guide to the IB Business Management Toolkit (BMT). Covers the core SL analytical frameworks: BCG Matrix product portfolio analysis, Circular Business Models vs linear production, and quantitative Decision Trees with Expected Monetary Value calculations.",
+  "sections": [
+    {
+      "id": "bmt-01-overview",
+      "title": "1. Overview of the Business Management Toolkit",
+      "content": "### What is the Business Management Toolkit (BMT)?\n\nThe Business Management Toolkit (BMT) is an integrated suite of situational, planning, and decision-making tools embedded across the entire IB syllabus. Introduced in the 2024 examination specification, the toolkit equips students and business leaders to rigorously evaluate real-world business scenarios.\n\nOf the 15 tools in the IB specification, **eight apply to Standard Level (SL) students** (with all 15 applying to HL students):\n\n| Tool Number | Tool Name | Classification | Primary Syllabus Purpose |\n| :---: | :--- | :--- | :--- |\n| **Tool 1** | **SWOT Analysis** | Situational Tool | Auditing internal strengths/weaknesses and external opportunities/threats. |\n| **Tool 2** | **Ansoff's Matrix** | Decision-Making Tool | Categorizing strategic corporate growth options into products vs markets. |\n| **Tool 3** | **STEEPLE Analysis** | Situational Tool | Scanning external macro-environmental trends across 7 dimensions. |\n| **Tool 4** | **Boston Consulting Group (BCG) Matrix** | Situational & Decision-Making | Managing and balancing a multi-product portfolio based on cash flows. |\n| **Tool 5** | **Business Plan** | Planning Tool | Guiding strategic goals, obtaining bank loans, and securing equity investment. |\n| **Tool 6** | **Decision Trees** | Quantitative Decision-Making | Calculating expected monetary values (EMV) under conditions of risk and probability. |\n| **Tool 7** | **Descriptive Statistics** | Situational & Decision-Making | Analyzing business data (mean, median, mode, standard deviation, quartiles). |\n| **Tool 8** | **Circular Business Models** | Decision-Making Tool | Replacing linear 'take-make-waste' models with regenerative closed loops. |\n\n### How the Tools Integrate\n\nIn high-scoring IB examinations, students do not use tools in isolation. They synthesize them:\n* **STEEPLE** scans the macro-environment to populate **SWOT Opportunities and Threats**.\n* **SWOT** identifies organizational capabilities to determine which **Ansoff Growth Strategy** to pursue.\n* **The BCG Matrix** audits existing product lines to identify cash-generating Cash Cows capable of financing **Ansoff Market Development or Diversification**.\n* **Decision Trees** mathematically calculate the expected financial payoff and risks of competing strategic options before capital is committed.",
+      "keyTakeaways": [
+        "The BMT features 8 tools for SL students classified into Situational, Decision-Making, and Planning frameworks.",
+        "Tools connect systematically: STEEPLE feeds SWOT, BCG balances existing cash flow, Ansoff guides growth, and Decision Trees quantify risk."
+      ],
+      "examTips": [
+        "Whenever a case study involves choosing between strategic options, recommend combining qualitative tools (SWOT/Ansoff) with quantitative tools (Decision Trees) for balanced evaluation."
+      ]
+    },
+    {
+      "id": "bmt-02-bcg-matrix",
+      "title": "2. Boston Consulting Group (BCG) Matrix",
+      "content": "### Evaluating Product Portfolio Balance\n\nDevised by Bruce Henderson in 1970 for the Boston Consulting Group, the **BCG Matrix** is a situational and decision-making framework designed to help diversified businesses (e.g., Unilever, Apple, Coca-Cola) analyze their product portfolio based on two metrics:\n\n1. **Market Growth Rate (Vertical Axis):** The annual rate of sales expansion in the broader industry (attractiveness of the market).\n2. **Relative Market Share (Horizontal Axis):** The firm's sales volume relative to its largest direct competitor (competitive strength).\n\n```\n                 RELATIVE MARKET SHARE\n               High                 Low\n        +--------------------+--------------------+\n   H    |       STARS        |   QUESTION MARKS   |\n   i    | High Growth        | High Growth        |\n   g    | High Market Share  | Low Market Share   |\n   h    | Strategy: BUILD    | Strategy: BUILD /  |\n M      |                    |           DIVEST   |\n a      +--------------------+--------------------+\n r    L |     CASH COWS      |        DOGS        |\n k    o | Low Growth         | Low Growth         |\n e    w | High Market Share  | Low Market Share   |\n t      | Strategy: HARVEST  | Strategy: DIVEST / |\n        |                    |           HOLD     |\n        +--------------------+--------------------+\n```\n\n### The Four Quadrants Detailed\n\n#### 1. Stars (High Market Share, High Market Growth)\n* **Profile:** Market leaders in rapidly expanding industries (e.g., Apple iPhone during early smartphone boom; Tesla electric vehicles).\n* **Cash Flow Dynamics:** Generate massive cash receipts, but simultaneously consume substantial capital for capacity expansion, aggressive advertising, and continuous R&D to maintain market dominance against aggressive rivals.\n* **Strategic Objective:** **Build** - Invest heavily to maintain position until market growth slows, transforming the Star into a future Cash Cow.\n\n#### 2. Cash Cows (High Market Share, Low Market Growth)\n* **Profile:** Mature, well-established brands dominating a stable, saturated market (e.g., Coca-Cola Original, Microsoft Windows).\n* **Cash Flow Dynamics:** Highly profitable; generate substantial surplus cash with minimal need for capital reinvestment because factory infrastructure is already fully depreciated and market growth is sluggish.\n* **Strategic Objective:** **Harvest (Milk)** or **Hold** - Extract cash surpluses to fund high-growth Stars and promising Question Marks.\n\n#### 3. Question Marks / Problem Children (Low Market Share, High Market Growth)\n* **Profile:** Products operating in fast-growing, attractive industries but struggling to capture significant market share (e.g., Google Pixel smartphones, newly launched streaming platforms).\n* **Cash Flow Dynamics:** Major cash drains; require immense marketing and capital investment to compete against entrenched market leaders, with zero guarantee of commercial success.\n* **Strategic Objective:** **Build** (invest cash-cow reserves to convert into Stars) or **Divest** (sell off or terminate if unable to gain traction).\n\n#### 4. Dogs (Low Market Share, Low Market Growth)\n* **Profile:** Weak market presence in stagnant, declining, or obsolete industries (e.g., DVD players, legacy dial-up internet).\n* **Cash Flow Dynamics:** Low or negative cash flow; may break even but consume managerial attention and warehouse space that could be deployed elsewhere.\n* **Strategic Objective:** **Divest** (liquidate or sell to free capital) or **Hold** (maintain if product provides brand heritage or satisfies a loyal, price-insensitive niche).\n\n### The Ideal Product Life-Cycle Cash Circulation\n\nIn a balanced corporate portfolio:\n$$\\text{Cash Cows} \\xrightarrow{\\text{Surplus Profits}} \\text{Fund Question Marks} \\xrightarrow{\\text{Market Share Gain}} \\text{Transform into Stars} \\xrightarrow{\\text{Market Maturity}} \\text{Become New Cash Cows}$$\n\n### The Four BCG Strategies\n1. **Build:** Reinvest surplus capital into Stars and high-potential Question Marks to expand market share.\n2. **Harvest (Milk):** Maximize short-term cash flow from Cash Cows by trimming non-essential expenditures.\n3. **Hold:** Maintain current market position for mature products with minimal capital commitment.\n4. **Divest:** Liquidate, phase out, or sell off Dogs or hopeless Question Marks to release trapped capital.",
+      "keyTakeaways": [
+        "The BCG Matrix maps products on Market Growth Rate vs Relative Market Share.",
+        "Cash Cows generate surplus funds; Question Marks and Stars consume capital; Dogs tie up resources.",
+        "A healthy business uses surplus cash from mature Cash Cows to nurture Question Marks into Stars."
+      ],
+      "examTips": [
+        "In exam questions about BCG, always trace the cash flow linkage: identify which product acts as the cash cow funding the question mark."
+      ]
+    },
+    {
+      "id": "bmt-03-circular-models",
+      "title": "3. Circular Business Models (CBMs)",
+      "content": "### Moving Beyond the Linear 'Take-Make-Waste' Paradigm\n\nTraditional commerce operates on a **Linear Business Model**:\n$$\\text{Take (Extract Finite Raw Materials)} \\rightarrow \\text{Make (Manufacture)} \\rightarrow \\text{Use} \\rightarrow \\text{Waste (Landfill)}$$\n\nLinear models treat natural resources as infinite and disregard ecological externalities, contributing to carbon emissions, toxic landfill accumulation, and resource depletion.\n\nIn stark contrast, **Circular Business Models (CBMs)** prioritize sustainability by decoupling economic growth from environmental degradation. They close resource loops so that materials, components, and products retain their highest economic utility and value indefinitely.\n\n### Five Core Types of Circular Business Models\n\n| Model Type | Core Operating Principle | Commercial Example |\n| :--- | :--- | :--- |\n| **1. Circular Supply Models** | Replacing scarce, finite virgin natural resources with renewable, bio-based, or 100% recyclable input materials. | Shoe manufacturers utilizing ocean-recovered plastics and bio-based algae foams instead of petroleum-derived synthetic rubber. |\n| **2. Resource Recovery Models** | Recovering and re-processing waste outputs and industrial byproducts into secondary usable raw materials. | Aluminum can producers melting discarded consumer cans; carpet manufacturers regenerating discarded nylon fishing nets into luxury carpeting. |\n| **3. Product Life Extension Models** | Designing durable, modular products engineered for easy repair, upgrading, reconditioning, and resale to prolong their operational lifecycle. | Patagonia's 'Worn Wear' garment repair program; Fairphone designing modular smartphones where users swap batteries and cameras with a standard screwdriver. |\n| **4. Sharing Models** | Facilitating multi-user collaborative access to underutilized assets through digital sharing platforms, increasing utility per asset. | Car-sharing platforms (Zipcar); co-working office spaces; peer-to-peer equipment sharing. |\n| **5. Product-Service System (PSS) Models** | Retaining corporate ownership of physical hardware while selling the service or functional output on a leasing or subscription basis. | Philips selling 'Light-as-a-Service' to airports (leasing illumination while Philips maintains and upgrades the LED fixtures); Rolls-Royce 'Power-by-the-Hour' leasing jet engine uptime. |\n\n### Strategic Trade-Offs of Circular Models\n* **Advantages:** Shields business from raw material price volatility, enhances brand loyalty among eco-conscious consumers, attracts ESG institutional capital, and ensures compliance with tightening circular economy legislation.\n* **Limitations:** High initial R&D and supply-chain re-engineering costs, complex reverse-logistics requirements (collecting discarded products), and resistance from consumers accustomed to low-cost disposable items.",
+      "keyTakeaways": [
+        "Circular models replace the linear 'take-make-waste' model with restorative closed loops.",
+        "The 5 models are: Circular Supply, Resource Recovery, Product Life Extension, Sharing Models, and Product-Service Systems.",
+        "Product-Service Systems shift focus from selling physical goods to selling functional utility."
+      ],
+      "examTips": [
+        "In IB case studies focused on ethics and environment, recommend a Product Life Extension or Resource Recovery model as a commercially viable CSR strategy."
+      ]
+    },
+    {
+      "id": "bmt-04-decision-trees",
+      "title": "4. Quantitative Decision Trees",
+      "content": "### Scientific Decision-Making Under Uncertainty\n\nA **Decision Tree** is a quantitative, diagrammatic decision-making tool that maps competing strategic options, probable outcomes, and financial payoffs to identify the mathematically optimal course of action.\n\n### Anatomy of a Decision Tree Diagram\n\n* **Decision Nodes (Squares $\\square$):** Points where managerial decision-makers have complete control to choose between distinct strategic options (e.g., Option A vs Option B). There is no uncertainty involved in making the choice.\n* **Chance / Probability Nodes (Circles $\\bigcirc$):** Points where uncertain external events occur beyond managerial control. Each diverging branch represents a distinct outcome and must have an assigned probability ($p$). The probabilities branching from a single chance node must always sum to $1.0$ (or $100\\%$).\n* **Payoffs (Terminal Values):** The gross financial return generated at the terminus of each outcome branch.\n* **Initial Capital Cost:** The financial expenditure required to launch each strategic option (written on the main decision branches and deducted from the expected value).\n\n```\n                            /--- [High Demand (p = 0.7)] ---> Payoff: $1,000,000\n       /--- Option A (Cost $300k)\n      /                     \\--- [Low Demand  (p = 0.3)] ---> Payoff: $200,000\n[Decision Node]\n      \\                     /--- [High Demand (p = 0.5)] ---> Payoff: $800,000\n       \\--- Option B (Cost $150k)\n                            \\--- [Low Demand  (p = 0.5)] ---> Payoff: $300,000\n```\n\n### The Expected Monetary Value (EMV) Formula\n\nThe **Expected Value (EV)** represents the probability-weighted average financial outcome of a chance node:\n$$\\text{Expected Value (EV)} = \\sum (\\text{Probability} \\times \\text{Payoff})$$\n\nThe **Net Expected Monetary Value (Net EMV)** subtracts the initial capital cost:\n$$\\text{Net EMV} = \\text{Total Expected Value (EV)} - \\text{Initial Capital Cost}$$\n\n#### Worked Calculation Example:\n* **Option A Calculation:**\n  $$\\text{EV} = (0.7 \\times \\$1,000,000) + (0.3 \\times \\$200,000) = \\$700,000 + \\$60,000 = \\$760,000$$\n  $$\\text{Net EMV}_A = \\$760,000 - \\$300,000 = \\mathbf{\\$460,000}$$\n\n* **Option B Calculation:**\n  $$\\text{EV} = (0.5 \\times \\$800,000) + (0.5 \\times \\$300,000) = \\$400,000 + \\$150,000 = \\$550,000$$\n  $$\\text{Net EMV}_B = \\$550,000 - \\$150,000 = \\mathbf{\\$400,000}$$\n\n**Decision Rule:** Choose **Option A** because it yields the higher Net Expected Monetary Value ($\\$460,000 > \\$400,000$). We draw two parallel lines across the rejected Option B branch (pruning the tree).\n\n### Critical Evaluation of Decision Trees\n* **Strengths:** Forces executives to quantify risk, visualizes complex multi-stage choices clearly, provides a scientific baseline for board presentations.\n* **Limitations:** Relies on subjective managerial estimates for probabilities and payoffs (GIGO: Garbage In, Garbage Out), ignores qualitative factors (workforce morale, brand ethics, brand reputation), assumes managerial risk neutrality (ignores the risk of insolvency if the worst-case outcome occurs).",
+      "keyTakeaways": [
+        "Squares represent Decision Nodes; circles represent Chance/Probability Nodes.",
+        "Probabilities branching from any single chance node must always sum to 1.0.",
+        "Net EMV = Sum of (Probability x Payoff) minus Initial Capital Cost.",
+        "A scientific tool that must be balanced against qualitative considerations."
+      ],
+      "examTips": [
+        "In calculation questions, always show full working: write out the EV equation, calculate gross EV, and explicitly subtract the initial cost."
+      ]
+    },
+    {
+      "id": "bmt-05-strategic-synthesis",
+      "title": "5. Cross-Tool Strategic Synthesis",
+      "content": "### The Unified IB Business Strategy Matrix\n\nTop-tier IB Business Management students synthesize the toolkit into a seamless decision-making cycle:\n\n```\n                            THE TOOLKIT SYNTHESIS CYCLE\n+---------------------------------------------------------------------------------+\n| 1. SITUATIONAL AUDIT                                                            |\n|    STEEPLE (External Scanning) + SWOT (Internal Capabilities)                   |\n|    Identifies core strengths to leverage and macro threats to avoid.            |\n|                                                                                 |\n| 2. PORTFOLIO BALANCE AUDIT                                                      |\n|    BCG Matrix                                                                   |\n|    Audits existing product cash flows; checks if Cash Cows can fund growth.     |\n|                                                                                 |\n| 3. STRATEGIC GROWTH FORMULATION                                                 |\n|    Ansoff Matrix + Circular Business Models                                     |\n|    Selects growth vector (Penetration, Product Dev, Market Dev, Diversification)|\n|    while embedding sustainable resource loops.                                  |\n|                                                                                 |\n| 4. QUANTITATIVE APPRAISAL & EXECUTION                                           |\n|    Decision Trees + Business Plan                                               |\n|    Calculates Net EMV between options; sets timeline, finance, and HR goals.    |\n+---------------------------------------------------------------------------------+\n```\n\n### When to Use Which Tool: Quick Decision Guide\n\n* **Use STEEPLE** when the case study asks about government policy, technological shifts, inflation, demographic changes, or macro-environment changes.\n* **Use SWOT** when the firm needs a 360-degree audit of its own strengths/weaknesses matched against external opportunities/threats.\n* **Use BCG Matrix** when a multi-product firm needs to allocate marketing budgets or rebalance products with different growth rates.\n* **Use Ansoff Matrix** when the board is debating whether to launch a new product or enter an unfamiliar geographical market.\n* **Use Circular Models** when the firm faces resource scarcity, landfill taxes, or demands from consumers for sustainable product lifecycles.\n* **Use Decision Trees** when the business has historical probability data and must choose between mutually exclusive capital investment projects.",
+      "keyTakeaways": [
+        "The toolkit provides an end-to-end strategic formulation cycle.",
+        "Situational tools diagnose; Portfolio tools balance; Growth tools chart direction; Decision tools calculate payoffs.",
+        "Mastering cross-tool synthesis is the hallmark of Band 7 IB candidates."
+      ],
+      "examTips": [
+        "In 10-mark essay questions, synthesizing two complementary tools (e.g. STEEPLE + SWOT, or BCG + Ansoff) instantly elevates your answer to top-band evaluative marks."
+      ]
+    }
+  ],
+  "highYieldTerms": [
+    {
+      "term": "Business Management Toolkit (BMT)",
+      "definition": "The formal suite of situational, planning, and decision-making tools integrated across the IB Business Management syllabus."
+    },
+    {
+      "term": "Boston Consulting Group (BCG) Matrix",
+      "definition": "A 2x2 portfolio planning framework categorizing products by Market Growth Rate and Relative Market Share into Stars, Cash Cows, Question Marks, and Dogs."
+    },
+    {
+      "term": "Cash Cow",
+      "definition": "A highly profitable, well-established product in a mature, low-growth market with high relative market share, generating surplus cash flow."
+    },
+    {
+      "term": "Star",
+      "definition": "A market-leading product with high market share in a rapidly expanding industry, generating high revenue but requiring heavy capital reinvestment."
+    },
+    {
+      "term": "Question Mark (Problem Child)",
+      "definition": "A product with low market share in a high-growth market, consuming high cash reserves with uncertain prospects of becoming a Star."
+    },
+    {
+      "term": "Dog",
+      "definition": "A product with low market share in a stagnant or declining low-growth industry, generating low or negative cash flow."
+    },
+    {
+      "term": "Linear Business Model",
+      "definition": "A traditional economic production model based on the 'take-make-waste' sequence, consuming finite resources and generating waste."
+    },
+    {
+      "term": "Circular Business Model (CBM)",
+      "definition": "A restorative business model designed to minimize resource consumption and waste by keeping materials, components, and products in continuous closed loops."
+    },
+    {
+      "term": "Decision Tree",
+      "definition": "A quantitative diagrammatic tool that models decision options, chance events, and financial payoffs to calculate expected monetary values under risk."
+    },
+    {
+      "term": "Expected Monetary Value (EMV)",
+      "definition": "The probability-weighted average financial outcome of a chance node, calculated as the sum of each outcome's probability multiplied by its financial payoff."
+    }
+  ]
+}
 ];
 
 export function getStudyUnitById(id: SyllabusSubunit | string): StudyUnit | undefined {
