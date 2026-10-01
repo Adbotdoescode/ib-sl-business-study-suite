@@ -213,6 +213,66 @@ export const CRAM_DEFINITIONS: DefinitionItem[] = [
     "sell functional utility",
     "closed resource loops"
   ]
+},
+{
+  "id": "def-27",
+  "term": "Stakeholder",
+  "subunit": "1.4-stakeholders",
+  "definition": "Any individual, group, or organization with a direct interest or involvement (a 'stake') in the operations, decisions, and performance of a business, impacted by or influencing its activities.",
+  "keyExamTokens": [
+    "direct interest or involvement",
+    "impacted by organizational decisions",
+    "internal vs external",
+    "broad umbrella group"
+  ]
+},
+{
+  "id": "def-28",
+  "term": "Internal Stakeholders",
+  "subunit": "1.4-stakeholders",
+  "definition": "Members of the business organization who operate from within the enterprise, namely employees (staff), managers, directors, and internal equity shareholders.",
+  "keyExamTokens": [
+    "operate from within",
+    "employees, managers, directors",
+    "internal owners",
+    "daily operational involvement"
+  ]
+},
+{
+  "id": "def-29",
+  "term": "External Stakeholders",
+  "subunit": "1.4-stakeholders",
+  "definition": "Individuals and outside organizations not part of the business but having a direct interest in or impact from its conduct, including customers, suppliers, financiers, pressure groups, competitors, and government.",
+  "keyExamTokens": [
+    "outside the business",
+    "customers, suppliers, financiers",
+    "pressure groups, government",
+    "external regulatory/market interest"
+  ]
+},
+{
+  "id": "def-30",
+  "term": "Stakeholder Conflict",
+  "subunit": "1.4-stakeholders",
+  "definition": "The friction, tension, or disagreement that arises when the varying needs, priorities, and objectives of different stakeholder groups cannot be simultaneously satisfied due to finite organizational resources.",
+  "keyExamTokens": [
+    "incompatible priorities",
+    "competing stakeholder objectives",
+    "finite resources",
+    "remuneration vs dividends"
+  ]
+},
+{
+  "id": "def-31",
+  "term": "Stakeholder Mapping",
+  "subunit": "1.4-stakeholders",
+  "definition": "A strategic management framework (Mendelow's Matrix) that plots stakeholder groups along two axes according to their relative Level of Power (Influence) and Level of Interest in the organization.",
+  "keyExamTokens": [
+    "Mendelow's Matrix",
+    "Power vs Interest axes",
+    "Minimum effort, Keep informed",
+    "Keep satisfied, Key players"
+  ]
 }
 ];
 
@@ -280,6 +340,22 @@ export const CRAM_DISTINCTIONS: DistinctionItem[] = [
   "comparisonCriteria": "Industry Growth Rate & Capital Reinvestment Dynamics",
   "contrastStatement": "Both Stars and Cash Cows hold high market share; however, Stars operate in high-growth industries requiring heavy continuous capital investment to defend dominance, whereas Cash Cows operate in mature, low-growth markets and generate net surplus liquidity.",
   "examTrapWarning": "Do not confuse Cash Cows with Stars; Cash Cows fund the rest of the company, while Stars absorb significant portions of their own revenue to fight off rivals."
+},
+{
+  "id": "dist-09",
+  "conceptA": "Stakeholders",
+  "conceptB": "Shareholders",
+  "comparisonCriteria": "Legal Ownership, Governance Rights & Financial Returns",
+  "contrastStatement": "Stakeholders encompass any party with an interest in or affected by business operations (employees, customers, suppliers, community, government, owners); shareholders are exclusively the legal equity owners of a limited company who hold AGM voting rights and earn dividends and capital gains.",
+  "examTrapWarning": "All shareholders are stakeholders, but NOT all stakeholders are shareholders! Never use these two terms interchangeably in IB exams."
+},
+{
+  "id": "dist-10",
+  "conceptA": "Internal Stakeholders",
+  "conceptB": "External Stakeholders",
+  "comparisonCriteria": "Organizational Boundary, Operational Role & Driving Objectives",
+  "contrastStatement": "Internal stakeholders operate directly within the firm (employees, managers, directors) striving for wages, career progression, and executive bonuses; external stakeholders reside outside the firm (customers, suppliers, government, pressure groups) seeking competitive pricing, prompt payment, legal compliance, and environmental protection.",
+  "examTrapWarning": "Shareholders can be internal (founder-directors or employees holding shares) or external (passive retail/institutional stock market investors)."
 }
 ];
 
@@ -347,5 +423,13 @@ export const CRAM_GOLDEN_RULES: GoldenMatrixRule[] = [
   "corePrinciple": "Gross Expected Value is not profit; initial capital expenditure must always be deducted.",
   "actionProtocol": "Calculate Gross EV at chance node = Sum(Probability x Payoff). Calculate Net EMV = Gross EV - Initial Project Cost. Choose option with highest positive Net EMV.",
   "examApplicationTip": "Examiners deduct marks if you stop at gross expected value. Always show the subtraction of initial capital expenditure."
+},
+{
+  "id": "rule-09",
+  "ruleTitle": "Stakeholder Rule: Mendelow's Power-Interest Alignment",
+  "category": "Stakeholders",
+  "corePrinciple": "Managerial attention and engagement resources must be prioritized strictly according to stakeholder power and interest levels.",
+  "actionProtocol": "Quadrant A (Low P / Low I) -> Minimum Effort; Quadrant B (Low P / High I) -> Keep Informed (town halls & newsletters to avert hostile mobilization); Quadrant C (High P / Low I) -> Keep Satisfied (regulatory & debt covenant compliance); Quadrant D (High P / High I) -> Key Players (co-opt into strategic decision-making).",
+  "examApplicationTip": "In 6-mark stakeholder essays, explicitly identify which quadrant a stakeholder occupies to justify why management cannot and should not treat all groups equally."
 }
 ];

@@ -1,4 +1,4 @@
-import { AnsoffCard, SWOTCard, SWOTStrategyPair, STEEPLECard, BCGCard } from '@/types/curriculum';
+import { AnsoffCard, SWOTCard, SWOTStrategyPair, STEEPLECard, BCGCard, StakeholderCard } from '@/types/curriculum';
 
 export const ANSOFF_CARDS: AnsoffCard[] = [
   {
@@ -542,5 +542,152 @@ export const BCG_CARDS: BCGCard[] = [
     "recommendedStrategy": "build",
     "rationale": "Gaining ground but competing as an insurgent against Netflix and YouTube in high-growth streaming entertainment.",
     "cashFlowDynamics": "Requires billions in annual content production and sports broadcasting rights, funded by Amazon Web Services cash cows."
+  }
+];
+
+export const STAKEHOLDER_CARDS: StakeholderCard[] = [
+  {
+    id: 'stk-01',
+    stakeholderName: 'Casual Airport Convenience Shopper',
+    organizationContext: 'Global Travel Retailer (Hudson / Dufry)',
+    category: 'external',
+    powerLevel: 'low',
+    interestLevel: 'low',
+    quadrant: 'quadrant-a',
+    engagementStrategy: 'Minimum effort',
+    rationale: 'Infrequent individual buyer purchasing low-involvement snacks in a transit hub with virtually zero individual bargaining power or active corporate interest.',
+    conflictScenario: 'Has negligible influence over company strategy or pricing; monitor broad sales data without bespoke executive consultation.'
+  },
+  {
+    id: 'stk-02',
+    stakeholderName: 'Distant Suburban Residents (15 Miles Away)',
+    organizationContext: 'Clean Electric Vehicle Assembly Plant',
+    category: 'external',
+    powerLevel: 'low',
+    interestLevel: 'low',
+    quadrant: 'quadrant-a',
+    engagementStrategy: 'Minimum effort',
+    rationale: 'Living far beyond the factory noise and traffic corridor with no direct economic or employment relationship to the zero-emission manufacturing site.',
+    conflictScenario: 'Rarely mobilizes against corporate decisions; general public relations and periodic environmental sustainability reporting suffice.'
+  },
+  {
+    id: 'stk-03',
+    stakeholderName: 'Generic Office Stationery Supplier',
+    organizationContext: 'Multinational Investment Bank',
+    category: 'external',
+    powerLevel: 'low',
+    interestLevel: 'low',
+    quadrant: 'quadrant-a',
+    engagementStrategy: 'Minimum effort',
+    rationale: 'Supplying commodity paper clips and printer paper where the bank has hundreds of interchangeable vendor substitutes and near-zero switching costs.',
+    conflictScenario: 'Possesses minimal leverage to demand premium pricing; standard electronic procurement and automated invoice payments are sufficient.'
+  },
+  {
+    id: 'stk-04',
+    stakeholderName: 'Non-Unionized Assembly Line Workers',
+    organizationContext: 'Automotive Electronics Factory',
+    category: 'internal',
+    powerLevel: 'low',
+    interestLevel: 'high',
+    quadrant: 'quadrant-b',
+    engagementStrategy: 'Keep informed',
+    rationale: 'Deeply invested in daily shift hours, wage rates, and automation rumors, but lack collective bargaining representation to unilaterally halt production lines.',
+    conflictScenario: 'If ignored during automation restructuring, individual dissatisfaction can trigger high labor turnover, absenteeism, and potential unionization.'
+  },
+  {
+    id: 'stk-05',
+    stakeholderName: 'Adjacent Residential Neighborhood Committee',
+    organizationContext: '24-Hour E-Commerce Logistics Mega-Hub',
+    category: 'external',
+    powerLevel: 'low',
+    interestLevel: 'high',
+    quadrant: 'quadrant-b',
+    engagementStrategy: 'Keep informed',
+    rationale: 'Directly impacted by nighttime diesel truck noise, traffic congestion, and light pollution, but lack statutory zoning authority.',
+    conflictScenario: 'Failure to communicate can provoke residents to file joint environmental petitions or mobilize digital media campaigns to delay permits.'
+  },
+  {
+    id: 'stk-06',
+    stakeholderName: 'Small Retail Shareholder (Holding 15 Shares)',
+    organizationContext: 'Global Pharmaceutical PLC',
+    category: 'internal',
+    powerLevel: 'low',
+    interestLevel: 'high',
+    quadrant: 'quadrant-b',
+    engagementStrategy: 'Keep informed',
+    rationale: 'Passionate about dividend yield and corporate ethics, but owns a microscopic fraction of equity with negligible voting weight at the AGM.',
+    conflictScenario: 'Demands transparent annual financial reports, investor webinars, and ethical disclosures to maintain retail goodwill.'
+  },
+  {
+    id: 'stk-07',
+    stakeholderName: 'National Tax & Customs Authority (HMRC / IRS)',
+    organizationContext: 'Multinational Software Enterprise',
+    category: 'external',
+    powerLevel: 'high',
+    interestLevel: 'low',
+    quadrant: 'quadrant-c',
+    engagementStrategy: 'Keep satisfied',
+    rationale: 'Possesses statutory legal power to freeze accounts or impose punitive fines for non-compliance, but remains passive if statutory corporate taxes are paid on time.',
+    conflictScenario: 'Aggressive offshore tax avoidance schemes provoke sudden, severe tax audits and multi-billion-dollar back-tax penalties.'
+  },
+  {
+    id: 'stk-08',
+    stakeholderName: 'Government Occupational Safety Inspectorate',
+    organizationContext: 'Heavy Industrial Steel Smelting Plant',
+    category: 'external',
+    powerLevel: 'high',
+    interestLevel: 'low',
+    quadrant: 'quadrant-c',
+    engagementStrategy: 'Keep satisfied',
+    rationale: 'Wields statutory authority to shut down manufacturing operations overnight, but does not micromanage daily smelting routines as long as safety codes are met.',
+    conflictScenario: 'Workplace accidents or safety protocol breaches trigger immediate factory stop-work orders and criminal executive liability.'
+  },
+  {
+    id: 'stk-09',
+    stakeholderName: 'Major Commercial Mortgage Bank ($80M Facility)',
+    organizationContext: 'Commercial Real Estate Development Firm',
+    category: 'external',
+    powerLevel: 'high',
+    interestLevel: 'low',
+    quadrant: 'quadrant-c',
+    engagementStrategy: 'Keep satisfied',
+    rationale: 'Holds legal mortgage liens over primary corporate assets and can call in loans if debt service coverage ratios breach covenants.',
+    conflictScenario: 'Management must ensure timely interest coverage and quarterly financial compliance certificates to prevent debt acceleration.'
+  },
+  {
+    id: 'stk-10',
+    stakeholderName: 'Institutional Private Equity Fund (38% Equity Stake)',
+    organizationContext: 'Rapidly Growing HealthTech Enterprise',
+    category: 'internal',
+    powerLevel: 'high',
+    interestLevel: 'high',
+    quadrant: 'quadrant-d',
+    engagementStrategy: 'Key players (Maximum effort)',
+    rationale: 'Controls two executive board seats and voting power to appoint or remove the CEO, with intense daily focus on profitability and IPO valuation.',
+    conflictScenario: 'Any conflict over strategic acquisitions or executive remuneration can result in leadership dismissal or corporate proxy battles.'
+  },
+  {
+    id: 'stk-11',
+    stakeholderName: 'National Pilots & Flight Engineers Association',
+    organizationContext: 'International Flag-Carrier Airline',
+    category: 'internal',
+    powerLevel: 'high',
+    interestLevel: 'high',
+    quadrant: 'quadrant-d',
+    engagementStrategy: 'Key players (Maximum effort)',
+    rationale: 'Represents 90% of specialized flight crew whose industrial strike action instantly grounds flights, costing hundreds of millions (e.g. British Airways 2019).',
+    conflictScenario: 'Management must conduct continuous collective bargaining over pensions, rest periods, and remuneration to avoid catastrophic strike disruption.'
+  },
+  {
+    id: 'stk-12',
+    stakeholderName: 'Single-Source Custom AI Silicon Foundry (TSMC)',
+    organizationContext: 'Next-Generation Smartphone Manufacturer',
+    category: 'external',
+    powerLevel: 'high',
+    interestLevel: 'high',
+    quadrant: 'quadrant-d',
+    engagementStrategy: 'Key players (Maximum effort)',
+    rationale: 'The sole global foundry capable of etching 3nm processors; holds immense pricing power, allocation control, and strategic supply leverage.',
+    conflictScenario: 'Losing fabrication allocation halts the entire global smartphone launch; executive leadership must treat the supplier as a core strategic partner.'
   }
 ];

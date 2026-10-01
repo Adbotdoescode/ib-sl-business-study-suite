@@ -20,10 +20,16 @@ export function getSubunitLabel(subunit: SyllabusSubunit): string {
       return '1.2 Types of Business Entities';
     case '1.3-business-objectives':
       return '1.3 Business Objectives';
+    case '1.4-stakeholders':
+      return '1.4 Stakeholders';
     case 'bmt-swot-analysis':
       return 'BMT: SWOT Analysis';
     case 'bmt-ansoff-matrix':
       return 'BMT: Ansoff Matrix';
+    case 'bmt-steeple-analysis':
+      return 'BMT: STEEPLE Analysis';
+    case 'bmt-toolkit':
+      return 'BMT: Toolkit Hub';
     default:
       return subunit;
   }
@@ -37,10 +43,16 @@ export function getSubunitShortBadge(subunit: SyllabusSubunit): string {
       return 'Unit 1.2';
     case '1.3-business-objectives':
       return 'Unit 1.3';
+    case '1.4-stakeholders':
+      return 'Unit 1.4';
     case 'bmt-swot-analysis':
       return 'SWOT';
     case 'bmt-ansoff-matrix':
       return 'Ansoff';
+    case 'bmt-steeple-analysis':
+      return 'STEEPLE';
+    case 'bmt-toolkit':
+      return 'BMT';
     default:
       return subunit;
   }

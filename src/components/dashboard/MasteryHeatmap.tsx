@@ -36,6 +36,7 @@ export function MasteryHeatmap() {
     { id: '1.1-what-is-a-business', code: 'Unit 1.1', title: 'What is a Business?' },
     { id: '1.2-types-of-business-entities', code: 'Unit 1.2', title: 'Types of Business Entities' },
     { id: '1.3-business-objectives', code: 'Unit 1.3', title: 'Business Objectives' },
+    { id: '1.4-stakeholders', code: 'Unit 1.4', title: 'Stakeholders' },
     { id: 'bmt-swot-analysis', code: 'BMT SWOT', title: 'SWOT Analysis' },
     { id: 'bmt-ansoff-matrix', code: 'BMT Ansoff', title: 'Ansoff Growth Matrix' },
     { id: 'bmt-steeple-analysis', code: 'BMT STEEPLE', title: 'STEEPLE Analysis' },

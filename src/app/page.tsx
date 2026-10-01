@@ -43,6 +43,14 @@ const SYLLABUS_MODULES = [
     shortAnswer: 7,
   },
   {
+    id: '1.4-stakeholders',
+    code: 'Unit 1.4',
+    title: 'Stakeholders',
+    summary: 'Internal vs external stakeholders, stakeholder conflict, mutual benefits synergy, and Mendelow power-interest matrix.',
+    mcqs: 6,
+    shortAnswer: 6,
+  },
+  {
     id: 'bmt-swot-analysis',
     code: 'BMT: SWOT',
     title: 'SWOT Analysis',
@@ -88,22 +96,22 @@ export default function DashboardPage() {
           </div>
 
           <h1 className="text-2xl sm:text-4xl font-extrabold text-text-primary tracking-tight leading-tight">
-            Master Units 1.1–1.3, SWOT, Ansoff & the Full BM Toolkit for 100% Exam Readiness.
+            Master Units 1.1–1.4, SWOT, Ansoff & the Full BM Toolkit for 100% Exam Readiness.
           </h1>
 
           <p className="text-sm sm:text-base text-text-secondary mt-3 leading-relaxed">
-            Engineered around the Paul Hoang 5th Edition curriculum and visual student notes. Features rapid timed drills, 4-way matrix sorters, split-screen PEEL writing rubrics, and the 8-tool Business Management Toolkit hub.
+            Engineered around the Paul Hoang 5th Edition curriculum and visual student notes. Features rapid timed drills, 5-way matrix sorters, split-screen PEEL writing rubrics, and the 8-tool Business Management Toolkit hub.
           </p>
 
           <div className="flex flex-wrap items-center gap-4 mt-6 pt-6 border-t border-border/80 text-xs text-text-muted">
             <span className="flex items-center gap-1.5 font-medium text-text-primary">
-              <CheckCircle className="w-4 h-4 text-emerald-600" /> 42 Multiple Choice Questions
+              <CheckCircle className="w-4 h-4 text-emerald-600" /> 48 Multiple Choice Questions
             </span>
             <span className="flex items-center gap-1.5 font-medium text-text-primary">
-              <FileCheck className="w-4 h-4 text-blue-600" /> 42 2-Mark Knowledge Questions
+              <FileCheck className="w-4 h-4 text-blue-600" /> 48 2-Mark Knowledge Questions
             </span>
             <span className="flex items-center gap-1.5 font-medium text-text-primary">
-              <Target className="w-4 h-4 text-amber-600" /> 25 Applied 4- & 6-Mark PEEL Rubrics
+              <Target className="w-4 h-4 text-amber-600" /> 28 Applied 4- & 6-Mark PEEL Rubrics
             </span>
           </div>
         </div>

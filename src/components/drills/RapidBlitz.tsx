@@ -277,6 +277,7 @@ export function RapidBlitz() {
             <option value="1.1-what-is-a-business">1.1 What is a Business?</option>
             <option value="1.2-types-of-business-entities">1.2 Types of Entities</option>
             <option value="1.3-business-objectives">1.3 Objectives</option>
+            <option value="1.4-stakeholders">1.4 Stakeholders</option>
             <option value="bmt-swot-analysis">SWOT Analysis</option>
             <option value="bmt-ansoff-matrix">Ansoff Matrix</option>
             <option value="bmt-steeple-analysis">STEEPLE Analysis</option>

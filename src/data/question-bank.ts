@@ -378,7 +378,119 @@ export const MCQ_QUESTIONS: MCQQuestion[] = [
   },
 
   // --------------------------------------------------------------------------
-  // Chapter 44: SWOT Analysis Toolkit (Q21–Q25)
+  // Unit 1.4: Stakeholders (Q21–Q26)
+  // --------------------------------------------------------------------------
+  {
+    id: 'mcq-1.4-01',
+    subunit: '1.4-stakeholders',
+    topicTag: 'Stakeholder vs Shareholder Distinction',
+    questionNumber: 21,
+    question: 'Which statement accurately defines the difference between a stakeholder and a shareholder?',
+    options: [
+      { key: 'A', text: 'All stakeholders are shareholders, but shareholders only hold fixed-interest corporate bonds.' },
+      { key: 'B', text: 'A stakeholder is any party affected by or interested in the business, whereas a shareholder is a legal equity owner of a limited company.' },
+      { key: 'C', text: 'Stakeholders have statutory voting rights at the Annual General Meeting, whereas shareholders only receive hourly wages.' },
+      { key: 'D', text: 'Stakeholders are exclusively internal employees, while shareholders are exclusively external regulators.' }
+    ],
+    correctAnswer: 'B',
+    explanation: {
+      correctRationale: 'Stakeholders represent the broad umbrella of all individuals and organizations with a direct interest in the firm (employees, customers, suppliers, community, owners). Shareholders are the specific equity owners of a limited liability company entitled to dividends and AGM voting rights.',
+      distractorAnalysis: 'Option A is incorrect because not all stakeholders own shares; Option C reverses corporate governance rights; Option D is false as both groups have internal and external participants.'
+    }
+  },
+  {
+    id: 'mcq-1.4-02',
+    subunit: '1.4-stakeholders',
+    topicTag: 'Internal Stakeholder Prioritization',
+    questionNumber: 22,
+    question: 'Sir Richard Branson (Virgin Group) operates by the leadership philosophy: "Employees first, customers second, and shareholders third." What is the strategic rationale underlying this stakeholder prioritization?',
+    options: [
+      { key: 'A', text: 'Disgruntled workers are legally barred from taking industrial action in aviation.' },
+      { key: 'B', text: 'Employees legally hold 100% of the voting equity in public limited companies.' },
+      { key: 'C', text: 'Highly motivated and valued employees deliver superior customer service, which generates customer loyalty and ultimately maximizes long-term shareholder returns.' },
+      { key: 'D', text: 'Shareholders expect zero financial return when employee wages are increased.' }
+    ],
+    correctAnswer: 'C',
+    explanation: {
+      correctRationale: 'Under modern stakeholder theory and Branson\'s triad, investing in staff welfare and morale produces superior service and product quality. This delights customers, generating brand loyalty and robust long-term profitability that rewards shareholders.',
+      distractorAnalysis: 'Disgruntled workers can and do take industrial strike action (A); workers rarely own 100% of PLCs (B); shareholders always expect a financial return on equity (D).'
+    }
+  },
+  {
+    id: 'mcq-1.4-03',
+    subunit: '1.4-stakeholders',
+    topicTag: 'Competitors as Stakeholders',
+    questionNumber: 23,
+    question: 'Why are competing businesses classified as external stakeholders of an organization in IB Business Management?',
+    options: [
+      { key: 'A', text: 'Competitors must legally approve all retail price changes before market launch.' },
+      { key: 'B', text: 'Competitors benchmark key performance indicators against each other and frequently hold strategic equity cross-shareholdings in rival firms.' },
+      { key: 'C', text: 'Competitors are statutory guarantors of each other\'s corporate debt obligations.' },
+      { key: 'D', text: 'Competitors are required by law to pool advertising budgets in duopoly markets.' }
+    ],
+    correctAnswer: 'B',
+    explanation: {
+      correctRationale: 'Competitors maintain a direct external interest in a firm\'s actions to benchmark performance (sales turnover, market share) to maintain market competitiveness. Furthermore, competitors often hold minority equity cross-shareholdings (e.g. Air China owning 28.2% of Cathay Pacific; Porsche holding 31% in Audi).',
+      distractorAnalysis: 'Competitors do not approve each other\'s prices (A, which would be illegal price-fixing cartel behavior); they do not guarantee debt (C) or pool advertising (D).'
+    }
+  },
+  {
+    id: 'mcq-1.4-04',
+    subunit: '1.4-stakeholders',
+    topicTag: 'Stakeholder Conflict & Executive Pay',
+    questionNumber: 24,
+    question: 'Which of the following scenarios best exemplifies a classic internal stakeholder conflict between senior directors and company shareholders?',
+    options: [
+      { key: 'A', text: 'Suppliers refusing to deliver raw materials unless paid cash on delivery.' },
+      { key: 'B', text: 'Senior directors awarding themselves substantial bonuses and share options during a period of falling net profits, which depresses shareholder dividend distributions.' },
+      { key: 'C', text: 'Local residents protesting against nighttime factory traffic and noise pollution.' },
+      { key: 'D', text: 'Customers switching to alternative brands due to inflationary retail price increases.' }
+    ],
+    correctAnswer: 'B',
+    explanation: {
+      correctRationale: 'Executive remuneration is a primary flashpoint for internal conflict. When directors receive large bonuses and perks while profits fall, shareholders object that corporate wealth is being siphoned away from dividend payouts.',
+      distractorAnalysis: 'Suppliers (A), local residents (C), and customers (D) are external stakeholders, not an internal clash between directors and shareholders.'
+    }
+  },
+  {
+    id: 'mcq-1.4-05',
+    subunit: '1.4-stakeholders',
+    topicTag: 'Mendelow Matrix: Quadrant B',
+    questionNumber: 25,
+    question: 'According to Mendelow\'s Stakeholder Mapping Matrix, what is the recommended engagement strategy for stakeholders positioned in Quadrant B (Low Power, High Interest), such as local residents living next to a proposed chemical warehouse?',
+    options: [
+      { key: 'A', text: 'Minimum effort (ignore until legally challenged)' },
+      { key: 'B', text: 'Keep informed (maintain open communication, newsletters, and informational consultations to build goodwill)' },
+      { key: 'C', text: 'Keep satisfied (appease with corporate board seats)' },
+      { key: 'D', text: 'Maximum effort (grant full executive veto authority over project design)' }
+    ],
+    correctAnswer: 'B',
+    explanation: {
+      correctRationale: 'Quadrant B stakeholders have high personal interest but low direct power. Management must \'keep them informed\' through town halls, newsletters, and informational consultations. This builds goodwill and prevents them from organizing to build collective power (e.g. through viral media campaigns or lobbying).',
+      distractorAnalysis: 'Minimum effort (A) applies to Quadrant A (Low Power, Low Interest); placating with board seats (C) or executive vetoes (D) unnecessarily surrenders managerial prerogative to low-power groups.'
+    }
+  },
+  {
+    id: 'mcq-1.4-06',
+    subunit: '1.4-stakeholders',
+    topicTag: 'Stakeholder Conflict in Takeovers',
+    questionNumber: 26,
+    question: 'In 2013, 99.5% of Nokia\'s 3,900 shareholders voted to sell its mobile phone division to Microsoft for €5.4bn after seeing its share price collapse by 93%, while 32,000 employees faced severe disruption. Why did this deal reflect divergent stakeholder priorities?',
+    options: [
+      { key: 'A', text: 'Employees sought to liquidate the company to claim government subsidies, whereas shareholders wanted continued manufacturing.' },
+      { key: 'B', text: 'Shareholders prioritized salvaging remaining capital and stemming equity losses, whereas employees prioritized long-term job security and preserving Finnish organizational culture.' },
+      { key: 'C', text: 'The Finnish government legally mandated that all domestic tech companies be acquired by American enterprises.' },
+      { key: 'D', text: 'Microsoft offered guaranteed lifetime employment contracts to all transferred staff.' }
+    ],
+    correctAnswer: 'B',
+    explanation: {
+      correctRationale: 'Shareholders faced a catastrophic 93% collapse in share value and overwhelmingly voted for the buyout to recover remaining capital. In contrast, 32,000 transferred employees faced job security anxiety, redundancy risks, and the loss of their established corporate identity under Microsoft.',
+      distractorAnalysis: 'Employees did not want liquidation (A); the Finnish government did not mandate the sale (C); Microsoft did not guarantee lifetime jobs—it subsequently executed major restructuring layoffs (D).'
+    }
+  },
+
+  // --------------------------------------------------------------------------
+  // Chapter 44: SWOT Analysis Toolkit (Q27–Q31)
   // --------------------------------------------------------------------------
   {
     id: 'mcq-bmt-swot-01',
@@ -1271,6 +1383,100 @@ export const TWO_MARK_QUESTIONS: TwoMarkQuestion[] = [
       { mark: 1, criterion: 'Explicitly emphasizes acting beyond statutory minimum legal requirements' }
     ],
     examinerTips: '"Beyond statutory legal compliance" is the hallmark phrase that guarantees the second mark.'
+  },
+
+  // --------------------------------------------------------------------------
+  // Unit 1.4: Stakeholders (6 Questions)
+  // --------------------------------------------------------------------------
+  {
+    id: 'q2m-stakeholders-01',
+    subunit: '1.4-stakeholders',
+    questionNumber: '1.4.1',
+    question: 'Define the term stakeholder.',
+    marks: 2,
+    commandTerm: 'Define',
+    assessmentObjective: 'AO1',
+    modelAnswer: 'A stakeholder is any individual, group, or organization with a direct interest or involvement in the decisions, operations, and performance of a business, who is impacted by its activities.',
+    markBreakdown: [
+      { mark: 1, criterion: 'Defines an individual or group with a direct interest/involvement (or "stake") in an organization' },
+      { mark: 1, criterion: 'Notes that stakeholders are directly affected by or have influence over organizational activities and performance' }
+    ],
+    examinerTips: 'Do not simply say "people who work in a business"—emphasize "any individual or group with a direct interest or affected by the operations".'
+  },
+  {
+    id: 'q2m-stakeholders-02',
+    subunit: '1.4-stakeholders',
+    questionNumber: '1.4.2',
+    question: 'Distinguish between internal stakeholders and external stakeholders.',
+    marks: 2,
+    commandTerm: 'Distinguish',
+    assessmentObjective: 'AO1',
+    modelAnswer: 'Internal stakeholders are direct members of the organization operating from within the business (e.g., employees, managers, directors), whereas external stakeholders are outside individuals or entities affected by business activities (e.g., customers, suppliers, government).',
+    markBreakdown: [
+      { mark: 1, criterion: 'Accurately defines internal stakeholders as members operating within the business, with a valid example' },
+      { mark: 1, criterion: 'Accurately defines external stakeholders as outside entities affected by operations, with a valid example' }
+    ],
+    examinerTips: 'Always provide one specific example for each category (e.g. employees vs customers) to ensure maximum precision.'
+  },
+  {
+    id: 'q2m-stakeholders-03',
+    subunit: '1.4-stakeholders',
+    questionNumber: '1.4.3',
+    question: 'State two reasons why shareholders are considered a powerful stakeholder group in a company.',
+    marks: 2,
+    commandTerm: 'State',
+    assessmentObjective: 'AO1',
+    modelAnswer: '1. Voting rights: Shareholders hold legal voting power at the Annual General Meeting (AGM) to elect or dismiss the Board of Directors.\n2. Capital provision: Shareholders provide vital equity capital; without their financial investment, the company cannot finance long-term growth.',
+    markBreakdown: [
+      { mark: 1, criterion: 'States legal voting rights at AGMs / power to appoint or remove company directors' },
+      { mark: 1, criterion: 'States ownership of equity capital / ability to buy or sell shares impacting company market value' }
+    ],
+    examinerTips: 'Focus on governance authority (voting power) and financial ownership (supplying risk capital).'
+  },
+  {
+    id: 'q2m-stakeholders-04',
+    subunit: '1.4-stakeholders',
+    questionNumber: '1.4.4',
+    question: 'Define the term remuneration (Question 4.4b).',
+    marks: 2,
+    commandTerm: 'Define',
+    assessmentObjective: 'AO1',
+    modelAnswer: 'Remuneration is the total financial and non-financial reward package provided to an employee or executive in exchange for their labor and services, including basic pay, overtime, bonuses, allowances, and fringe benefits.',
+    markBreakdown: [
+      { mark: 1, criterion: 'Identifies compensation/payment provided for labor or professional services' },
+      { mark: 1, criterion: 'Explicitly notes comprehensive package nature (e.g. wages/salaries plus bonuses, allowances, or benefits)' }
+    ],
+    examinerTips: 'Use the phrase "total reward package including basic salary and additional financial/fringe benefits".'
+  },
+  {
+    id: 'q2m-stakeholders-05',
+    subunit: '1.4-stakeholders',
+    questionNumber: '1.4.5',
+    question: 'Outline what is meant by stakeholder conflict.',
+    marks: 2,
+    commandTerm: 'Outline',
+    assessmentObjective: 'AO1',
+    modelAnswer: 'Stakeholder conflict refers to the friction, disagreement, or tension that arises when the varying needs, priorities, and objectives of different stakeholder groups are incompatible and cannot be satisfied simultaneously.',
+    markBreakdown: [
+      { mark: 1, criterion: 'Identifies disagreement, tension, or friction between different stakeholder groups' },
+      { mark: 1, criterion: 'Explains that conflict occurs because stakeholder objectives are mutually incompatible given finite resources' }
+    ],
+    examinerTips: 'Mentioning that resources are finite or objectives are incompatible ensures both marks.'
+  },
+  {
+    id: 'q2m-stakeholders-06',
+    subunit: '1.4-stakeholders',
+    questionNumber: '1.4.6',
+    question: 'Outline the role of the government as an external stakeholder in business activity.',
+    marks: 2,
+    commandTerm: 'Outline',
+    assessmentObjective: 'AO1',
+    modelAnswer: 'The government acts as a regulatory external stakeholder ensuring businesses comply with statutory employment and safety legislation, pay corporate taxes from profits, and operate without engaging in unfair anti-competitive practices.',
+    markBreakdown: [
+      { mark: 1, criterion: 'Identifies government\'s role in statutory regulation, legal compliance, or consumer/worker protection' },
+      { mark: 1, criterion: 'Notes government\'s fiscal interest in collecting corporate tax revenues or stimulating national economic employment' }
+    ],
+    examinerTips: 'Pair legal enforcement (employment/environmental law) with fiscal interests (corporate taxation).'
   },
 
   // --------------------------------------------------------------------------

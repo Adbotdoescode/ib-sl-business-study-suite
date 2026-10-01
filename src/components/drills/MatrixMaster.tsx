@@ -6,17 +6,20 @@ import {
   SWOTCard, 
   STEEPLECard,
   BCGCard,
+  StakeholderCard,
   AnsoffQuadrant, 
   SWOTQuadrant,
   STEEPLECategory,
-  BCGQuadrant
+  BCGQuadrant,
+  StakeholderQuadrant
 } from '@/types/curriculum';
 import { 
   ANSOFF_CARDS, 
   SWOT_CARDS, 
   SWOT_STRATEGY_PAIRS,
   STEEPLE_CARDS,
-  BCG_CARDS 
+  BCG_CARDS,
+  STAKEHOLDER_CARDS 
 } from '@/data/matrix-master';
 import { triggerConfetti } from '@/lib/confetti';
 import { useStudyProgress } from '@/context/StudyProgressContext';
@@ -35,14 +38,17 @@ import {
   Layers,
   Compass,
   Globe2,
-  PieChart
+  PieChart,
+  Users
 } from 'lucide-react';
 
-export type MatrixType = 'ansoff' | 'swot' | 'steeple' | 'bcg';
+export type MatrixType = 'ansoff' | 'swot' | 'steeple' | 'bcg' | 'stakeholders';
 
-function getCardText(card: AnsoffCard | SWOTCard | STEEPLECard | BCGCard): string {
+function getCardText(card: AnsoffCard | SWOTCard | STEEPLECard | BCGCard | StakeholderCard): string {
   if ('scenario' in card) return card.scenario;
-  return card.productName + ' (' + card.company + '): ' + card.rationale;
+  if ('productName' in card) return card.productName + ' (' + card.company + '): ' + card.rationale;
+  if ('organizationContext' in card) return '**' + card.organizationContext + '**: ' + card.rationale;
+  return '';
 }
 
 export function MatrixMaster() {
@@ -55,6 +61,7 @@ export function MatrixMaster() {
   const [swotPlacements, setSwotPlacements] = useState<Record<string, SWOTQuadrant>>({});
   const [steeplePlacements, setSteeplePlacements] = useState<Record<string, STEEPLECategory>>({});
   const [bcgPlacements, setBcgPlacements] = useState<Record<string, BCGQuadrant>>({});
+  const [stakeholderPlacements, setStakeholderPlacements] = useState<Record<string, StakeholderQuadrant>>({});
   
   // Selection state for mobile tap-to-place
   const [selectedCardId, setSelectedCardId] = useState<string | null>(null);
@@ -63,14 +70,15 @@ export function MatrixMaster() {
   const [isChecked, setIsChecked] = useState(false);
 
   // Shuffled cards state to prevent grouping by answer in the tray
-  const [shuffledCards, setShuffledCards] = useState<(AnsoffCard | SWOTCard | STEEPLECard | BCGCard)[]>([]);
+  const [shuffledCards, setShuffledCards] = useState<(AnsoffCard | SWOTCard | STEEPLECard | BCGCard | StakeholderCard)[]>([]);
 
   const shufflePool = (type: MatrixType) => {
-    let raw: (AnsoffCard | SWOTCard | STEEPLECard | BCGCard)[] = [];
+    let raw: (AnsoffCard | SWOTCard | STEEPLECard | BCGCard | StakeholderCard)[] = [];
     if (type === 'ansoff') raw = [...ANSOFF_CARDS];
     else if (type === 'swot') raw = [...SWOT_CARDS];
     else if (type === 'steeple') raw = [...STEEPLE_CARDS];
-    else raw = [...BCG_CARDS];
+    else if (type === 'bcg') raw = [...BCG_CARDS];
+    else raw = [...STAKEHOLDER_CARDS];
 
     for (let i = raw.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
@@ -87,13 +95,16 @@ export function MatrixMaster() {
         ? SWOT_CARDS 
         : matrixType === 'steeple' 
         ? STEEPLE_CARDS 
-        : BCG_CARDS);
+        : matrixType === 'bcg'
+        ? BCG_CARDS
+        : STAKEHOLDER_CARDS);
 
   const getPlacement = (id: string): string | undefined => {
     if (matrixType === 'ansoff') return ansoffPlacements[id];
     if (matrixType === 'swot') return swotPlacements[id];
     if (matrixType === 'steeple') return steeplePlacements[id];
-    return bcgPlacements[id];
+    if (matrixType === 'bcg') return bcgPlacements[id];
+    return stakeholderPlacements[id];
   };
 
   const unassignedCards = currentCards.filter((c) => !getPlacement(c.id));
@@ -137,10 +148,15 @@ export function MatrixMaster() {
         ...prev,
         [cardId]: targetId as STEEPLECategory,
       }));
-    } else {
+    } else if (matrixType === 'bcg') {
       setBcgPlacements((prev) => ({
         ...prev,
         [cardId]: targetId as BCGQuadrant,
+      }));
+    } else {
+      setStakeholderPlacements((prev) => ({
+        ...prev,
+        [cardId]: targetId as StakeholderQuadrant,
       }));
     }
     setSelectedCardId(null);
@@ -167,8 +183,14 @@ export function MatrixMaster() {
         delete next[cardId];
         return next;
       });
-    } else {
+    } else if (matrixType === 'bcg') {
       setBcgPlacements((prev) => {
+        const next = { ...prev };
+        delete next[cardId];
+        return next;
+      });
+    } else {
+      setStakeholderPlacements((prev) => {
         const next = { ...prev };
         delete next[cardId];
         return next;
@@ -182,7 +204,8 @@ export function MatrixMaster() {
     if (matrixType === 'ansoff') setAnsoffPlacements({});
     else if (matrixType === 'swot') setSwotPlacements({});
     else if (matrixType === 'steeple') setSteeplePlacements({});
-    else setBcgPlacements({});
+    else if (matrixType === 'bcg') setBcgPlacements({});
+    else setStakeholderPlacements({});
     setSelectedCardId(null);
     setIsChecked(false);
     shufflePool(matrixType);
@@ -203,9 +226,12 @@ export function MatrixMaster() {
     } else if (matrixType === 'steeple') {
       total = STEEPLE_CARDS.length;
       correct = STEEPLE_CARDS.filter((c) => steeplePlacements[c.id] === c.category).length;
-    } else {
+    } else if (matrixType === 'bcg') {
       total = BCG_CARDS.length;
       correct = BCG_CARDS.filter((c) => bcgPlacements[c.id] === c.quadrant).length;
+    } else {
+      total = STAKEHOLDER_CARDS.length;
+      correct = STAKEHOLDER_CARDS.filter((c) => stakeholderPlacements[c.id] === c.quadrant).length;
     }
 
     if (correct === total && total > 0) {
@@ -220,7 +246,9 @@ export function MatrixMaster() {
     ? SWOT_CARDS.length 
     : matrixType === 'steeple' 
     ? STEEPLE_CARDS.length 
-    : BCG_CARDS.length;
+    : matrixType === 'bcg'
+    ? BCG_CARDS.length
+    : STAKEHOLDER_CARDS.length;
 
   const placedCount = matrixType === 'ansoff'
     ? Object.keys(ansoffPlacements).length
@@ -228,7 +256,9 @@ export function MatrixMaster() {
     ? Object.keys(swotPlacements).length
     : matrixType === 'steeple'
     ? Object.keys(steeplePlacements).length
-    : Object.keys(bcgPlacements).length;
+    : matrixType === 'bcg'
+    ? Object.keys(bcgPlacements).length
+    : Object.keys(stakeholderPlacements).length;
 
   const correctCount = matrixType === 'ansoff'
     ? ANSOFF_CARDS.filter((c) => ansoffPlacements[c.id] === c.quadrant).length
@@ -236,7 +266,9 @@ export function MatrixMaster() {
     ? SWOT_CARDS.filter((c) => swotPlacements[c.id] === c.quadrant).length
     : matrixType === 'steeple'
     ? STEEPLE_CARDS.filter((c) => steeplePlacements[c.id] === c.category).length
-    : BCG_CARDS.filter((c) => bcgPlacements[c.id] === c.quadrant).length;
+    : matrixType === 'bcg'
+    ? BCG_CARDS.filter((c) => bcgPlacements[c.id] === c.quadrant).length
+    : STAKEHOLDER_CARDS.filter((c) => stakeholderPlacements[c.id] === c.quadrant).length;
 
   return (
     <div className="space-y-6">
@@ -339,6 +371,27 @@ export function MatrixMaster() {
               <span className="w-2 h-2 rounded-full bg-emerald-500" title="Completed" />
             )}
           </button>
+
+          <button
+            onClick={() => {
+              setMatrixType('stakeholders');
+              setActiveTab('grid');
+              setSelectedCardId(null);
+              setIsChecked(false);
+              shufflePool('stakeholders');
+            }}
+            className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition flex items-center gap-1.5 cursor-pointer ${
+              matrixType === 'stakeholders'
+                ? 'bg-white text-blue-700 shadow-subtle'
+                : 'text-text-muted hover:text-text-primary'
+            }`}
+          >
+            <Users className="w-3.5 h-3.5" />
+            <span>Stakeholders (12)</span>
+            {state.matrixMasterCompleted.stakeholders && (
+              <span className="w-2 h-2 rounded-full bg-emerald-500" title="Completed" />
+            )}
+          </button>
         </div>
       </div>
 
@@ -438,6 +491,22 @@ export function MatrixMaster() {
               />
             )}
 
+            {matrixType === 'stakeholders' && (
+              <StakeholderGrid
+                placements={stakeholderPlacements}
+                onDrop={handleDrop}
+                onDragOver={handleDragOver}
+                onRemoveCard={removeCard}
+                onDragStart={handleDragStart}
+                isChecked={isChecked}
+                selectedCardId={selectedCardId}
+                onQuadrantClick={(quadrant) => {
+                  if (selectedCardId) placeCard(selectedCardId, quadrant);
+                }}
+                onSelectCard={(id) => setSelectedCardId(selectedCardId === id ? null : id)}
+              />
+            )}
+
             {/* Verification Bar & Action Controls */}
             <div className="flex flex-wrap items-center justify-between gap-3 bg-white p-4 rounded-xl border border-border shadow-subtle">
               <div className="flex items-center gap-3">
@@ -495,7 +564,15 @@ export function MatrixMaster() {
               ) : (
                 unassignedCards.map((card) => {
                   const isSelected = selectedCardId === card.id;
-                  const companyName = 'company' in card ? card.company : 'entityName' in card ? card.entityName : card.businessName;
+                  const companyName = 'company' in card 
+                    ? card.company 
+                    : 'businessName' in card 
+                    ? card.businessName 
+                    : 'stakeholderName' in card 
+                    ? card.stakeholderName 
+                    : 'entityName' in card 
+                    ? (card as { entityName: string }).entityName 
+                    : (card as { id: string }).id;
 
                   return (
                     <div
@@ -528,6 +605,13 @@ export function MatrixMaster() {
                         {'marketGrowth' in card && (
                           <span className="text-[10px] font-mono text-text-muted">
                             Growth: {card.marketGrowth}
+                          </span>
+                        )}
+                        {'powerLevel' in card && (
+                          <span className={`text-[10px] font-bold px-1.5 py-0.5 rounded border ${
+                            card.category === 'internal' ? 'bg-blue-50 text-blue-700 border-blue-200' : 'bg-amber-50 text-amber-800 border-amber-200'
+                          }`}>
+                            {card.category.toUpperCase()}
                           </span>
                         )}
                       </div>
@@ -1199,3 +1283,176 @@ function BcgGrid({
     </div>
   );
 }
+
+// ----------------------------------------------------
+// 5. Mendelow's Stakeholder Matrix Component
+// ----------------------------------------------------
+interface StakeholderGridProps {
+  placements: Record<string, StakeholderQuadrant>;
+  onDrop: (e: React.DragEvent, quadrant: string) => void;
+  onDragOver: (e: React.DragEvent) => void;
+  onRemoveCard: (id: string) => void;
+  isChecked: boolean;
+  selectedCardId: string | null;
+  onQuadrantClick: (quadrant: string) => void;
+  onSelectCard?: (id: string) => void;
+  onDragStart?: (e: React.DragEvent, id: string) => void;
+}
+
+function StakeholderGrid({
+  placements,
+  onDrop,
+  onDragOver,
+  onRemoveCard,
+  isChecked,
+  selectedCardId,
+  onQuadrantClick,
+}: StakeholderGridProps) {
+  const quadrants: { 
+    id: StakeholderQuadrant; 
+    title: string; 
+    subtitle: string; 
+    strategy: string; 
+    powerInterest: string;
+    badge: string; 
+    color: string 
+  }[] = [
+    {
+      id: 'quadrant-a',
+      title: 'Quadrant A: Minimal Effort',
+      subtitle: 'Low Power / Low Interest',
+      powerInterest: 'Power: LOW | Interest: LOW',
+      strategy: 'Strategy: Minimum Effort — passive monitoring; standard public updates',
+      badge: 'bg-stone-100 text-stone-700 border-stone-300',
+      color: 'border-stone-300 bg-stone-50/40',
+    },
+    {
+      id: 'quadrant-b',
+      title: 'Quadrant B: Keep Informed',
+      subtitle: 'Low Power / High Interest',
+      powerInterest: 'Power: LOW | Interest: HIGH',
+      strategy: 'Strategy: Keep Informed — consultations, newsletters; avoid grievance escalation',
+      badge: 'bg-blue-50 text-blue-800 border-blue-200',
+      color: 'border-blue-300 bg-blue-50/20',
+    },
+    {
+      id: 'quadrant-c',
+      title: 'Quadrant C: Keep Satisfied',
+      subtitle: 'High Power / Low Interest',
+      powerInterest: 'Power: HIGH | Interest: LOW',
+      strategy: 'Strategy: Keep Satisfied — regulatory compliance, debt service; do not provoke',
+      badge: 'bg-amber-50 text-amber-800 border-amber-200',
+      color: 'border-amber-300 bg-amber-50/20',
+    },
+    {
+      id: 'quadrant-d',
+      title: 'Quadrant D: Key Players',
+      subtitle: 'High Power / High Interest',
+      powerInterest: 'Power: HIGH | Interest: HIGH',
+      strategy: 'Strategy: Maximum Effort — continuous partnership, board consultation, direct synergy',
+      badge: 'bg-purple-50 text-purple-800 border-purple-200',
+      color: 'border-purple-300 bg-purple-50/20',
+    },
+  ];
+
+  return (
+    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      {quadrants.map((q) => {
+        const assignedCards = STAKEHOLDER_CARDS.filter((c) => placements[c.id] === q.id);
+        const isTarget = !!selectedCardId;
+
+        return (
+          <div
+            key={q.id}
+            onDrop={(e) => onDrop(e, q.id)}
+            onDragOver={onDragOver}
+            onClick={() => onQuadrantClick(q.id)}
+            className={`min-h-[220px] p-4 rounded-2xl border-2 transition-all flex flex-col justify-between ${q.color} ${
+              isTarget ? 'border-dashed border-blue-400 bg-blue-50/30 cursor-pointer' : 'border-border'
+            }`}
+          >
+            <div>
+              <div className="flex items-center justify-between mb-1">
+                <h3 className="text-sm font-bold text-text-primary tracking-tight">{q.title}</h3>
+                <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full border ${q.badge}`}>
+                  {assignedCards.length}
+                </span>
+              </div>
+              <p className="text-[11px] text-text-muted font-medium">{q.subtitle}</p>
+              <p className="text-[10px] font-semibold text-text-secondary mb-3">{q.strategy}</p>
+
+              <div className="space-y-2">
+                {assignedCards.map((card) => {
+                  const isCorrect = isChecked && card.quadrant === q.id;
+                  const isWrong = isChecked && card.quadrant !== q.id;
+
+                  return (
+                    <div
+                      key={card.id}
+                      className={`p-2.5 rounded-xl border text-xs bg-white shadow-subtle flex flex-col gap-1.5 ${
+                        isCorrect
+                          ? 'border-emerald-500 bg-emerald-50/30'
+                          : isWrong
+                          ? 'border-red-500 bg-red-50/30'
+                          : 'border-border'
+                      }`}
+                    >
+                      <div className="flex items-center justify-between">
+                        <span className="font-bold text-text-primary">{card.stakeholderName}</span>
+                        <div className="flex items-center gap-1.5">
+                          <span className={`text-[9px] font-bold px-1.5 py-0.5 rounded border ${
+                            card.category === 'internal'
+                              ? 'bg-blue-50 text-blue-700 border-blue-200'
+                              : 'bg-amber-50 text-amber-800 border-amber-200'
+                          }`}>
+                            {card.category.toUpperCase()}
+                          </span>
+                          {isChecked && (
+                            isCorrect ? (
+                              <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+                            ) : (
+                              <XCircle className="w-4 h-4 text-red-600" />
+                            )
+                          )}
+                          <button
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              onRemoveCard(card.id);
+                            }}
+                            className="text-text-muted hover:text-red-600 text-xs px-1 cursor-pointer"
+                            title="Remove card"
+                          >
+                            &times;
+                          </button>
+                        </div>
+                      </div>
+                      <span className="text-[10px] text-text-muted font-medium">{card.organizationContext}</span>
+                      <p className="text-[11px] text-text-secondary leading-snug">
+                        {card.rationale}
+                      </p>
+                      <p className="text-[10px] text-purple-900 bg-purple-50/60 p-1 rounded font-medium">
+                        Conflict risk: {card.conflictScenario}
+                      </p>
+                      {isChecked && isWrong && (
+                        <p className="text-[10px] text-red-700 font-medium pt-1 border-t border-red-200">
+                          Should be: <strong>{q.title.split(':')[0]} ({card.engagementStrategy})</strong>
+                        </p>
+                      )}
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+
+            {assignedCards.length === 0 && (
+              <div className="text-center py-8 text-xs text-text-muted border border-dashed border-border/80 rounded-xl">
+                Drop stakeholders belonging to {q.subtitle}
+              </div>
+            )}
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+

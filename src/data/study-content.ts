@@ -631,6 +631,125 @@ export const STUDY_UNITS: StudyUnit[] =
     ]
   },
   {
+    "id": "1.4-stakeholders",
+    "title": "Stakeholders",
+    "unitCode": "Unit 1.4",
+    "subtitle": "Internal vs External Stakeholders, Stakeholder Conflict, Mutual Benefits, and Stakeholder Mapping",
+    "estimatedReadTime": "13 min read",
+    "description": "Master the concept of stakeholders, internal stakeholders (employees, managers, directors, shareholders) vs external stakeholders (customers, suppliers, financiers, pressure groups, competitors, government), the critical distinction between stakeholders and shareholders, causes and manifestations of stakeholder conflict, the modern mutual benefits synergy paradigm, and strategic stakeholder mapping using Mendelow's Power-Interest Matrix.",
+    "sections": [
+      {
+        "id": "sec-1.4-foundations",
+        "title": "1. Stakeholder Concept & The Critical Stakeholder vs. Shareholder Distinction",
+        "content": "The word **'stake'** means to have an interest, involvement, or financial investment in something. In business management, a **stakeholder** is any individual, group, or organization with a direct interest or involvement in the operations, decisions, and overall performance of a business.\n\n### The Fundamental Stakeholder Principle\nStakeholders are both **impacted by** organizational activities and, conversely, possess varying degrees of **influence over** the business. Stakeholders are divided into two primary groups:\n* **Internal Stakeholders:** Members who operate from inside the business (employees, managers, directors, shareholders).\n* **External Stakeholders:** Outside individuals and entities affected by or influencing the business (customers, suppliers, financiers, pressure groups, local communities, competitors, government).\n\n### Critical IB Distinction: Stakeholders vs. Shareholders\n\n> [!WARNING]\n> **#1 Exam Trap in Unit 1.4:** Many students confuse the terms *stakeholders* and *shareholders*, treating them as identical concepts. In IB assessments, this error costs marks immediately.\n\n| Dimension | Stakeholders | Shareholders (Stockholders) |\n| :--- | :--- | :--- |\n| **Core Definition** | **Any** person, group, or entity with an interest in, or affected by, a business. | An individual or institution that legally **owns shares of stock** in an incorporated company (*Ltd* or *PLC*). |\n| **Scope** | Broad umbrella category encompassing workers, customers, vendors, banks, and regulators. | Narrow, specific sub-group representing equity owners. |\n| **Corporate Governance** | Have no automatic statutory voting rights in board elections. | Possess legal voting rights at the Annual General Meeting (*AGM*) to elect directors and vote on major resolutions. |\n| **Financial Return** | Wages (staff), invoice payments (suppliers), interest (banks), tax revenues (government). | **Dividends** (annual share of distributed net profit) and **Capital Gains** (increase in share market value). |\n| **Syllabus Maxim** | **All shareholders are stakeholders, but NOT all stakeholders are shareholders.** | A distinct class of financial equity stakeholders exclusive to limited liability companies. |\n\n### Dual Role Stakeholders\nIn modern business, individuals frequently occupy multiple stakeholder roles simultaneously:\n* An **employee** who also participates in an employee share ownership scheme is both a worker seeking higher wages and a shareholder seeking dividends.\n* A **manager** is an employee accountable to senior directors, but also holds executive power over frontline staff.\n* A **customer** of a local chemical factory may also be a resident in the **local community**, balancing desire for cheap products against concerns over neighborhood pollution.",
+        "keyTakeaways": [
+          "A stakeholder is any person or entity with a direct interest in, or impacted by, an organization's operations and performance.",
+          "Internal stakeholders operate within the firm; external stakeholders exist outside the firm.",
+          "All shareholders are stakeholders, but not all stakeholders are shareholders. Shareholders are the legal equity owners of a limited company entitled to dividends and capital gains."
+        ],
+        "examTips": [
+          "In 2-mark and 4-mark questions, define 'shareholders' strictly as equity owners of a limited liability company, and 'stakeholders' as the broader group of all interested parties. Contrast their financial return: dividends vs wages/revenues."
+        ]
+      },
+      {
+        "id": "sec-1.4-internal",
+        "title": "2. Internal Stakeholders: Employees, Managers, Directors, and Shareholders",
+        "content": "Internal stakeholders are direct members of the organization whose daily professional or financial livelihood is intimately tied to the business:\n\n### {i} Employees (Staff)\n* **Core Driving Interests:** Competitive wages, financial bonuses, job security, safe and hygienic working environments, fair grievance procedures, and career advancement opportunities.\n* **Organizational Significance:**\n  * Management theorist **Charles Handy** argues that employees are an organization's most valuable asset—they produce the physical goods, deliver the services, and represent the brand directly to customers.\n  * Entrepreneur **Sir Richard Branson** (Virgin Group) famously operates by the leadership philosophy: *\"Employees first, customers second, and shareholders third.\"* He argues that highly motivated, respected staff deliver superior customer care, which organically generates long-term shareholder wealth.\n  * Comedian Fred Allen observed: *\"Treat employees like partners and they act as partners.\"*\n* **Industrial Action Risks:** When employee interests are ignored, workers may initiate industrial action (strikes, work-to-rule, go-slows):\n  * *BMW South Africa (2013):* 40,000 auto workers struck for higher wages, causing vehicle export sales to plummet by 75%.\n  * *British Airways (2019):* A pilots' strike over pay cost the airline €215 million ($245m) in lost operating earnings.\n\n### {ii} Managers and Directors\n* **Managers:** Oversee day-to-day operations, lead departmental teams, and coordinate operational tasks to achieve strategic targets.\n* **Directors:** Senior executives elected by shareholders to govern company operations on behalf of owners, forming the Board of Directors.\n* **Core Driving Interests:**\n  * Maximizing corporate profits to ensure operational continuity and justify executive performance bonuses.\n  * Long-term strategic health, retaining earnings for research, development, and capacity expansion.\n  * Professional status, corporate prestige, and executive perquisites (perks).\n  * Defending against hostile takeovers and safeguarding executive job tenure.\n\n### {iii} Shareholders (Owners)\n* **Role:** Equity investors who purchase shares in a limited liability company (*Ltd* or *PLC*).\n* **Core Driving Interests:**\n  * **Dividends:** An annual cash distribution from the company's after-tax net profit.\n  * **Capital Gain:** An increase in the market price of company shares, enabling profitable resale on the stock exchange.\n  * Safeguarding voting influence at the Annual General Meeting (*AGM*).\n* **Internal vs External Shareholders:** Founder-directors and worker-shareholders are **internal** shareholders; passive institutional funds and retail stock investors are **external** shareholders.",
+        "keyTakeaways": [
+          "Employees strive for fair pay, safe conditions, and job security. Motivated staff drive quality, whereas disaffected staff cause costly industrial strikes (e.g. BMW, British Airways).",
+          "Directors are elected by shareholders to govern operations; they strive for profit maximization, bonuses, and long-term organizational growth.",
+          "Shareholders invest capital to earn dividends and capital gains; they hold statutory voting rights at the AGM."
+        ],
+        "examTips": [
+          "Remember Richard Branson's mantra ('Employees first, customers second, shareholders third') to analyze why employee welfare often leads directly to customer loyalty and shareholder returns."
+        ]
+      },
+      {
+        "id": "sec-1.4-external",
+        "title": "3. External Stakeholders: Customers, Suppliers, Financiers, Pressure Groups, Competitors, and Government",
+        "content": "External stakeholders do not form part of the enterprise itself, but maintain significant interest in or influence over corporate actions:\n\n### {i} Customers\n* **Interests:** High quality, safe, reliable products; fair and competitive pricing; excellent customer service; ethical and sustainable corporate conduct.\n* **Significance:** Sam Walton (founder of Walmart) emphasized that customers hold the ultimate power to fire everyone in a business simply by spending their money elsewhere. Bill Gates observed that dissatisfied customers are an organization's greatest source of learning.\n\n### {ii} Suppliers\n* **Interests:** Regular, predictable purchase orders; competitive supply prices; prompt payment within agreed credit terms (e.g., 30–60 days); collaborative long-term vendor partnerships.\n* **Significance:** Strong relationships with suppliers ensure reliable, timely delivery of quality inventory and preferential trade credit, protecting the firm's working capital.\n\n### {iii} Financiers (Commercial Banks & Business Angels)\n* **Interests:** Punctual repayment of loan principal, timely interest coverage, healthy liquidity, and low financial gearing.\n* **Significance:** Provide the external debt capital and venture equity essential for start-up operations, capital equipment acquisition, and international expansion.\n\n### {iv} Pressure Groups and Local Community\n* **Pressure Groups:** Special-interest organizations (e.g., Greenpeace, Friends of the Earth, WWF) campaigning against environmental degradation, child labor, and animal testing through media lobbying, petitions, and consumer boycotts.\n* **Local Community:** Local residents interested in job creation, regional economic spending, minimizing noise/traffic/air pollution, and corporate sponsorship of community initiatives.\n\n### {v} Competitors\n* **Interests:** Fair market conduct, observing antitrust/competition laws, benchmarking operational performance, monitoring rivals' innovations and marketing strategies.\n* **Cross-Shareholding Reality:** Competitors often hold equity stakes in each other. For example, Cathay Pacific is partially owned by rivals Air China (28.2%) and Qatar Airways (9.4%); Porsche holds over 31% in Audi.\n\n### {vi} Government\n* **Interests:** Collecting corporate income taxes, enforcing health and safety standards, verifying employment law compliance, and preventing unfair monopolistic practices.\n* **Regulatory Power:** Governments can incentivize enterprise (subsidies, infrastructure, tax concessions) or constrain anti-competitive firms (e.g., historic antitrust rulings ordering the breakup of software monopolies). Governments may also hold equity stakes in commercial enterprises (e.g., the Albanian government owning 51% of Air Albania; Tokyo Metro being 53.4% state-owned).",
+        "keyTakeaways": [
+          "Customers demand quality, fair prices, and service; their spending decisions dictate corporate survival.",
+          "Suppliers require regular orders, fair prices, and prompt payment to maintain their own liquidity.",
+          "Financiers demand interest coverage and capital preservation; pressure groups and local communities demand ethical responsibility and environmental protection.",
+          "Competitors benchmark performance and may hold strategic cross-shareholdings (e.g. Air China in Cathay Pacific).",
+          "Government ensures statutory compliance (taxation, labor laws, health & safety) and protects public interest."
+        ],
+        "examTips": [
+          "If an exam question asks why competitors are stakeholders, highlight two reasons: (1) benchmarking key performance indicators (sales turnover, market share) to remain competitive, and (2) strategic cross-shareholdings in rival firms."
+        ]
+      },
+      {
+        "id": "sec-1.4-conflict",
+        "title": "4. Stakeholder Conflict: Incompatible Goals, Executive Remuneration, and Trade-offs",
+        "content": "### The Inevitability of Stakeholder Conflict\n**Stakeholder conflict** refers to differences in the varying needs, priorities, and objectives of the different stakeholder groups of a business. Because corporate resources (cash, production capacity, executive attention) are finite, **it is impossible for an organization to satisfy all stakeholder demands simultaneously.**\n\nFormer British Prime Minister Margaret Thatcher noted that standing in the middle of a road will get you hit by traffic coming from both sides—illustrating that pleasing one stakeholder group almost inevitably disappoints another.\n\n### Common Sources & Examples of Stakeholder Conflict\n\n| Stakeholder Pair | Core Tension | Real-World Scenario / Exam Context |\n| :--- | :--- | :--- |\n| **Shareholders vs. Employees** | **Profit Allocation:** Shareholders demand higher dividend distributions, which restricts the retained profit available to raise employee wages or fund improved working conditions. | *Skoda Auto (2007):* Workers went on prolonged strike costing $2.9m/day in lost output over pay concerns while parent Volkswagen directed capital to expansion in China. |\n| **Employees & Shareholders vs. Directors** | **Executive Remuneration:** Senior executives receive extravagant salaries, stock options, and annual bonuses, which staff and owners view as unjustified corporate greed that depresses wages and dividends. | Top US CEOs were paid **351 times** the wage of average workers in 2021 (Economic Policy Institute), creating acute ethical tension over fair profit distribution. |\n| **Management vs. Suppliers** | **Credit Terms & Pricing:** Firms seek large volume discounts and extended 60–90 day payment credit terms to bolster cash flow, whereas suppliers need immediate payment and full prices to cover their own costs. | Major supermarket chains forcing small farm suppliers to accept delayed invoice payments. |\n| **Shareholders vs. Pressure Groups / Community** | **Cost-Cutting vs. Environmental Protection:** Shareholders seek profit maximization by utilizing low-cost production methods, whereas local communities and green pressure groups demand costly emissions filters, renewable packaging, and traffic abatement. | Energy companies (such as Royal Dutch Shell earning $2.45m/hour in profit) facing fierce scrutiny and legal challenges from Greenpeace over fossil fuel emissions. |\n| **Customers vs. Shareholders** | **Price & Quality vs. Profit Margins:** Customers want top-quality goods at the lowest possible retail prices, whereas shareholders demand cost-cutting and higher operating margins. | Budget airlines charging add-on fees for hand luggage, seat selection, and customer service calls. |",
+        "keyTakeaways": [
+          "Stakeholder conflict is unavoidable due to finite organizational resources and competing priorities.",
+          "Executive remuneration is a primary flashpoint: workers and shareholders argue that high executive pay drains dividends and suppresses wages.",
+          "Shareholder demand for short-term dividends frequently clashes with employee wage demands and long-term capital investment."
+        ],
+        "examTips": [
+          "In 4-mark conflict questions, structure your response around two specific stakeholder groups. Clearly identify the incompatible objective of each group (e.g. Shareholders: high dividends vs Employees: wage increases) and explain how achieving one directly undermines the other."
+        ]
+      },
+      {
+        "id": "sec-1.4-mapping-synergy",
+        "title": "5. Conflict Resolution, Mutual Benefits Synergy & Mendelow's Stakeholder Mapping Matrix",
+        "content": "### The Mutual Benefits Paradigm (Win-Win Synergy)\nWhile stakeholder conflict is ever-present in the short term, modern management thinking emphasizes that there are **mutual benefits** in satisfying multiple stakeholder groups over the medium to long term:\n1. Investing in employees (fair pay, training, safe conditions) cultivates a cohesive, loyal, and dynamic workforce with low absenteeism and low labor turnover.\n2. Highly motivated staff deliver exceptional customer service and craft superior products.\n3. Satisfied customers demonstrate brand loyalty, purchase repeat items, and recommend the business, expanding market share.\n4. Expanding sales and margins generate robust long-term profits, ultimately rewarding shareholders with high dividends and share price appreciation.\n5. Greater output generates tax revenue for the government and creates employment for the local community.\n\n*Jack Ma (founder of Alibaba)* encapsulated this philosophy: *\"Customers first, employees second, and shareholders third. If the customer is happy, the business is happy and the shareholders are happy.\"*\n\n### Determinants of Stakeholder Priority\nWhen direct trade-offs must be made, executives prioritize stakeholders based on three factors:\n1. **Type of Business Entity:** A sole trader or charity prioritizes customer care and community welfare; a public limited company (*PLC*) is legally accountable to shareholders and must prioritize financial returns.\n2. **Corporate Objectives & Life-Cycle:** A firm undergoing rapid expansion prioritizes senior management's strategic plans and capital retention over short-term shareholder dividends.\n3. **Source and Degree of Power:** Highly unionized workers or monopolistic suppliers have immense bargaining leverage, forcing management to address their demands first.\n\n### Stakeholder Mapping: Mendelow's Power-Interest Matrix\n**Stakeholder Mapping** is a strategic management tool that plots stakeholder groups along two axes according to their **Level of Power (Influence)** and **Level of Interest** in the organization:\n\n```\n                      LEVEL OF INTEREST\n                     Low             High\n              +---------------+---------------+\n         Low  |  QUADRANT A   |  QUADRANT B   |\n  POWER       | Minimum Effort| Keep Informed |\n  LEVEL       +---------------+---------------+\n         High |  QUADRANT C   |  QUADRANT D   |\n              | Keep Satisfied| Key Players   |\n              |               |(Maximum Effort|\n              +---------------+---------------+\n```\n\n### Strategic Engagement Protocols by Quadrant\n\n1. **Quadrant A: Low Power, Low Interest $\\rightarrow$ Minimum Effort**\n   * **Profile:** Little influence over corporate operations and limited interest in decisions.\n   * **Examples:** Casual consumers purchasing convenience goods, small peripheral contractors, distant community members.\n   * **Strategy:** Allocate minimal managerial resources; monitor periodically for shifts in power or sentiment.\n\n2. **Quadrant B: Low Power, High Interest $\\rightarrow$ Keep Informed**\n   * **Profile:** Deeply impacted by and interested in business decisions, but lack legal or financial power to dictate policy.\n   * **Examples:** Non-unionized assembly-line staff, local residents living next to a proposed expansion, minority retail shareholders, local green action groups.\n   * **Strategy:** Maintain open communication, regular newsletters, consultation forums, and town halls. Keeping them informed builds goodwill and prevents them from organizing to build collective power (e.g. through viral media campaigns).\n\n3. **Quadrant C: High Power, Low Interest $\\rightarrow$ Keep Satisfied**\n   * **Profile:** Immense legal, regulatory, or financial power to halt business operations, but passive regarding day-to-day routines unless provoked.\n   * **Examples:** Government tax authorities (*HMRC*, *IRS*), environmental safety regulators, large commercial mortgage banks, municipal zoning boards.\n   * **Strategy:** Ensure full statutory compliance, pay taxes on time, satisfy debt covenants, and consult proactively on major structural changes to avoid costly regulatory interventions.\n\n4. **Quadrant D: High Power, High Interest $\\rightarrow$ Key Players (Maximum Effort)**\n   * **Profile:** Crucial stakeholders whose support is vital for corporate survival and strategic execution.\n   * **Examples:** Institutional majority shareholders, senior executive directors, major labor unions, anchor enterprise clients, single-source component suppliers.\n   * **Strategy:** Partner actively, involve in strategic decision-making, conduct personalized consultations, and prioritize their demands to ensure continuous alignment.",
+        "keyTakeaways": [
+          "Mutual benefits synergy proves that satisfying employee and customer needs generates sustainable long-term profits for shareholders.",
+          "Mendelow's Matrix categorizes stakeholders by Power (Influence) and Interest into four quadrants.",
+          "Quadrant A = Minimum Effort; Quadrant B = Keep Informed; Quadrant C = Keep Satisfied; Quadrant D = Key Players (Maximum Effort)."
+        ],
+        "examTips": [
+          "In 6-mark evaluation questions, use Mendelow's Matrix to justify why management cannot treat all stakeholders equally. Explain that Quadrant D key players command executive time, while Quadrant B stakeholders require active communication to prevent them from becoming hostile."
+        ]
+      }
+    ],
+    "highYieldTerms": [
+      {
+        "term": "Stakeholder",
+        "definition": "Any individual, group, or organization with a direct interest or involvement in the operations, decisions, and performance of a business."
+      },
+      {
+        "term": "Internal Stakeholders",
+        "definition": "Members of the business organization who operate from within, namely employees, managers, directors, and internal shareholders."
+      },
+      {
+        "term": "External Stakeholders",
+        "definition": "Individuals and groups outside the business entity who have an interest in its activities, including customers, suppliers, financiers, competitors, pressure groups, and government."
+      },
+      {
+        "term": "Shareholder (Stockholder)",
+        "definition": "An individual or institution that legally owns equity shares in a limited liability company, entitled to voting rights, dividends, and capital gains."
+      },
+      {
+        "term": "Stakeholder Conflict",
+        "definition": "Differences in the varying needs and priorities of different stakeholder groups, creating friction because a firm cannot meet all objectives simultaneously."
+      },
+      {
+        "term": "Stakeholder Mapping",
+        "definition": "A strategic management model (Mendelow's Matrix) that assesses and plots stakeholders according to their relative power (influence) and interest in an organization."
+      },
+      {
+        "term": "Remuneration",
+        "definition": "The total financial and non-financial rewards received by employees and executives, encompassing base salary, overtime pay, bonuses, commissions, and benefits."
+      },
+      {
+        "term": "Pressure Group",
+        "definition": "An organized group of individuals with a common interest seeking to influence corporate behavior, public opinion, or government legislation regarding specific causes."
+      },
+      {
+        "term": "Financiers",
+        "definition": "Financial institutions (such as commercial banks) and private investors (such as business angels) that provide loan or equity capital to an enterprise."
+      },
+      {
+        "term": "Mutual Benefits (Synergy)",
+        "definition": "The strategic principle that fulfilling the needs of employees and customers simultaneously leads to superior product quality, brand loyalty, and maximized shareholder wealth in the long term."
+      }
+    ]
+  },
+  {
     "id": "bmt-swot-analysis",
     "title": "BMT 1: SWOT Analysis",
     "unitCode": "BMT SWOT",

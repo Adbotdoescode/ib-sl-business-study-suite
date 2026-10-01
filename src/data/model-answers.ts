@@ -798,6 +798,106 @@ export const FOUR_MARK_QUESTIONS: FourMarkQuestion[] = [
       "mark": 1
     }
   ]
+},
+{
+  id: 'q4m-17',
+  subunit: '1.4-stakeholders',
+  questionNumber: 'Question 4.1b',
+  question: "Explain the difference between Nokia's shareholders and stakeholders.",
+  caseStimulus:
+    "Nokia was once the pride of Europe having been the market leader in the mobile phones industry from 1998 to 2008, enjoying up to 49.4% market share. In 2005, the Finnish company sold its one billionth mobile phone. By 2007, its market value was a staggering $150 billion, making it the 5th most valuable brand in the world.\n\nHowever, the huge popularity of Apple and Samsung smartphones eventually forced Nokia to be sold to Microsoft for 'just' €5.4bn ($7.3bn) in November 2013. An overwhelming 99.5% of Nokia's 3,900 shareholders voted in favour of the deal after seeing its share price drop by 93% and its market share continually decline to only 3%. The company's 32,000 employees who worked in the mobile phones division were transferred to Microsoft Mobile in early 2014.",
+  contextTitle: "Nokia & Microsoft: Shareholders vs. Broader Stakeholders",
+  marks: 4,
+  commandTerm: 'Explain',
+  assessmentObjective: 'AO2',
+  peelModelAnswer: {
+    point1: {
+      title: 'Shareholders: Legal Equity Owners Seeking Financial Return',
+      point: 'Shareholders are the legal owners of a limited liability company who hold equity shares, maintain statutory voting rights at AGMs, and seek returns through dividends and share price appreciation.',
+      evidence: "In Nokia's context, there were 3,900 shareholders who owned the equity of the Finnish PLC; facing a 93% collapse in share price, an overwhelming 99.5% voted in favor of the €5.4bn sale to Microsoft.",
+      explanation: 'Their primary objective is financial capital preservation and maximizing return on their invested risk capital.',
+      link: 'Shareholders thus constitute a narrow, powerful sub-group of financial owners with statutory corporate governance authority.'
+    },
+    point2: {
+      title: 'Stakeholders: The Broad Umbrella of All Impacted Groups',
+      point: 'In contrast, stakeholders encompass all individuals, groups, and organizations with a direct interest in or impacted by the business operations, regardless of equity ownership.',
+      evidence: "Beyond the 3,900 shareholders, Nokia's stakeholders included 32,000 mobile division employees transferred to Microsoft Mobile, component suppliers, Finnish taxpayers, the Finnish government, and millions of global customers.",
+      explanation: 'Unlike shareholders who were concerned with salvaging capital, the 32,000 employees had stakes in job security and career preservation, while the Finnish government had a stake in national tax revenues and technological employment.',
+      link: "All of Nokia's shareholders are stakeholders, but its 32,000 workers and suppliers are stakeholders without being shareholders."
+    }
+  },
+  rubricChecklist: [
+    {
+      id: 'q4m-17-c1',
+      criterion: 'Accurately defines shareholders as legal equity owners entitled to voting rights, dividends, and capital gains',
+      mark: 1
+    },
+    {
+      id: 'q4m-17-c2',
+      criterion: "Shareholder concept applied to Nokia context (3,900 shareholders, 93% share price drop, 99.5% buyout vote)",
+      mark: 1
+    },
+    {
+      id: 'q4m-17-c3',
+      criterion: 'Accurately defines stakeholders as the broad umbrella of all parties affected by or interested in the business',
+      mark: 1
+    },
+    {
+      id: 'q4m-17-c4',
+      criterion: "Stakeholder concept applied to Nokia context (32,000 transferred employees, suppliers, Finnish government, customers)",
+      mark: 1
+    }
+  ]
+},
+{
+  id: 'q4m-18',
+  subunit: '1.4-stakeholders',
+  questionNumber: 'Question 4.4c',
+  question: "Explain one source of conflict that arose between Skoda Auto's employees and senior directors during its European operations and international expansion.",
+  caseStimulus:
+    "Founded in 1895, Skoda Auto is one of the oldest automobile manufacturers in the world. In early 2007, the Czech company, which became part of the Volkswagen Group in 2000, entered China as part of its growth strategy. However, in the same year, its workforce in Europe went on strike over concerns regarding the remuneration of employees.\n\nIt was reported that industrial action cost Skoda Auto, the country's largest exporter, 60 million crowns ($2.9m) per day in lost output. Nevertheless, China became Skoda's main market; by 2013, the company had produced its 1 millionth car in China. Today, one in four Skoda cars is sold in China.",
+  contextTitle: "Skoda Auto: Industrial Strike over Employee Remuneration",
+  marks: 4,
+  commandTerm: 'Explain',
+  assessmentObjective: 'AO2',
+  peelModelAnswer: {
+    point1: {
+      title: 'Core Conflict: Employee Remuneration vs. Corporate Capital Expansion',
+      point: 'A major source of stakeholder conflict arose over remuneration: employees demanded higher wages and bonuses reflecting their productivity, whereas senior directors prioritized capital allocation toward overseas expansion.',
+      evidence: 'In 2007, while Skoda was directing substantial capital to enter the Chinese market as part of its global growth strategy, its European assembly workers staged prolonged strike action over wage remuneration.',
+      explanation: 'Because corporate financial resources are finite, directing millions into establishing Chinese supply chains restricted the funds available to satisfy European workers\' wage demands, creating acute tension.',
+      link: 'This direct competition for retained earnings triggered industrial friction that cost the company 60 million crowns ($2.9m) per day in lost output.'
+    },
+    point2: {
+      title: 'Short-Term Operational Disruption vs. Long-Term Growth Objectives',
+      point: "This conflict pitted employees' immediate objective of cost-of-living pay parity against management's strategic objective of international market development.",
+      evidence: 'Workers exercised their collective bargaining leverage by halting assembly lines, threatening Skoda\'s status as the Czech Republic\'s largest exporter.',
+      explanation: 'Senior executives were forced to recognize that ignoring workforce remuneration directly endangered output and delivery schedules, creating counterproductive operational losses.',
+      link: 'Management was ultimately forced to negotiate improved wage terms to restore factory output and enable its subsequent milestone of producing 1 million cars in China.'
+    }
+  },
+  rubricChecklist: [
+    {
+      id: 'q4m-18-c1',
+      criterion: 'Clearly identifies valid source of conflict (remuneration / wage demands vs capital expansion)',
+      mark: 1
+    },
+    {
+      id: 'q4m-18-c2',
+      criterion: 'Conflict accurately applied to Skoda Auto context (European assembly workers vs Volkswagen/Skoda directors)',
+      mark: 1
+    },
+    {
+      id: 'q4m-18-c3',
+      criterion: 'Explains why the conflict occurred (finite corporate funds, competing priorities between short-term pay and expansion)',
+      mark: 1
+    },
+    {
+      id: 'q4m-18-c4',
+      criterion: 'Analyzes business consequences of the conflict (industrial strike action, 60m crowns/day in lost output)',
+      mark: 1
+    }
+  ]
 }
 ];
 
@@ -1573,6 +1673,91 @@ export const SIX_MARK_QUESTIONS: SixMarkQuestion[] = [
       "id": "q6m-09-c6",
       "criterion": "Coherent evaluative synthesis concluding that quantitative EMV must be balanced with STEEPLE and stakeholder analysis",
       "marks": 1
+    }
+  ]
+},
+{
+  id: 'q6m-10',
+  subunit: '1.4-stakeholders',
+  questionNumber: 'Question 4.1c',
+  question: "Examine how different stakeholder groups are likely to be affected by Microsoft's takeover of Nokia's mobile phones division.",
+  caseStimulus:
+    "Nokia was once the pride of Europe having been the market leader in the mobile phones industry from 1998 to 2008, enjoying up to 49.4% market share. In 2005, the Finnish company sold its one billionth mobile phone. By 2007, its market value was a staggering $150 billion, making it the 5th most valuable brand in the world.\n\nHowever, the huge popularity of Apple and Samsung smartphones eventually forced Nokia to be sold to Microsoft for 'just' €5.4bn ($7.3bn) in November 2013. An overwhelming 99.5% of Nokia's 3,900 shareholders voted in favour of the deal after seeing its share price drop by 93% and its market share continually decline to only 3%. The company's 32,000 employees who worked in the mobile phones division were transferred to Microsoft Mobile in early 2014.",
+  contextTitle: "Microsoft Takeover of Nokia: Divergent Stakeholder Repercussions",
+  marks: 6,
+  commandTerm: 'Examine',
+  assessmentObjective: 'AO2/AO3',
+  levelBreakdown: [
+    {
+      range: '1-2',
+      descriptor: 'Simple descriptive commentary regarding shareholders or employees with minimal case application or theoretical rigor.'
+    },
+    {
+      range: '3-4',
+      descriptor: 'Explains how two distinct stakeholder groups are affected by the takeover with direct case context, but lacks balanced evaluation or stakeholder conflict synthesis.'
+    },
+    {
+      range: '5-6',
+      descriptor: 'Balanced, critical examination evaluating conflicting stakeholder impacts (shareholders vs 32,000 employees vs Finnish community), synthesizing short-term equity recovery against long-term employment disruption.'
+    }
+  ],
+  perspective1: {
+    title: 'Shareholders & Core Business: Capital Salvage & Strategic Refocus',
+    points: [
+      {
+        subPoint: 'Stemming Catastrophic Financial Losses & Salvaging Equity',
+        elaboration: "For Nokia's 3,900 shareholders, the takeover was overwhelmingly advantageous given the circumstances. With Nokia's market share crashing from 49.4% to 3% and its share price plunging by 93%, the mobile business was hemorrhaging cash. Securing €5.4bn in cash from Microsoft offered shareholders immediate liquidity and salvaged remaining equity value, explaining why an overwhelming 99.5% voted in favor of the transaction."
+      },
+      {
+        subPoint: 'Strategic Refocusing on Profitable Network Infrastructure',
+        elaboration: 'Divesting the loss-making handset division allowed surviving Nokia management to eliminate cash burn and redirect organizational capital toward high-margin telecommunications infrastructure (Nokia Networks) and lucrative intellectual property patent licensing.'
+      }
+    ]
+  },
+  perspective2: {
+    title: 'Employees & Finnish Community: Redundancy Anxiety & Industrial Shock',
+    points: [
+      {
+        subPoint: 'Acute Job Insecurity and Cultural Marginalization for 32,000 Staff',
+        elaboration: "In stark contrast, the 32,000 employees transferred to Microsoft Mobile faced intense disruption. Cross-border acquisitions frequently create organizational culture clashes, loss of employee autonomy, and severe corporate restructuring. Transferring into a foreign American tech giant created immediate anxiety over plant closures and subsequent mass redundancies as Microsoft consolidated hardware teams."
+      },
+      {
+        subPoint: 'National Economic and Technological Trauma for Finland',
+        elaboration: 'For the Finnish government and local community, Nokia had been the nation\'s premier industrial champion and largest corporate taxpayer. The loss of national ownership threatened local engineering employment clusters in towns like Salo and Espoo, diminishing domestic tax revenues and national prestige.'
+      }
+    ]
+  },
+  synthesisAndEvaluation: "In conclusion, Microsoft's takeover of Nokia demonstrates how extreme business distress polarizes stakeholder interests. For Nokia's 3,900 equity shareholders, the deal was a pragmatic, highly welcome financial rescue (reflected in the 99.5% affirmative vote) that halted equity destruction and unlocked immediate cash liquidity. However, this financial rescue came at a heavy human cost for internal labor and the external community: 32,000 transferred employees absorbed the full burden of corporate uncertainty, cultural upheaval, and subsequent downsizing, while Finland suffered the loss of its premier corporate taxpayer. This case illustrates the fundamental IB principle that in public limited companies facing insolvency, shareholder capital preservation almost invariably takes precedence over employee job tenure and community welfare.",
+  rubricChecklist: [
+    {
+      id: 'q6m-10-c1',
+      criterion: 'Accurate understanding of stakeholder theory and the distinction between shareholder and stakeholder interests',
+      marks: 1
+    },
+    {
+      id: 'q6m-10-c2',
+      criterion: 'Detailed analysis of positive shareholder impacts (equity salvage, 93% share drop context, 99.5% vote, €5.4bn liquidity)',
+      marks: 1
+    },
+    {
+      id: 'q6m-10-c3',
+      criterion: 'Detailed analysis of adverse employee impacts (32,000 transferred staff, culture clash, restructuring, redundancy anxiety)',
+      marks: 1
+    },
+    {
+      id: 'q6m-10-c4',
+      criterion: 'Analysis of external stakeholder effects (Finnish government tax losses, local community engineering clusters)',
+      marks: 1
+    },
+    {
+      id: 'q6m-10-c5',
+      criterion: 'Case stimulus thoroughly and accurately integrated across both analytical perspectives',
+      marks: 1
+    },
+    {
+      id: 'q6m-10-c6',
+      criterion: 'Balanced evaluative conclusion weighing financial rescue of owners against the human/economic burden on labor and community',
+      marks: 1
     }
   ]
 }

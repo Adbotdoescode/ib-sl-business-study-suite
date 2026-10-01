@@ -258,7 +258,7 @@ export function HighYieldCram() {
               <Sparkles className="w-8 h-8 text-amber-500 mx-auto mb-2" />
               <p className="text-sm font-semibold text-text-primary">All matrix and toolkit decision rules mastered!</p>
               <p className="text-xs text-text-muted mt-1">
-                Click &ldquo;Show All&rdquo; or &ldquo;Reset Mastery Filters&rdquo; to test your SWOT, Ansoff, STEEPLE, and BCG decision protocols.
+                Click &ldquo;Show All&rdquo; or &ldquo;Reset Mastery Filters&rdquo; to test your SWOT, Ansoff, STEEPLE, BCG, and Stakeholder decision protocols.
               </p>
             </div>
           ) : (
@@ -273,6 +273,8 @@ export function HighYieldCram() {
                   ? 'warning'
                   : rule.category === 'BCG'
                   ? 'success'
+                  : rule.category === 'Stakeholders'
+                  ? 'ao2'
                   : 'neutral';
 
               return (

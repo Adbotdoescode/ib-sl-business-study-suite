@@ -124,7 +124,7 @@ export function ExamPractice() {
                 : 'text-text-muted hover:text-text-primary'
             }`}
           >
-            2-Mark Bank (32 Qs)
+            2-Mark Bank ({TWO_MARK_QUESTIONS.length} Qs)
           </button>
           <button
             onClick={() => {
@@ -138,7 +138,7 @@ export function ExamPractice() {
                 : 'text-text-muted hover:text-text-primary'
             }`}
           >
-            4-Mark PEEL (12 Qs)
+            4-Mark PEEL ({FOUR_MARK_QUESTIONS.length} Qs)
           </button>
           <button
             onClick={() => {
@@ -152,7 +152,7 @@ export function ExamPractice() {
                 : 'text-text-muted hover:text-text-primary'
             }`}
           >
-            6-Mark Analysis (7 Qs)
+            6-Mark Analysis ({SIX_MARK_QUESTIONS.length} Qs)
           </button>
         </div>
       </div>
@@ -176,6 +176,7 @@ export function ExamPractice() {
               <option value="1.1-what-is-a-business">1.1 What is a Business?</option>
               <option value="1.2-types-of-business-entities">1.2 Types of Business Entities</option>
               <option value="1.3-business-objectives">1.3 Business Objectives</option>
+              <option value="1.4-stakeholders">1.4 Stakeholders</option>
               <option value="bmt-swot-analysis">BMT: SWOT Analysis</option>
               <option value="bmt-ansoff-matrix">BMT: Ansoff Matrix</option>
               <option value="bmt-steeple-analysis">BMT: STEEPLE Analysis</option>

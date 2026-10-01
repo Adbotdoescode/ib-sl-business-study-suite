@@ -60,7 +60,7 @@ export default function UntimedMcqPage() {
               <HelpCircle className="w-5 h-5" strokeWidth={1.75} />
             </span>
             <h1 className="text-xl sm:text-2xl font-bold text-text-primary tracking-tight">
-              Self-Paced MCQ Question Bank (30 Questions)
+              Self-Paced MCQ Question Bank ({MCQ_QUESTIONS.length} Questions)
             </h1>
           </div>
           <p className="text-xs sm:text-sm text-text-secondary mt-1">
@@ -88,10 +88,11 @@ export default function UntimedMcqPage() {
             }}
             className="text-xs bg-white border border-border rounded-lg px-2.5 py-1 text-text-primary focus:ring-2 focus:ring-blue-500"
           >
-            <option value="all">All 42 MCQs</option>
+            <option value="all">All {MCQ_QUESTIONS.length} MCQs</option>
             <option value="1.1-what-is-a-business">1.1 What is a Business? (6 Qs)</option>
             <option value="1.2-types-of-business-entities">1.2 Types of Entities (7 Qs)</option>
             <option value="1.3-business-objectives">1.3 Business Objectives (7 Qs)</option>
+            <option value="1.4-stakeholders">1.4 Stakeholders (6 Qs)</option>
             <option value="bmt-swot-analysis">SWOT Analysis (5 Qs)</option>
             <option value="bmt-ansoff-matrix">Ansoff Matrix (5 Qs)</option>
             <option value="bmt-steeple-analysis">STEEPLE Analysis (6 Qs)</option>

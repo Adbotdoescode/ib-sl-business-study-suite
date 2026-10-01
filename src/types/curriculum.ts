@@ -2,6 +2,7 @@ export type SyllabusSubunit =
   | '1.1-what-is-a-business'
   | '1.2-types-of-business-entities'
   | '1.3-business-objectives'
+  | '1.4-stakeholders'
   | 'bmt-swot-analysis'
   | 'bmt-ansoff-matrix'
   | 'bmt-steeple-analysis'
@@ -241,7 +242,25 @@ export interface BCGCard {
 }
 
 // ----------------------------------------------------
-// 5d. Business Management Toolkit (BMT) Core Types
+// 5d. Stakeholder Mapping (Mendelow's Matrix)
+// ----------------------------------------------------
+export type StakeholderQuadrant = 'quadrant-a' | 'quadrant-b' | 'quadrant-c' | 'quadrant-d';
+
+export interface StakeholderCard {
+  id: string;
+  stakeholderName: string;
+  organizationContext: string;
+  category: 'internal' | 'external';
+  powerLevel: 'high' | 'low';
+  interestLevel: 'high' | 'low';
+  quadrant: StakeholderQuadrant; // A: Low P / Low I, B: Low P / High I, C: High P / Low I, D: High P / High I
+  engagementStrategy: 'Minimum effort' | 'Keep informed' | 'Keep satisfied' | 'Key players (Maximum effort)';
+  rationale: string;
+  conflictScenario: string;
+}
+
+// ----------------------------------------------------
+// 5e. Business Management Toolkit (BMT) Core Types
 // ----------------------------------------------------
 export type BMTToolType = 
   | 'swot'
@@ -329,7 +348,7 @@ export interface DistinctionItem {
 export interface GoldenMatrixRule {
   id: string;
   ruleTitle: string;
-  category: 'SWOT' | 'Ansoff' | 'STEEPLE' | 'BCG' | 'BMT';
+  category: 'SWOT' | 'Ansoff' | 'STEEPLE' | 'BCG' | 'BMT' | 'Stakeholders';
   corePrinciple: string;
   actionProtocol: string;
   examApplicationTip: string;
